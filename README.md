@@ -5,7 +5,7 @@ LECのメインサイトのコードです。
 ライセンスに関しては、これから変更する可能性が高いのですが、
 2023/2/2(木)現在:
 "独自ライセンス"
-"Creative Commons License BY-SA 4.0(CC BY-SA 4.0)"
+"[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)"
 を採択します。
 
 ##### 独自ライセンス内容
