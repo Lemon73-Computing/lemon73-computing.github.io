@@ -2,15 +2,15 @@
 LECのメインサイトのコードです。
 
 ### ライセンス
-ライセンスに関しては、これから変更する可能性が高いのですが、
-2023/2/2(木)現在:
-"[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)"
+ライセンスに関しては、これから変更する可能性が高いのですが、<br>
+2023/2/2(木)現在:<br>
+"[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)"<br>
 を採択します。それに加えて、独自のルールなどを決める予定なので、決まり次第そちらを参考にしてください。
 
 ### 更新頻度
 当サイト及び、データサイトでの更新は不定期に行われます。
 
 ### サイトについて
-運営/管理は私、LEC代表Lemon73のみで行っています。
-バグの改善が遅かったりするかもしれませんがご了承ください。
+運営/管理は私、LEC代表Lemon73のみで行っています。<br>
+バグの改善が遅かったりするかもしれませんがご了承ください。<br>
 [こちら](http://lec.starfree.jp)がメインサイトのリンクとなっています。
