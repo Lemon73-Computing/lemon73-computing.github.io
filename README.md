@@ -32,8 +32,8 @@ RAM:48GB(何GB割り当てされているかは不明)<br>
 容量:4GB<br>
 #### ブラウザ
 種類:Opera<br>
-バージョン(2023/2/4現在):94.0.4606.76<br>
+バージョン(2023/2/4現在):95.0.4635.25<br>
 アップデートストリーム:Stable<br>
 システム:Windows 10 64-bit<br>
-Chromium バージョン(2023/2/4現在):108.0.5359.125<br>
-ブラウザID(2023/2/4現在):Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0<br>
+Chromium バージョン(2023/2/4現在):109.0.5414.120<br>
+ブラウザID(2023/2/4現在):Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0<br>
