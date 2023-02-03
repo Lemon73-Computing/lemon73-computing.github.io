@@ -24,18 +24,18 @@
 
 ### 開発環境+動作テスト環境
 #### ローカル開発環境/
-    OS:Windows10 22H2<br>
-    CPU:Intel Core i5-6400T(2.20GHz)<br>
-    RAM:4GBx2枚 (DDR4 2133MHz SO-DIMM)<br>
-    GPU:Intel HD Graphics 530(CPU内蔵GPU)<br>
+    OS:Windows10 22H2
+    CPU:Intel Core i5-6400T(2.20GHz)
+    RAM:4GBx2枚 (DDR4 2133MHz SO-DIMM)
+    GPU:Intel HD Graphics 530(CPU内蔵GPU)
 #### ブラウザ環境
-    種類:Opera<br>
-    バージョン/Chromium バージョン:最新<br>
-    アップデートストリーム:Stable<br>
-    システム:Windows 10 64-bit<br>
-    ブラウザID:略<br>
+    種類:Opera
+    バージョン/Chromium バージョン:最新
+    アップデートストリーム:Stable
+    システム:Windows 10 64-bit
+    ブラウザID:略
 #### 公開サーバー
-    OS:Linux(詳細は不明)<br>
-    CPU:Intel Xeon E5-2430 v2(2.50GHz)(何コア割り当てられているか不明)<br>
-    RAM:48GB(何GB割り当てされているかは不明)<br>
-    容量:4GB割り当て<br>
+    OS:Linux(詳細は不明)
+    CPU:Intel Xeon E5-2430 v2(2.50GHz)(何コア割り当てられているか不明)
+    RAM:48GB(何GB割り当てされているかは不明)
+    容量:4GB割り当て
