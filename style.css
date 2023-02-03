@@ -2,8 +2,6 @@
 
 html
 {
-    /*参考:https://key.visualarts.gr.jp (サーバー内のkey.visualartss.gr.jp→wp-content→style.css)*/
-    /*参考:https://zenn.dev/quocca/articles/adc77638e6e96d (IBM Plex Sans)*/
     font-family: Meiryo, sans-serif, monospace, IBM Plex Sans;
 }
 
@@ -15,15 +13,12 @@ body
 
 h1
 {
-    /*参考:https://jajaaan.co.jp/css/css-headline/ (背景・影を入れたデザイン)*/
     padding: 1rem 2rem;
-    color:gray;
     background: white;
-    -webkit-box-shadow: 5px 5px 0 whitesmoke;
-    box-shadow: 5px 5px 0 whitesmoke;
+    -webkit-box-shadow: 5px 5px 0 lemonchiffon;
+    box-shadow: 5px 5px 0 lemonchiffon;
     font-size: 2.6rem;
 
-    /*参考:https://qiita.com/k__watanabe/items/70171a5095e714509af4 (Appleのグラデーションテキスト)*/
     color:white;
     font-size: 3.2rem;
     font-weight: bold;
@@ -37,14 +32,25 @@ h1
 h2
 {
     color:black;
-    background: whitesmoke;
+    background: lemonchiffon;
     -webkit-box-shadow: 5px 5px 0 white;
     box-shadow: 5px 5px 0 white;
     font-size: 2.4rem;
 }
 
+h3
+{
+    color:black;
+    font-size: 1.8rem;
+}
+
 p
 {
-    font-size: 1.4rem;
     color:black;
+    font-size: 1.4rem;
+}
+
+a
+{
+    color:green;
 }
