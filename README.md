@@ -20,20 +20,19 @@
 [lec-main]: http://lec.starfree.jp
 
 ### 開発環境+動作テスト環境
-#### ローカル開発環境
+#### ローカル開発環境/
 OS:Windows10 22H2<br>
 CPU:Intel Core i5-6400T(2.20GHz)<br>
 RAM:4GBx2枚 (DDR4 2133MHz SO-DIMM)<br>
 GPU:Intel HD Graphics 530(CPU内蔵GPU)<br>
+#### ブラウザ環境
+種類:Opera<br>
+バージョン/Chromium バージョン:最新<br>
+アップデートストリーム:Stable<br>
+システム:Windows 10 64-bit<br>
+ブラウザID:略<br>
 #### 公開サーバー
 OS:Linux(詳細は不明)<br>
 CPU:Intel Xeon E5-2430 v2(2.50GHz)(何コア割り当てられているか不明)<br>
 RAM:48GB(何GB割り当てされているかは不明)<br>
 容量:4GB<br>
-#### ブラウザ
-種類:Opera<br>
-バージョン(2023/2/4現在):95.0.4635.25<br>
-アップデートストリーム:Stable<br>
-システム:Windows 10 64-bit<br>
-Chromium バージョン(2023/2/4現在):109.0.5414.120<br>
-ブラウザID(2023/2/4現在):Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0<br>
