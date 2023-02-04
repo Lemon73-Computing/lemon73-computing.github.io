@@ -9,13 +9,13 @@
   
   .wrapper
   {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
   }
   
   header
   {
-    background-color: #b7ffb6;
+    background-color: #deffdd;
     height: 200px;
   }
   
@@ -29,22 +29,22 @@
   
   .content
   {
-    background-color: #fff9bb;
-    height: 1000px;
+    background-color: #fffcd9;
+    height: 2000px;
     width: 70%;
   }
   
   aside
   {
     position: sticky;
-    background-color: #ffc3c3;
-    height: 200px;
+    background-color: #ffe1e1;
+    height: 400px;
     top: 0;
-    width: 25%;
+    width: 28%;
   }
   
   footer
   {
-    background-color: #58ff66;
-    height: 400px;
+    background-color: #deffdd;
+    height: 200px;
   }
