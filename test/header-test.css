@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header, main, .content, aside, footer
+  {
+    padding: 30px;
+  }
+  
+  .wrapper
+  {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header
+  {
+    background-color: #b7ffb6;
+    height: 200px;
+  }
+  
+  main
+  {
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+  
+  .content
+  {
+    background-color: #fff9bb;
+    height: 1000px;
+    width: 70%;
+  }
+  
+  aside
+  {
+    position: sticky;
+    background-color: #ffc3c3;
+    height: 200px;
+    top: 0;
+    width: 25%;
+  }
+  
+  footer
+  {
+    background-color: #58ff66;
+    height: 400px;
+  }
