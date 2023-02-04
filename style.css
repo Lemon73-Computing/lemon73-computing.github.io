@@ -1,16 +1,50 @@
 @charset "UTF-8";
 
+/* # # フォント # # */
 html
 {
     font-family: Meiryo, sans-serif, monospace, IBM Plex Sans;
 }
 
+/*未使用*/
 body
 {
     background-color: #ffffff;
     padding: 2rem;
 }
 
+/* # # ヘッダー・フッター・追従メニュー設定 # # */
+*   {
+        box-sizing: border-box;
+    }
+
+    header, main, .content , aside, footer
+    {
+        padding: 10px;
+    }
+
+    main
+    {
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .content
+    {
+        width: 84%;
+    }
+
+    aside
+    {
+        position: sticky;
+        height: 200px;
+        top: 20px;
+        width: 8%;
+        font-size: 1.0rem;
+    }
+
+/* # # 文字表記に関して # # */
 h1
 {
     padding: 1rem 2rem;
