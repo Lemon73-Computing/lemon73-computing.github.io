@@ -34,7 +34,9 @@
   {
     position: sticky;
     background-color: #ffe1e1;
-/*    height: 400px;*/
+    height: 400px;
+    /*文章を増やしたら↑もコメントアウトか削除したほうがいい。
+    スクロールできないほど文章が少ない場合はまたその時調整を行う*/
     top: 0;
     width: 14%;
   }
