@@ -1,27 +1,15 @@
 @charset "UTF-8";
 
 /* # # フォント # # */
-html
-{
-    font-family: Meiryo, sans-serif, monospace, IBM Plex Sans;
-}
+html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 
 /*未使用*/
-body
-{
-    background-color: #ffffff;
-    padding: 2rem;
-}
+body{background-color: #ffffff;}
 
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
-*   {
-        box-sizing: border-box;
-    }
+*   {box-sizing: border-box;}
 
-    header, main, .content , aside, footer
-    {
-        padding: 10px;
-    }
+    header, main, .content , aside, footer{padding: 10px;}
 
     main
     {
@@ -30,19 +18,18 @@ body
         justify-content: space-between;
     }
 
-    .content
-    {
-        width: 84%;
-    }
+    .content{width: 84%;}
 
     aside
     {
         position: sticky;
         height: 200px;
         top: 20px;
-        width: 8%;
+        width: 16%;
         font-size: 1.0rem;
     }
+
+    footer{background-color: whitesmoke;}
 
 /* # # 文字表記に関して # # */
 h1
@@ -84,7 +71,4 @@ p
     font-size: 1.4rem;
 }
 
-a
-{
-    color:green;
-}
+a{color:green;}
