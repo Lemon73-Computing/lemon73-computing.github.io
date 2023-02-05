@@ -24,45 +24,24 @@ body
     }
 
 
-    header, #navi
+    header
     {
         position: relative;
         z-index: 2;
-        width: 1000px;
-        margin: 0 auto;
-    }
-
-    #navi ul
-    {
-        overflow: hidden;
-        padding: 0 1px 0 0;
-    }
-
-    #navi ul li
-    {
-        float: left;
-        margin: 0 0 0 1px;
-    }
-
-    #navi ul li img
-    {
-        width: 100px;
+        margin-bottom: 10px;
     }
 
     .inner
     {
         width: 1000px;
         margin: 0 auto;
-        *zoom: 1;
     }
 
-    ol, ul
+    .inner:before, .inner:after
     {
-        list-style: none;
+        display: table;
+        content: '';
     }
-
-    .inner:before, .inner:after{display: table;}
-    .inner:before{content: '';}
     .inner:after{clear: both;}
 
     .header-logo
