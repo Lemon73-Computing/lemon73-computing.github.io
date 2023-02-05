@@ -23,32 +23,6 @@ body
         padding: 10px;
     }
 
-
-    header
-    {
-        position: relative;
-        z-index: 2;
-        margin-bottom: 10px;
-    }
-
-    .inner
-    {
-        width: 1000px;
-        margin: 0 auto;
-    }
-
-    .inner:before, .inner:after
-    {
-        display: table;
-        content: '';
-    }
-    .inner:after{clear: both;}
-
-    .header-logo
-    {
-        float: left;
-    }
-
     main
     {
         display: flex;
@@ -113,10 +87,4 @@ p
 a
 {
     color:green;
-}
-
-img
-{
-    max-width: 100%;
-    height: auto;
 }
