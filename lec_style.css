@@ -5,8 +5,8 @@ h1
 {
     padding: 1rem 2rem;
     background: white;
-    -webkit-box-shadow: 5px 5px 0 lightcyan;
-    box-shadow: 5px 5px 0 lightcyan;
+    -webkit-box-shadow: 5px 5px 0 lemonchiffon;
+    box-shadow: 5px 5px 0 lemonchiffon;
     font-size: 2.6rem;
 
     color:white;
@@ -19,4 +19,4 @@ h1
     -webkit-text-fill-color: transparent;
 }
 
-h2{background: lightcyan;}
+h2{background: lemonchiffon;}
