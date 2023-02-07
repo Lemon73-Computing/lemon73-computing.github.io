@@ -36,6 +36,7 @@
     システム:Windows 10 64-bit
     ブラウザID:略
 #### 公開サーバー
+    管理企業:Netowl
     OS:Linux(詳細は不明)
     CPU:Intel Xeon E5-2430 v2(2.50GHz)(何コア割り当てられているか不明)
     RAM:48GB(何GB割り当てされているかは不明)
