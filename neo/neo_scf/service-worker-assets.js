@@ -33,7 +33,7 @@
       "url": "_framework\/icudt_no_CJK.dat"
     },
     {
-      "hash": "sha256-RZ0VymRuqRWBdpZ8hssok6kS6n+RwoXHWOD2G4wsDEE=",
+      "hash": "sha256-16UEKewoE4ZwGfOuHFY5qiU44poPZ3KmoRlJ7dGHwwo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -93,7 +93,7 @@
       "url": "_framework\/Microsoft.JSInterop.WebAssembly.dll"
     },
     {
-      "hash": "sha256-JSNQbMKpHdOT3cWBqSVgcHMznEn4h5YMdwo\/KRBnLRY=",
+      "hash": "sha256-DENlAqxnYvy2bdluz\/9BvjzFDq8+K4tx7uAJOuCbezA=",
       "url": "_framework\/NEO-Flomia-Web.dll"
     },
     {
@@ -157,11 +157,11 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-0eXxpXXc68FRxBpO0unQBMMwsFzwa\/pBJgk2ZYavJi0=",
+      "hash": "sha256-Yru6YXSCwOvE3P9g7aKD2ZBl1Z8iRxMGhsxMaRH1b\/0=",
       "url": "NEO-Flomia-Web.styles.css"
     },
     {
-      "hash": "sha256-lDAEEaul32OkTANWkZgjgs4sFCsMdLsR5NJxrjVcXdo=",
+      "hash": "sha256-b7IleyX52E\/Wj0q0gD5TSOrrqcIQMSlTeQn8Ui2+fMo=",
       "url": "css\/app.css"
     },
     {
@@ -221,7 +221,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-i0szmYnYA6u+PbUB+rSl06Wcbf3Zn32+jhOSBrkEIIc=",
+      "hash": "sha256-TdWmJh9DLCfZu0T6Bw\/\/md0I5A2uxUHolykkbXezHWA=",
       "url": "index.html"
     },
     {
@@ -233,5 +233,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "RG3tkYZc"
+  "version": "N\/vc+NQw"
 };
