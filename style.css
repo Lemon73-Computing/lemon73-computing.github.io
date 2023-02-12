@@ -39,6 +39,10 @@ body{background-color: #ffffff;}
     footer{background-color: whitesmoke;}
 
 /* # # 文字表記に関して # # */
+h1
+{
+    font-size: 3.2rem;
+}
 
 h2
 {
@@ -64,7 +68,7 @@ a{color:green;}
 
 @media screen and (max-width:1080px)
 {
-    h1{font-size: 5.2rem;}
+    h1{font-size: 4.8rem;}
     h2{font-size: 3.6rem;}
     h3{font-size: 2.7rem;}
     p{font-size: 2.1rem;}
