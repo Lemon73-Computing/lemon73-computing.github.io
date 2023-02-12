@@ -16,9 +16,15 @@
 
 [lec-main]: http://lec.starfree.jp
 
-#### フレームワーク
-メインサイト部分はHTML+CSSのみのフレームワークなしでの実装となっていますが、<br>
-[N-SCF(NEO)](http://lec.starfree.jp/neo/neo_scf/)のページでは[Blazor WebAssembly](https://dotnet.microsoft.com/ja-jp/apps/aspnet/web-apps/blazor)のフレームワークを使用しています。<br>
+### 使っているフレームワークについて
+#### メイン部分
+    IDE:Microsoft Visuai Studio Code
+    フレームワーク:なし
+    言語:HTML+CSS
+#### [N-SCF(NEO)](http://lec.starfree.jp/neo/neo_scf/)
+    IDE:Microsoft Visual Studio2022 Community
+    フレームワーク:Blazor WebAssembly(.NET6)
+    言語:HTML+CSS+JavaScript(記述自体はC#)
 
 #### 注意点
 ブラウザにキャッシュがたまっているとCSSが更新されないことがあります。<br>
