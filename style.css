@@ -29,7 +29,7 @@ body{background-color: #ffffff;}
     {
         position: sticky;
         height: 100%;
-        top: 20px;
+        top: 10px;
         width: 16%;
         font-size: 1.0rem;
     }
@@ -51,23 +51,14 @@ h1
 
 h2
 {
-    color:black;
     -webkit-box-shadow: 5px 5px 0 white;
     box-shadow: 5px 5px 0 white;
     font-size: 2.4rem;
 }
 
-h3
-{
-    color:black;
-    font-size: 1.8rem;
-}
+h3{font-size: 1.8rem;}
 
-p
-{
-    color:black;
-    font-size: 1.4rem;
-}
+p{font-size: 1.4rem;}
 
 a{color:green;}
 
