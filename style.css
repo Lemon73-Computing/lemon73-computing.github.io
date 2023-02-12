@@ -11,6 +11,7 @@ body{background-color: #ffffff;}
 
     header, main, .content , aside, footer{padding: 10px;}
 
+
     main
     {
         display: flex;
@@ -27,6 +28,12 @@ body{background-color: #ffffff;}
         top: 20px;
         width: 16%;
         font-size: 1.0rem;
+    }
+
+    @media screen and (max-width:1080px)
+    {
+        .content{width: 70%;}
+        aside{width: 30%;}
     }
 
     footer{background-color: whitesmoke;}
