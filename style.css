@@ -44,10 +44,7 @@ body{background-color: #ffffff;}
     footer{background-color: whitesmoke;}
 
 /* # # 文字表記に関して # # */
-h1
-{
-    font-size: 3.2rem;
-}
+h1{font-size: 3.2rem;}
 
 h2
 {
