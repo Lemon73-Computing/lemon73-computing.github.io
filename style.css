@@ -68,3 +68,23 @@ a{color:green;}
     h6{font-size: 1.0rem;}
     p{font-size: 2.1rem;}
 }
+
+/* # # 範囲選択の時の文字の色 # # */
+/*
+h1::selection
+{
+    background: darkred;
+    color: white;
+}
+*/
+::selection
+{
+    background: darkslateblue;
+    color: white;
+}
+
+a::selection
+{
+    background: darkslategray;
+    color: white;
+}
