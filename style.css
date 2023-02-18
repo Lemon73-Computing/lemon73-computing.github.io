@@ -6,6 +6,9 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 /*未使用*/
 body{background-color: #ffffff;}
 
+/* # # ダークモードでの表示 # # */
+@media (prefers-color-scheme: dark){body{background-color: #121212;}}
+
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
 *   {box-sizing: border-box;}
 
@@ -73,18 +76,18 @@ a{color:green;}
 /*
 h1::selection
 {
-    background: darkred;
+    background: pink;
     color: white;
 }
 */
 ::selection
 {
-    background: darkslateblue;
+    background: pink;
     color: white;
 }
 
 a::selection
 {
-    background: darkslategray;
+    background: lightgreen;
     color: white;
 }
