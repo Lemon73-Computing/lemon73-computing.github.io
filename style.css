@@ -3,11 +3,13 @@
 /* # # フォント # # */
 html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 
-/*未使用*/
-body{background-color: #ffffff;}
+/* --なぜか使えないので封印--
+ # # ライトモードでの表示 # # 
+@media (prefers-color-scheme: light){body{background-color: #ffffff;}}
 
-/* # # ダークモードでの表示 # # */
+ # # ダークモードでの表示 # # 
 @media (prefers-color-scheme: dark){body{background-color: #121212;}}
+*/
 
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
 *   {box-sizing: border-box;}
@@ -73,13 +75,13 @@ a{color:green;}
 }
 
 /* # # 範囲選択の時の文字の色 # # */
-/*
-h1::selection
+
+::selection
 {
-    background: pink;
+    background: cornsilk;
     color: white;
 }
-*/
+
 ::selection
 {
     background: pink;
