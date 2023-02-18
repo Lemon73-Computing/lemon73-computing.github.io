@@ -76,9 +76,9 @@ a{color:green;}
 
 /* # # 範囲選択の時の文字の色 # # */
 
-::selection
+h1::selection
 {
-    background: cornsilk;
+    background: navajowhite;
     color: white;
 }
 
