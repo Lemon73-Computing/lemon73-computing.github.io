@@ -13,8 +13,8 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html 
  
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php
+RewriteCond %{REQUEST_FILENAME}\.shtml -f
+RewriteRule ^(.*)$ $1.shtml
 
-RewriteCond %{THE_REQUEST} \.(php|html)\ HTTP
-RewriteRule ^(.*)\.(php|html)$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} \.(shtml|html)\ HTTP
+RewriteRule ^(.*)\.(shtml|html)$ /$1 [R=301,L]
