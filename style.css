@@ -42,11 +42,21 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
     /* # # 携帯(縦)でのアクセス用(追従メニューの割合) # # */
     @media screen and (max-width:1080px)
     {
-        .content{width: 70%;}
-        aside{width: 30%;}
+        .content{width: 75%;}
+        aside{width: 25%;}
     }
 
     footer{background-color: whitesmoke;}
+
+    /* # # フッター下固定 # # */
+    .conteiner
+    {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    footer{margin-top: auto;}
 
 /* # # 文字表記に関して # # */
 h1{font-size: 3.2rem;}
