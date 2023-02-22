@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<!--
+     ____
+     |  |
+    /    X
+   /      X
+  /        X
+ |__________|
+--------------
+ |LEC Server|
+--------------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<meta property="og:description" content="LEC公式サイト">
+		<meta name="keywords" content="LEC, Lemon73, game, KISS, COI, NEO, LFA">
+		<meta name="author" content="copy;LEC/Lemon73">
+		<meta property="og:url" content="http://lec.starfree.jp">
+		<meta property="og:site_name" content="LECメインサイト">
+		<meta property="og:locale" content="ja">
+		<title>LEC本部 | LEC公式サイト</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="lec/lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="lec/Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="lec/Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>Lemon Electric Computer</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<aside>
+				<p style="background-color: aquamarine;">専門事業一覧</p><br>
+				<p style="background-color: lemonchiffon;"><a href="index.html">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="kiss/kiss_main.html">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="coi/coi_main.html">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="neo/neo_main.html">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="lfa/lfa_main.html">LFA</a></p>
+			</aside>
+
+			<div class="content">
+				<!-- # # 専門事業 # # -->
+				<h2><b>LECの専門事業</b></h2>
+				<p>LECでは専門事業というブランドを支えています。</p>
+				<p>現時点では本部と以下の4つのブランドが相互に協力し合って運営を行っています。</p>
+				<p><a href="kiss/kiss_main.html">KISS</a></p>
+				<p><a href="coi/coi_main.html">COI</a></p>
+				<p><a href="neo/neo_main.html">NEO</a></p>
+				<p><a href="lfa/lfa_main.html">LFA</a></p>
+
+				<!-- # # 活動 # # -->
+				<h2>LECの活動</h2>
+
+				<!-- # LF大祭 # -->
+				<h3>LF</h3>
+				<p>LECではLemon Festival(LF)という総合発表を行う大祭を不定期で開催しています。</p>
+				<!-- LFは別名Lemon Flashや、Lemon Flower dayなどの異名もあります。
+				稀にLF大祭という言い方をしますが、その言い方だと"祭り"を2回言っていることになるのでSega Gamesみたいになっていますね。
+				また、LFの開催が不定期と記述していますが、実際は1季節1回というのが一般となっています。(事実上の定期)
+				通常は1年で4回ですが、それ以外の臨時や不定期の大祭も許可しています。 -->
+				<p><a href="https://www.youtube.com/@lemon73">YouTube</a>で配信を行っております。
+					(<a href="https://www.youtube.com/playlist?list=PLBss4RwsE9gSxIW-o1CnUUiQPwbiNhchV">LFの再生リスト</a>)</p>
+				<p><a href="https://youtu.be/TtgjXb6dBLo">LF2201(動画)</a></p>
+				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share">LF2202(動画)</a></p>
+				<p><a href="https://youtu.be/dwMXjiAyVZA">LF2203 - 秋 - (動画)</a></p>
+				<p><a href="https://youtu.be/0jgJ3N4NHIA">LF2204 - 冬 - (動画)</a></p>
+
+				<!-- # ゲーム開発 # -->
+				<h3>ゲーム</h3>
+				<p>LECでは、2D、3Dでのブラウザゲームの作成を行っています。</p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c262a7d4ed03b3f5ac54">A-Adventure2D</a>(<a href="kiss/kiss_main.html">KISS</a>)(開発中)</p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a>(<a href="kiss/kiss_main.html">KISS</a>)(開発中)</p>
+				<small><p>※携帯版ではリンクが開けない可能性が高いです。</p></small>
+
+				<!-- # ソフト開発 # -->
+				<h3>ソフト</h3>
+				<p>LECではアプリケーションソフトウェアの開発を行っています。</p>
+				<p><a href="neo/neo_rainbow.html">N-SCF</a>(<a href="neo_scf/index.html">Webテスト版</a>)(<a href="neo/neo_main.html">NEO</a>)</p>
+
+				<!-- # 独自規格 # -->
+				<h3><a href="/lec/lec_standard.html">独自規格</a></h3>
+				<p>LECでは独自規格の制定を行っています。</p>
+
+				<!-- # 文章 # -->
+				<h3><a href="lec/docs/lec_docs.html">資料</a></h3>
+				<p>LECでは資料の作成を行っています。</p>
+				<p>過去に定めた方針や、記録が残っています。</p>
+				<p>サイト設立以前の古い記録も一部入っているのでLECの歴史を知るにはとても良い場所だと思います。</p>
+
+				<!-- # SNS # -->
+				<h3><b>SNS</b></h3>
+				<p><a rel="me" href="https://www.youtube.com/@lemon73">YouTube</a></p>
+				<p><a rel="my-server" href="https://discord.com/channels/972718425937952798/984410962931109988">Discord</a></p>
+				<p><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p>
+				<p><a rel="me" href="https://github.com/Lemon73-Computing">GitHub</a></p>
+				<p><a rel="me" href="https://qiita.com/Lemon73">Qitta</a></p>
+				<p>Quora</p>
+				<p><a rel="me" href="https://www.pinterest.jp/SuperLemon73/_created/">Pinterest</a></p>
+				<p><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p>
+				<p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft(Learn)</a></p>
+				<p><a rel="me" href="https://play.unity.com/u/Lemon73">Unity</a></p>
+				<p><a rel="me" href="https://fedibird.com/web/timelines/home">Fedirbird(Mastodon)</a></p>
+				<p><a rel="me" href="https://userbase.kde.org/User:Futurelemon">GitLab(KDE)</a></p>
+				<p><a rel="me" href="https://www.instagram.com/lemon73_digital/">Instagram</a></p>
+				<p><a rel="me" href="https://steamcommunity.com/profiles/76561199447542409/">Steam</a></p>
+				<p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p>
+				<p><a rel="my-site" href="index.html">LEC公式サイト</a>(ここ)</p>
+				<p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">LECデータサイト</a></p>
+				<p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p>
+				<p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p>
+				<p><a rel="me" href="https://krita-artists.org/u/lemon73/">Krita Artists</a></p>
+				<p><a rel="my-server" href="https://app.element.io/#/room/#lec-main:matrix.org">Matrix Element</a></p>
+				<p style="font-size: 1.0rem;">SNS最終確認:2023/2/6</p>
+				
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+			<b><p>©2023Lemon Electric Computer/Lemon73</p></b>
+			
+			<!-- # 書類のライセンスと注意点 # -->
+			<h6>もし表示が崩れるようならお手数ですが、[Ctrl]+[F5]でリロードをすると直る可能性が高いです。</h6>
+			<h6>特に記述がない場合はこちらのサイトの内容を
+				<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">Creative Commons License BY-SA 4.0(CC BY-SA 4.0)</a>のライセンスにてご利用できます。</h6>
+		</footer>
+	</div>
+	</center>
+</html>
