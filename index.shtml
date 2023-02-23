@@ -101,7 +101,7 @@
 				<!-- # 表 # -->
 				<table border="2" width="100%" cellpadding="5">
 					<!-- # 1列目 # -->
-					<tr bgcolor="whitesmoke">
+					<tr bgcolor="mintcream">
 						<th><b>コメント系</b></th>
 						<th><b> サイト系 </b></th>
 						<th><b>サーバー型</b></th>
