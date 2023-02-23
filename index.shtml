@@ -99,7 +99,7 @@
 				<!-- # SNS # -->
 				<h3><b>SNS</b></h3>
 				<!-- # 表 # -->
-				<table border="2" width="100%" cellpadding="5">
+				<table width="100%" cellpadding="5">
 					<!-- # 1列目 # -->
 					<tr bgcolor="mintcream">
 						<th><b>コメント系</b></th>
@@ -140,8 +140,8 @@
 					<tr>
 						<th></th>
 						<th></th>
-						<th><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft</a></p></th>
 						<th></th>
+						<th><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft</a></p></th>
 						<th><p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p></th>
 						<th><p><a rel="me" href="https://play.unity.com/u/Lemon73">Unity</a></p></th>
 					</tr>
@@ -156,7 +156,7 @@
 					</tr>
 				</table>
 				<p style="font-size: 1.0rem;">SNS最終確認:2023/2/6</p>
-				
+
 			</div>
 		</main>
 
