@@ -23,8 +23,8 @@ L-----J ~|_/  ||
 		<title>LEC資料一覧 | LEC本部</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="lec_docs_style.css">
 		<link rel="stylesheet" href="../lec_style.css">
+		<link rel="stylesheet" href="lec_docs_style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="lec_docs_icon.png">
 		<link rel="icon" type="image/x-icon" href="lec_docs_icon.png">
