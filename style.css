@@ -82,6 +82,9 @@ a{color:green;}
     h3{font-size: 2.7rem;}
     h6{font-size: 1.0rem;}
     p{font-size: 2.1rem;}
+
+    /*表内の文字サイズを変更*/
+    table tr th p{font-size: 0.8rem;}
 }
 
 /* # # 範囲選択の時の文字の色 # # */

@@ -98,27 +98,63 @@
 
 				<!-- # SNS # -->
 				<h3><b>SNS</b></h3>
-				<p><a rel="me" href="https://www.youtube.com/@lemon73">YouTube</a></p>
-				<p><a rel="my-server" href="https://discord.com/channels/972718425937952798/984410962931109988">Discord</a></p>
-				<p><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p>
-				<p><a rel="me" href="https://github.com/Lemon73-Computing">GitHub</a></p>
-				<p><a rel="me" href="https://qiita.com/Lemon73">Qitta</a></p>
-				<p><a rel="me" href="https://jp.quora.com/profile/Lemon73">Quora</a></p>
-				<p><a rel="me" href="https://www.pinterest.jp/SuperLemon73/_created/">Pinterest</a></p>
-				<p><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p>
-				<p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft(Learn)</a></p>
-				<p><a rel="me" href="https://play.unity.com/u/Lemon73">Unity</a></p>
-				<p><a rel="me" href="https://fedibird.com/web/timelines/home">Fedirbird(Mastodon)</a></p>
-				<p><a rel="me" href="https://invent.kde.org/futurelemon">GitLab(KDE)</a></p>
-				<p><a rel="me" href="https://www.instagram.com/lemon73_digital/">Instagram</a></p>
-				<p><a rel="me" href="https://steamcommunity.com/profiles/76561199447542409/">Steam</a></p>
-				<p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p>
-				<p><a rel="my-site" href="index.html">LEC公式サイト</a>(ここ)</p>
-				<p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">LECデータサイト</a></p>
-				<p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p>
-				<p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p>
-				<p><a rel="me" href="https://krita-artists.org/u/lemon73/">Krita Artists</a></p>
-				<p><a rel="my-server" href="https://app.element.io/#/room/#lec-main:matrix.org">Matrix Element</a></p>
+				<!-- # 表 # -->
+				<table border="2" width="100%" cellpadding="5">
+					<!-- # 1列目 # -->
+					<tr bgcolor="whitesmoke">
+						<th><b>コメント系</b></th>
+						<th><b> サイト系 </b></th>
+						<th><b>サーバー型</b></th>
+						<th><b>  技術系  </b></th>
+						<th><b>イラスト系</b></th>
+						<th><b>  特殊系  </b></th>
+					</tr>
+					<!-- # 2列目 # -->
+					<tr>
+						<th><p><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p></th>
+						<th><p><a rel="my-site" href="index.html">公式サイト</a></p></th>
+						<th><p><a rel="my-server" href="https://discord.com/channels/972718425937952798/984410962931109988">Discord</a></p></th>
+						<th><p><a rel="me" href="https://github.com/Lemon73-Computing">GitHub</a></p></th>
+						<th><p><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
+						<th><p><a rel="me" href="https://www.youtube.com/@lemon73">YouTube</a></p></th>
+					</tr>
+					<!-- # 3列目 # -->
+					<tr>
+						<th><p><a rel="me" href="https://fedibird.com/web/timelines/home">Fedirbird</a></p></th>
+						<th><p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">データサイト</a></p></th>
+						<th><p><a rel="my-server" href="https://app.element.io/#/room/#lec-main:matrix.org">Element</a></p></th>
+						<th><p><a rel="me" href="https://qiita.com/Lemon73">Qitta</a></p></th>
+						<th><p><a rel="me" href="https://www.pinterest.jp/SuperLemon73/_created/">Pinterest</a></p></th>
+						<th><p><a rel="me" href="https://www.instagram.com/lemon73_digital/">Instagram</a></p></th>
+					</tr>
+					<!-- # 4行目 # -->
+					<tr>
+						<th></th>
+						<th></th>
+						<th><p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p></th>
+						<th><p><a rel="me" href="https://invent.kde.org/futurelemon">GitLab KDE</a></p></th>
+						<th><p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p></th>
+						<th><p><a rel="me" href="https://jp.quora.com/profile/Lemon73">Quora</a></p></th>
+					</tr>
+					<!-- # 5行目 # -->
+					<tr>
+						<th></th>
+						<th></th>
+						<th><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft</a></p></th>
+						<th></th>
+						<th><p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p></th>
+						<th><p><a rel="me" href="https://play.unity.com/u/Lemon73">Unity</a></p></th>
+					</tr>
+					<!-- # 6行目 # -->
+					<tr>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th></th>
+						<th><p><a rel="me" href="https://krita-artists.org/u/lemon73/">Krita Artists</a></p></th>
+						<th><p><a rel="me" href="https://steamcommunity.com/profiles/76561199447542409/">Steam</a></p></th>
+					</tr>
+				</table>
 				<p style="font-size: 1.0rem;">SNS最終確認:2023/2/6</p>
 				
 			</div>
