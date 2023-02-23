@@ -18,12 +18,8 @@ L-----J ~|_/  ||
 	<head>
 		<!-- # # 使用する文字セット # # -->
 		<meta charset="utf-8">
-		<meta property="og:description" content="LEC公式サイト">
-		<meta name="keywords" content="LEC, Lemon73, game, KISS, COI, NEO, LFA">
-		<meta name="author" content="copy;LEC/Lemon73">
-		<meta property="og:url" content="http://lec.starfree.jp">
-		<meta property="og:site_name" content="LEC公式サイト">
-		<meta property="og:locale" content="ja">
+		<!-- # # ファイルの外部化 # # -->
+		<!--#include virtual="lec/meta.shtml"-->
 		<title>LEC資料一覧 | LEC本部</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../../style.css">

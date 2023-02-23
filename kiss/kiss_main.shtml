@@ -18,10 +18,8 @@
 
 <html lang="ja">
 	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="NEO Lemon">
-		<meta name="keywords" content="LEC, Lemon73, game, KISS, COI, NEO, KISS">
-		<meta name="author" content="copy;LEC/Lemon73">
+        <meta charset="utf-8">
+		<!--#include virtual="lec/meta.shtml"-->
 		<title>KISS | LEC-KISS</title>
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="kiss_style.css">
