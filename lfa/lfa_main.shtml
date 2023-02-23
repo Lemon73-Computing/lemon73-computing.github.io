@@ -18,7 +18,7 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf-8">
-		<!--#include virtual="lec/meta.shtml"-->
+		<!--#include virtual="../lec/meta.shtml"-->
 		<title>LFA | LEC-LFA</title>
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="lfa_style.css">

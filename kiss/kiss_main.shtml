@@ -19,7 +19,7 @@
 <html lang="ja">
 	<head>
         <meta charset="utf-8">
-		<!--#include virtual="lec/meta.shtml"-->
+		<!--#include virtual="../lec/meta.shtml"-->
 		<title>KISS | LEC-KISS</title>
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="kiss_style.css">

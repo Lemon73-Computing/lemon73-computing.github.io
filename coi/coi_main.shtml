@@ -17,7 +17,7 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf-8">
-		<!--#include virtual="lec/meta.shtml"-->
+		<!--#include virtual="../lec/meta.shtml"-->
 		<title>COI | LEC-COI</title>
 		<link rel="stylesheet" href="../style.css">
 		<link rel="stylesheet" href="coi_style.css">

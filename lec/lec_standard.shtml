@@ -20,7 +20,7 @@
 		<!-- # # 使用する文字セット # # -->
 		<meta charset="utf-8">
 		<!-- # # ファイルの外部化 # # -->
-		<!--#include virtual="lec/meta.shtml"-->
+		<!--#include virtual="meta.shtml"-->
 		<title>独自規格 | LEC本部</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../style.css">
@@ -70,7 +70,7 @@
 		<!-- # # フッター部分 # # -->
 		<footer>
 			<!-- # # 外部化 # # -->
-            <!--#include virtual="../lec/footer.shtml"-->
+            <!--#include virtual="footer.shtml"-->
 
 			<h5 style="text-align: left;"><a href="../index.html">←LEC本部ページに戻る</a></h5>
 		</footer>
