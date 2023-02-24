@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<!--
+    ____         ____
+   /    \_______/    \
+  /	     		  	  \
+ |	   __		__     |
+ |	  |  |     |  |    |
+ |    |__|     |__|    |
+ /					   \
+ \_   \\_________//   _/
+   \__/			  \__/
+       -----------
+        |LEC SNS|
+       -----------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>Discord | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="stylesheet" href="../lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>Discord</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<aside>
+				<p style="background-color: aquamarine;">専門事業一覧</p><br>
+				<p style="background-color: lemonchiffon;"><a href="../../index.html">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="../../kiss/kiss_main.html">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="../../coi/coi_main.html">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="../../neo/neo_main.html">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="../../lfa/lfa_main.html">LFA</a></p>
+			</aside>
+
+			<div class="content">
+				<!-- # # Discordロゴ # # -->
+                <table width="100%">
+                    <tr>
+                        <th width="40px"></th>
+                        <!-- # Discord公式頒布 のアイコンを利用しています # -->
+                        <th width="30%"><a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898"><img src="../sns_icon/discord-blue_official.png" width="70%"></a></th>
+                        <th>
+                            <h3>Discord</h3>
+                            <p>運営:Discord</p>
+                            <p>サーバー:<a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898">LECメインサーバー</a></p>
+                            <p>サーバー:<a rel="my-server" href="https://discord.com/channels/1007841780760330280/1007848837827797062">お絵描きサーバー</a></p>
+                        </th>
+                    </tr>
+                </table>
+
+                <h2></h2>
+
+                <!-- # 役割/運用 # -->
+                <h2><a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898">LECメインサーバー</a></h2>
+                <p>Discordは、Lemon73のSNSの中でも初期に設立され、それ以来長い間運営を続けています。</p>
+                <p>DiscordではLECで運営している他のSNS(Matrixを除く)にはないサーバー型という特徴があるため、</p>
+                <p>その特徴を生かして、通常の連絡やどうでもいい話の報告をしています。</p>
+				<p>投稿自体はかなり頻繁に行われています。LECが抱えるSNSの中でも随一といえます。</p>
+				<p>LECの最新情報を集めたい方はぜひサーバーに参加してください。</p>
+
+				<h2><a rel="my-server" href="https://discord.com/channels/1007841780760330280/1007848837827797062">お絵描きサーバー</a></h2>
+				<p>LECで描かれたイラストなどはここに集約されます。</p>
+				<p>現時点では最大のイラスト宝庫ですが、Tumblrを創設したらそちらにその機能を譲る可能性もあります。</p>
+				<p>LECが書いたイラストだけでなく、LECへのファンイラストの投稿を行うことができます。</p>
+				<p>他のSNSよりも早く、確実に見つけられるのでファンイラストはこちら(にも)投稿していただけるとうれしいです。</p>
+
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+			<!-- # # 外部化 # # -->
+            <!--#include virtual="../footer.shtml"-->
+            
+            <h5 style="text-align: left;"><a href="../../index.html">←LEC本部ページに戻る</a></h5>
+		</footer>
+	</div>
+	</center>
+</html>
