@@ -69,6 +69,7 @@ h2
 }
 
 h3{font-size: 1.8rem;}
+h6{font-size: 0.8rem;}
 
 p{font-size: 1.4rem;}
 
@@ -80,7 +81,7 @@ a{color:green;}
     h1{font-size: 4.8rem;}
     h2{font-size: 3.6rem;}
     h3{font-size: 2.7rem;}
-    h6{font-size: 1.0rem;}
+    h6{font-size: 1.2rem;}
     p{font-size: 2.1rem;}
 
     /*表内の文字サイズを変更*/
