@@ -62,7 +62,7 @@ _--___--_\.o-----|-
                         <th>
                             <h3>YouTube</h3>
                             <p>運営:Google</p>
-                            <p>チャンネル名:Lemon73</p>
+                            <p>チャンネル:<a rel="me" href="https://www.youtube.com/@lemon73" color="red">Lemon73</a></p>
                         </th>
                     </tr>
                 </table>
@@ -92,7 +92,9 @@ _--___--_\.o-----|-
 		<!-- # # フッター部分 # # -->
 		<footer>
 			<!-- # # 外部化 # # -->
-			<!--#include virtual="../footer.shtml"-->
+            <!--#include virtual="../footer.shtml"-->
+            
+            <h5 style="text-align: left;"><a href="../index.html">←LEC本部ページに戻る</a></h5>
 		</footer>
 	</div>
 	</center>
