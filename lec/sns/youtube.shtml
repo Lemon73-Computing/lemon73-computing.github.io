@@ -56,6 +56,7 @@ _--___--_\.o-----|-
 				<!-- # # YouTubeロゴ # # -->
                 <table width="100%">
                     <tr>
+                        <th width="20px"></th>
                         <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
                         <th width="40%"><a rel="me" href="https://www.youtube.com/@lemon73" color="red"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
                         <th>
