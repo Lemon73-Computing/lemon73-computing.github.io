@@ -111,7 +111,7 @@
 					</tr>
 					<!-- # 2列目 # -->
 					<tr>
-						<th><p><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p></th>
+						<th><p><a rel="me" href="lec/sns/mastodon.shtml">Mastodon</a></p></th>
 						<th><p><a rel="my-site" href="index.html">公式サイト</a></p></th>
 						<th><p><a rel="my-server" href="lec/sns/discord.shtml">Discord</a></p></th>
 						<th><p><a rel="me" href="https://github.com/Lemon73-Computing">GitHub</a></p></th>
@@ -120,7 +120,7 @@
 					</tr>
 					<!-- # 3列目 # -->
 					<tr>
-						<th><p><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedirbird</a></p></th>
+						<th></th>
 						<th><p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">データサイト</a></p></th>
 						<th><p><a rel="my-server" href="https://app.element.io/#/room/#lec-main:matrix.org">Element</a></p></th>
 						<th><p><a rel="me" href="https://qiita.com/Lemon73">Qitta</a></p></th>
