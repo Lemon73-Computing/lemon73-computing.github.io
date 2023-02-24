@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<!--
+      ___
+     /DDD\
+    /D D D\___
+  _/D D D D\  \
+ //D  D D  D\  \ /===
+//D  D _ D  D\  \|\  \
+/  ___/|\    @@  | 
+__/7/\\I_\__0__\_|\
+_--___--_\.o-----|-
+  0    0
+===   ===   ===   ==
+    -----------
+     |LEC SNS|
+    -----------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>YouTube | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="stylesheet" href="../lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>YouTube</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<aside>
+				<p style="background-color: aquamarine;">専門事業一覧</p><br>
+				<p style="background-color: lemonchiffon;"><a href="../../index.html">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="../../kiss/kiss_main.html">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="../../coi/coi_main.html">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="../../neo/neo_main.html">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="../../lfa/lfa_main.html">LFA</a></p>
+			</aside>
+
+			<div class="content">
+				<!-- # # YouTubeロゴ # # -->
+                <table width="100%">
+                    <tr>
+                        <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
+                        <th width="40%"><a rel="me" href="https://www.youtube.com/@lemon73" color="red"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
+                        <th>
+                            <h3>YouTube</h3>
+                            <p>運営:Google</p>
+                            <p>チャンネル名:Lemon73</p>
+                        </th>
+                    </tr>
+                </table>
+
+                <h2></h2>
+
+                <!-- # 役割/運用 # -->
+                <h2>設置意義</h2>
+                <p>YouTubeは、Lemon73のSNSの中でも最初に設立され、それ以来長い間運営を続けています。</p>
+                <p>YouTubeではLECで運営している他のSNSにはない動画投稿に特化しているという特徴があるため、</p>
+                <p>その特徴を生かして、総合大祭であるLFやそれ以外の投稿も行っています。</p>
+                <p>投稿自体はかなり遅いですが、LFなどはクオリティーがかなり高くなっていますので、ぜひご覧ください。</p>
+
+                <!-- # LF大祭 # -->
+				<h3>LF</h3>
+                <p>YouTubeではLemon Festival(LF)を不定期開催しています。</p>
+                <p><a href="https://www.youtube.com/playlist?list=PLBss4RwsE9gSxIW-o1CnUUiQPwbiNhchV">LFの再生リスト</a></p>
+                <br>
+				<p><a href="https://youtu.be/TtgjXb6dBLo">LF2201(動画)</a></p>
+				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share">LF2202(動画)</a></p>
+				<p><a href="https://youtu.be/dwMXjiAyVZA">LF2203 - 秋 - (動画)</a></p>
+				<p><a href="https://youtu.be/0jgJ3N4NHIA">LF2204 - 冬 - (動画)</a></p>
+
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+			<!-- # # 外部化 # # -->
+			<!--#include virtual="../footer.shtml"-->
+		</footer>
+	</div>
+	</center>
+</html>
