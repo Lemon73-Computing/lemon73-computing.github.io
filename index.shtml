@@ -55,14 +55,14 @@
 				<table width="100%" cellpading="5px">
 					<tr>
 						<th width="20%"></th>
-						<th width="30%"><p><a href="kiss/kiss_main.html">KISS</a></p></th>
-						<th width="30%"><p><a href="coi/coi_main.html">COI</a></p></th>
+						<th width="30%" bgcolor="mistyrose"><p><a href="kiss/kiss_main.html">KISS</a></p></th>
+						<th width="30%" bgcolor="lightpink"><p><a href="coi/coi_main.html">COI</a></p></th>
 						<th width="20%"></th>
 					</tr>
 					<tr>
 						<th width="20%"></th>
-						<th width="30%"><p><a href="neo/neo_main.html">NEO</a></p></th>
-						<th width="30%"><p><a href="lfa/lfa_main.html">LFA</a></p></th>
+						<th width="30%" bgcolor="lightcyan"><p><a href="neo/neo_main.html">NEO</a></p></th>
+						<th width="30%" bgcolor="lightgreen"><p><a href="lfa/lfa_main.html">LFA</a></p></th>
 						<th width="20%"></th>
 					</tr>
 				</table>
@@ -102,14 +102,11 @@
 
 				<!-- # 文章 # -->
 				<h3><a href="lec/docs/lec_docs.html">資料</a></h3>
-				<p>LECでは資料の作成を行っています。</p>
-				<p>過去に定めた方針や、記録が残っています。</p>
-				<p>サイト設立以前の古い記録も一部入っているのでLECの歴史を知るにはとても良い場所だと思います。</p>
+				<p>このページでは資料のアーカイブを行っています。</p>
 
 				<!-- # SNS # -->
 				<h3><b>SNS</b></h3>
 				<p>LEC本部では、数多くのSNSの運用と保持を行っています。</p>
-				<p>以下が現時点で運用中のSNSとなっています。</p>
 				<!-- # 表 # -->
 				<table width="100%" cellpadding="5">
 					<!-- # 1列目 # -->
