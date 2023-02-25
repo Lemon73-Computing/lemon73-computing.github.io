@@ -53,14 +53,16 @@
 				<!-- # # Mastodonロゴ # # -->
                 <table width="100%">
                     <tr>
-                        <th width="40px"></th>
-                        <!-- # Mastodon公式 のアイコンを利用しています # -->
-                        <th width="30%"><a rel="me" href="https://mstdn.jp/web/@Lemon73"><img src="../sns_icon/mastodon-purple-official.svg" width="70%"></a></th>
+                        <th width="50px"></th>
+                        <!-- # ActivityPub公式 のアイコンを利用しています # -->
+                        <th width="30%"><a rel="me" href="https://mstdn.jp/web/@Lemon73"><img src="../sns_icon/activitypub-official.svg" width="90%"></a></th>
                         <th>
-                            <h3>Mastodon</h3>
-                            <p>運営:Mastodon/OSS</p>
+                            <h3>Fediverse</h3>
+                            <p>Mastodon</p>
                             <p>サーバー:<a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p>
-                            <p>サーバー:<a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></p>
+							<p>サーバー:<a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></p>
+							<p>Misskey</p>
+							<p>サーバー:<a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></p>
                         </th>
                     </tr>
                 </table>
@@ -73,17 +75,15 @@
 
 				<h2><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></h2>
 				<p>こちらはMastodonの別のサーバーです。</p>
-				<p>.jpサーバーよりも独自機能(絵文字での反応など)が目立っていたり、</p>
-				<p>Misskey.ioユーザーなど他サーバーの人たちと関わりやすいので、こちらも頻繁に使っています。</p>
-				<p>(.jpサーバーは気のせいかもしれませんが、Misskey.ioユーザーのコメントがあまり来ないような気がします。</p>
-				<p>Misskey.cf勢のコメントはありますが。)</p>
 				<p>.jpと同じく、投稿自体はあまり頻繁には行っていません。</p>
 
-				<h2>Misskey</h2>
-				<p>現時点では運用していませんが、追加を予定しています。</p>
-
 				<h2>Pawoo</h2>
+				<p>日本で人気なMastodonサーバーです。</p>
 				<p>現時点では運用していませんが、追加する可能性があります。</p>
+
+				<h2>Misskey</h2>
+				<p>近日参加したMisskeyの.ioサーバーです。</p>
+				<p>日常的なコメントの投稿で使うかと思います。</p>
 
 			</div>
 		</main>
