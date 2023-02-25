@@ -71,13 +71,13 @@
 
 				<!-- # 役割/運用 # -->
 				<h2>Mastodon</h2>
-                <h3><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></h3>
-                <p>Mastodonは、Lemon73のSNSの中でも長い間運営を続けています。</p>
+                <p>Mastodonは、Lemon73のSNSの中でも長い間運営を続けています。(特に.jp)</p>
+				
+				<h3><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></h3>
 				<p>投稿自体は頻繁には行っていませんが、TL(タイムライン)での返信などを行っています。</p>
 				<p>現時点ではあまり動きはありませんが、今後動きが拡大する可能性が高いです。</p>
 
 				<h3><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></h3>
-				<p>こちらはMastodonの別のサーバーです。</p>
 				<p>.jpと同じく、投稿自体はあまり頻繁には行っていません。</p>
 
 				<h3>Pawoo</h3>
@@ -85,6 +85,9 @@
 				<p>現時点では運用していませんが、追加する可能性があります。</p>
 
 				<h2>Misskey</h2>
+				<p>Misskeyは近日参加したSNSです。</p>
+				<p>開始直後なので、まだあまり動きはありません。</p>
+
 				<h3><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></h3>
 				<p>近日参加したMisskeyの.ioサーバーです。</p>
 				<p>日常的なコメントの投稿で使うかと思います。</p>
