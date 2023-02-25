@@ -21,7 +21,7 @@
 		<meta charset="utf-8">
 		<!-- # # ファイル外部化 # # -->
 		<!--#include virtual="../meta.shtml"-->
-		<title>Mastodon | LEC</title>
+		<title>Fediverse | LEC</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../../style.css">
 		<link rel="stylesheet" href="../lec_style.css">
@@ -50,12 +50,12 @@
 			</aside>
 
 			<div class="content">
-				<!-- # # Mastodonロゴ # # -->
+				<!-- # # Fediverseロゴ # # -->
                 <table width="100%">
                     <tr>
                         <th width="15%"></th>
                         <!-- # ActivityPub公式 のアイコンを利用しています # -->
-                        <th width="25%"><a rel="me" href="https://mstdn.jp/web/@Lemon73"><img src="../sns_icon/activitypub-official.svg" width="90%"></a></th>
+                        <th width="25%"><a rel="me" href="https://mstdn.jp/web/@Lemon73"><img src="../sns_icon/fediverse-logo.svg" width="90%"></a></th>
                         <th width="10%"></th>
                         <th width="30%">
                             <h3>Fediverse</h3>
@@ -69,21 +69,23 @@
                     </tr>
                 </table>
 
-                <!-- # 役割/運用 # -->
-                <h2><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></h2>
+				<!-- # 役割/運用 # -->
+				<h2>Mastodon</h2>
+                <h3><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></h3>
                 <p>Mastodonは、Lemon73のSNSの中でも長い間運営を続けています。</p>
 				<p>投稿自体は頻繁には行っていませんが、TL(タイムライン)での返信などを行っています。</p>
 				<p>現時点ではあまり動きはありませんが、今後動きが拡大する可能性が高いです。</p>
 
-				<h2><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></h2>
+				<h3><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></h3>
 				<p>こちらはMastodonの別のサーバーです。</p>
 				<p>.jpと同じく、投稿自体はあまり頻繁には行っていません。</p>
 
-				<h2>Pawoo</h2>
+				<h3>Pawoo</h3>
 				<p>日本で人気なMastodonサーバーです。</p>
 				<p>現時点では運用していませんが、追加する可能性があります。</p>
 
-				<h2><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></h2>
+				<h2>Misskey</h2>
+				<h3><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></h3>
 				<p>近日参加したMisskeyの.ioサーバーです。</p>
 				<p>日常的なコメントの投稿で使うかと思います。</p>
 
