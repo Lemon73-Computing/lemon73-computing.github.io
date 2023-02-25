@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<!--
+ ______________
+ |@Reddit   []|
+ |------------|
+ |O<--------- |___
+ | |        | | []|
+ | |        | |---|
+ | |________| |_| |
+ |____________|   |
+	 |O<--------- |
+	 | |        | |
+     |_L________I_|
+     -----------
+      |LEC SNS|
+     -----------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>Reddit | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="stylesheet" href="../lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>Reddit</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<aside>
+				<p style="background-color: aquamarine;">専門事業一覧</p><br>
+				<p style="background-color: lemonchiffon;"><a href="../../index.html">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="../../kiss/kiss_main.html">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="../../coi/coi_main.html">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="../../neo/neo_main.html">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="../../lfa/lfa_main.html">LFA</a></p>
+			</aside>
+
+			<div class="content">
+				<!-- # # Redditロゴ # # -->
+                <table width="100%">
+                    <tr>
+                        <th width="15%"></th>
+                        <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
+                        <th width="25%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
+                        <th width="10%"></th>
+                        <th width="35%">
+                            <h3>Reddit</h3>
+                            <p>運営:Reddit</p>
+                            <p>ユーザー:<a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Lemon73</a></p>
+                        <th width="15%"></th>
+					</th>
+                    </tr>
+                </table>
+
+                <!-- # 役割/運用 # -->
+                <h2>設置意義</h2>
+				<p>Redditは、Lemon73のSNSの中でも初期に設立され、それ以来長い間運営を続けています。</p>
+				<p>投稿自体はあまり頻繁には行われていませんが、一応運営を続けています。</p>
+				<p><a href="../sns/youtube.shtml">YouTube</a>で投稿した動画の一部を公式転載しています。</p>
+				<p>ほとんどのSNSは国内向き(日本語)ですが、Redditは欧米方面に向けた投稿になっています。</p>
+
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+			<!-- # # 外部化 # # -->
+            <!--#include virtual="../footer.shtml"-->
+            
+            <h5 style="text-align: left;"><a href="../../index.html">←LEC本部ページに戻る</a></h5>
+		</footer>
+	</div>
+	</center>
+</html>
