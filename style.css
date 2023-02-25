@@ -90,20 +90,5 @@ a{color:green;}
 
 /* # # 範囲選択の時の文字の色 # # */
 
-h1::selection
-{
-    background: navajowhite;
-    color: white;
-}
-
-::selection
-{
-    background: pink;
-    color: white;
-}
-
-a::selection
-{
-    background: lightgreen;
-    color: white;
-}
+::selection{background: rgba(175, 238, 238/*paleturquoise*/, .45);}
+a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
