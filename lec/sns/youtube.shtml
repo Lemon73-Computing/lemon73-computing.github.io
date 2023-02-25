@@ -56,14 +56,16 @@ _--___--_\.o-----|-    |
 				<!-- # # YouTubeロゴ # # -->
                 <table width="100%">
                     <tr>
-                        <th width="40px"></th>
+                        <th width="15%"></th>
                         <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
-                        <th width="30%"><a rel="me" href="https://www.youtube.com/@lemon73" color="red"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
-                        <th>
+                        <th width="25%"><a rel="me" href="https://www.youtube.com/@lemon73" color="red"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
+                        <th width="10%"></th>
+                        <th width="35%">
                             <h3>YouTube</h3>
                             <p>運営:Google</p>
                             <p>チャンネル:<a rel="me" href="https://www.youtube.com/@lemon73" color="red">Lemon73</a></p>
-                        </th>
+                        <th width="15%"></th>
+					</th>
                     </tr>
                 </table>
 

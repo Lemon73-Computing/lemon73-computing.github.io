@@ -54,15 +54,17 @@
 				<!-- # # Discordロゴ # # -->
                 <table width="100%">
                     <tr>
-                        <th width="40px"></th>
+                        <th width="15%"></th>
                         <!-- # Discord公式頒布 のアイコンを利用しています # -->
-                        <th width="30%"><a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898"><img src="../sns_icon/discord-blue_official.png" width="70%"></a></th>
-                        <th>
+                        <th width="25%"><a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898"><img src="../sns_icon/discord-blue_official.png" width="70%"></a></th>
+                        <th width="10%"></th>
+                        <th width="30%">
                             <h3>Discord</h3>
                             <p>運営:Discord</p>
                             <p>サーバー:<a rel="my-server" href="https://discord.com/channels/972718425937952798/972725666778873898">LECメインサーバー</a></p>
                             <p>サーバー:<a rel="my-server" href="https://discord.com/channels/1007841780760330280/1007848837827797062">お絵描きサーバー</a></p>
                         </th>
+                        <th width="15%"></th>
                     </tr>
                 </table>
 
