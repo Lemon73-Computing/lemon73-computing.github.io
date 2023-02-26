@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<!--
+       /\
+      /V^\
+      \__/
+      |  |
+      |  |
+      |  |
+      |  |
+      |__|
+  -------------
+   |LEC Color|
+  -------------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイルの外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>ColorManager | KISS</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="stylesheet" href="../../lec/lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../kiss_icon.png">
+		<link rel="icon" type="image/x-icon" href="../kiss_icon.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>ColorManager</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<aside>
+				<p style="background-color: aquamarine;">専門事業一覧</p><br>
+				<p style="background-color: lemonchiffon;"><a href="../../index.html">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="../../kiss/kiss_main.html">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="../../coi/coi_main.html">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="../../neo/neo_main.html">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="../../lfa/lfa_main.html">LFA</a></p>
+			</aside>
+
+			<div class="content">
+				<!-- # # 本ページの概要 # # -->
+                <h2>概要</h2>
+				<p>KISSでは色に関しての独自規格の制定をしています。</p>
+
+                <!-- # # 実際の色 # # -->
+                <h2>準備中</h2>
+                <p>準備中です。近日公開予定なのでしばらくお待ちください。</p>
+
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+			<!-- # # 外部化 # # -->
+            <!--#include virtual="../footer.shtml"-->
+
+			<h5 style="text-align: left;"><a href="../kiss_main.shtml">←KISSページに戻る</a></h5>
+		</footer>
+	</div>
+	</center>
+</html>
