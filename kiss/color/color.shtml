@@ -24,7 +24,7 @@
 		<title>ColorManager | KISS</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../../lec/lec_style.css">
+		<link rel="stylesheet" href="../kiss_style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="../kiss_icon.png">
 		<link rel="icon" type="image/x-icon" href="../kiss_icon.png">
