@@ -32,6 +32,7 @@
 
 	<!-- #### 内容 #### -->
 	<center>
+	<div class="conteiner">
 		<!-- # # ヘッダー部分 # #-->
 		<header>
 			<b><h1>独自規格</h1></b>
@@ -74,5 +75,6 @@
 
 			<h5 style="text-align: left;"><a href="../index.html">←LEC本部ページに戻る</a></h5>
 		</footer>
+	</div>
 	</center>
 </html>
