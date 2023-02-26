@@ -3,7 +3,7 @@
 
 ### ライセンス
 こちらのコードのライセンスに関しては、これから変更する可能性が高いのですが、<br>
-2023/2/4(土)現時点では[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択します。<br>
+2023/2/26(日)現時点では[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択します。<br>
 それに加えて、独自のルールなどを定める予定なので、制定次第そちらもご確認ください。<br>
 
 ### サイトについて
@@ -23,7 +23,7 @@
 
 ### 使っているフレームワークについて
 #### メイン部分
-    IDE:Microsoft Visuai Studio Code
+    IDE:Microsoft Visual Studio Code
     フレームワーク:なし
     言語:HTML+CSS
 #### [N-SCF(NEO)](http://lec.starfree.jp/neo/neo_scf/)
@@ -42,7 +42,7 @@
     GPU:Intel HD Graphics 530(CPU内蔵GPU)
 #### ブラウザ環境
     種類:Opera
-    バージョン/Chromium バージョン:最新
+    バージョン:最新
     アップデートストリーム:Stable
     システム:Windows 10 64-bit
     ブラウザID:略
