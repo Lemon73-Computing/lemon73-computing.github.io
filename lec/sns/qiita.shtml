@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 
 <!--
-      ___              |
-     /DDD\             |
-    /D D D\___         |
-  _/D D D D\  \        |<- 下から見たビル
- //D  D D  D\  \ /===  |
-//D  D _ D  D\  \|\  \ |
-/  ___/|\    @@  |     |<- 街灯
-__/7/\\I_\__0__\_|\    |
-_--___--_\.o-----|-    |
-  0    0               |<- 車
-===   ===   ===   ===  |<- 道路の白線
-    -----------
-     |LEC SNS|
-    -----------
+  ___         ____
+  | |        / __|
+  | |       | /  ___
+  | |____   | \_|__ |
+  L_____|    \____|_|
+ _________ ____    ____
+ |__   __| |   \  /   |
+    | |    | \  \/  / |
+    | |    | |\    /| |
+    |_|    |_| \__/ |_|
+      -----------
+       |LEC SNS|
+      -----------
 -->
 
 <!-- #### 情報 #### -->
@@ -24,7 +23,7 @@ _--___--_\.o-----|-    |
 		<meta charset="utf-8">
 		<!-- # # ファイル外部化 # # -->
 		<!--#include virtual="../meta.shtml"-->
-		<title>YouTube | LEC</title>
+		<title>Qiita | LEC</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="../../style.css">
 		<link rel="stylesheet" href="../lec_style.css">
@@ -38,7 +37,7 @@ _--___--_\.o-----|-    |
 	<div class="conteiner">
 		<!-- # # ヘッダー部分 # #-->
 		<header>
-			<b><h1>YouTube</h1></b>
+			<b><h1>Qiita</h1></b>
 		</header>
 
 		<!-- # # メイン部分 # # -->
@@ -53,17 +52,17 @@ _--___--_\.o-----|-    |
 			</aside>
 
 			<div class="content">
-				<!-- # # YouTubeロゴ # # -->
+				<!-- # # Qiitaロゴ # # -->
                 <table width="100%">
                     <tr>
                         <th width="15%"></th>
-                        <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
-                        <th width="25%"><a rel="me" href="https://www.youtube.com/@lemon73"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
+                        <!-- # Qiita公式 のアイコンを利用しています # -->
+                        <th width="25%"><a rel="me" href="https://qiita.com/Lemon73"><img src="../sns_icon/" width="70%"></a></th>
                         <th width="10%"></th>
                         <th width="35%">
-                            <h3>YouTube</h3>
-                            <p>運営:Google</p>
-                            <p>チャンネル:<a rel="me" href="https://www.youtube.com/@lemon73">Lemon73</a></p>
+                            <h3>Qiita</h3>
+                            <p>運営:Qiita</p>
+                            <p>作成:<a rel="me" href="https://qiita.com/Lemon73">Lemon73</a></p>
                         <th width="15%"></th>
 					</th>
                     </tr>
@@ -71,18 +70,16 @@ _--___--_\.o-----|-    |
 
                 <!-- # 役割/運用 # -->
                 <h2>設置意義</h2>
-                <p>YouTubeは、Lemon73のSNSの中でも最初に設立され、それ以来長い間運営を続けています。</p>
-                <p>YouTubeではLECで運営している他のSNSにはない動画投稿に特化しているという特徴があるため、</p>
-                <p>その特徴を生かして、総合大祭であるLFやそれ以外の投稿も行っています。</p>
-                <p>投稿自体はかなり遅いですが、LFなどはクオリティーがかなり高くなっていますので、ぜひご覧ください。</p>
+				<p>Qiitaは、ソフトウェアに関しての文章の作成のために利用しています。</p>
+				<p>現時点では、KDEの日本語翻訳関連の文章がまとめられています。</p>
 
                 <!-- # LF大祭 # -->
 				<h3>LF</h3>
-                <p>YouTubeではLemon Festival(LF)を不定期開催しています。</p>
-                <p><a href="https://www.youtube.com/playlist?list=PLBss4RwsE9gSxIW-o1CnUUiQPwbiNhchV">LFの再生リスト</a></p>
+                <p>QiitaではLemon Festival(LF)を不定期開催しています。</p>
+                <p><a href="https://www.Qiita.com/playlist?list=PLBss4RwsE9gSxIW-o1CnUUiQPwbiNhchV">LFの再生リスト</a></p>
                 <br>
 				<p><a href="https://youtu.be/TtgjXb6dBLo">LF2201(動画)</a></p>
-				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share">LF2202(動画)</a></p>
+				<p><a href="https://Qiita.com/shorts/u3gibcDnGbc?feature=share">LF2202(動画)</a></p>
 				<p><a href="https://youtu.be/dwMXjiAyVZA">LF2203 - 秋 - (動画)</a></p>
 				<p><a href="https://youtu.be/0jgJ3N4NHIA">LF2204 - 冬 - (動画)</a></p>
 
