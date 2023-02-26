@@ -40,11 +40,11 @@
 		<main>
 			<aside>
 				<p style="background-color: aquamarine;">専門事業一覧</p><br>
-				<p style="background-color: lemonchiffon;"><a href="index.html">LEC本部</a></p>
-				<p style="background-color: mistyrose;"><a href="kiss/kiss_main.html">KISS</a></p>
-				<p style="background-color: lightpink;"><a href="coi/coi_main.html">COI</a></p>
-				<p style="background-color: lightcyan;"><a href="neo/neo_main.html">NEO</a></p>
-				<p style="background-color: lightgreen;"><a href="lfa/lfa_main.html">LFA</a></p>
+				<p style="background-color: lemonchiffon;"><a href="index.shtml">LEC本部</a></p>
+				<p style="background-color: mistyrose;"><a href="kiss/kiss_main.shtml">KISS</a></p>
+				<p style="background-color: lightpink;"><a href="coi/coi_main.shtml">COI</a></p>
+				<p style="background-color: lightcyan;"><a href="neo/neo_main.shtml">NEO</a></p>
+				<p style="background-color: lightgreen;"><a href="lfa/lfa_main.shtml">LFA</a></p>
 			</aside>
 
 			<div class="content">
@@ -55,14 +55,14 @@
 				<table width="100%" cellpading="5px">
 					<tr>
 						<th width="20%"></th>
-						<th width="30%" bgcolor="mistyrose"><p><a href="kiss/kiss_main.html">KISS</a></p></th>
-						<th width="30%" bgcolor="lightpink"><p><a href="coi/coi_main.html">COI</a></p></th>
+						<th width="30%" bgcolor="mistyrose"><p><a href="kiss/kiss_main.shtml">KISS</a></p></th>
+						<th width="30%" bgcolor="lightpink"><p><a href="coi/coi_main.shtml">COI</a></p></th>
 						<th width="20%"></th>
 					</tr>
 					<tr>
 						<th width="20%"></th>
-						<th width="30%" bgcolor="lightcyan"><p><a href="neo/neo_main.html">NEO</a></p></th>
-						<th width="30%" bgcolor="lightgreen"><p><a href="lfa/lfa_main.html">LFA</a></p></th>
+						<th width="30%" bgcolor="lightcyan"><p><a href="neo/neo_main.shtml">NEO</a></p></th>
+						<th width="30%" bgcolor="lightgreen"><p><a href="lfa/lfa_main.shtml">LFA</a></p></th>
 						<th width="20%"></th>
 					</tr>
 				</table>
@@ -83,20 +83,20 @@
 				<!-- # ゲーム開発 # -->
 				<h3>ゲーム</h3>
 				<p>LECでは、2D、3Dでのブラウザゲームの作成を行っています。</p>
-				<p><a rel="my game" href="https://play.unity.com/p/63a5c262a7d4ed03b3f5ac54">A-Adventure2D</a>(<a href="kiss/kiss_main.html">KISS</a>)(開発中)</p>
-				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a>(<a href="kiss/kiss_main.html">KISS</a>)(開発中)</p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c262a7d4ed03b3f5ac54">A-Adventure2D</a>(<a href="kiss/kiss_main.shtml">KISS</a>)(開発中)</p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a>(<a href="kiss/kiss_main.shtml">KISS</a>)(開発中)</p>
 
 				<!-- # ソフト開発 # -->
 				<h3>ソフト</h3>
 				<p>LECではアプリケーションソフトウェアの開発を行っています。</p>
-				<p><a href="neo/neo_rainbow.html">N-SCF</a>(<a href="neo_scf/index.html">Webテスト版</a>)(<a href="neo/neo_main.html">NEO</a>)</p>
+				<p><a href="neo/neo_rainbow.shtml">N-SCF</a>(<a href="neo_scf/index.shtml">Webテスト版</a>)(<a href="neo/neo_main.shtml">NEO</a>)</p>
 
 				<!-- # 独自規格 # -->
-				<h3><a href="/lec/lec_standard.html">独自規格</a></h3>
+				<h3><a href="/lec/lec_standard.shtml">独自規格</a></h3>
 				<p>LECでは独自規格の制定を行っています。</p>
 
 				<!-- # 文章 # -->
-				<h3><a href="lec/docs/lec_docs.html">資料</a></h3>
+				<h3><a href="lec/docs/lec_docs.shtml">資料</a></h3>
 				<p>このページでは資料のアーカイブを行っています。</p>
 
 				<!-- # SNS # -->
@@ -138,7 +138,7 @@
 						<th><p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p></th>
 						<th><p><a rel="me" href="https://invent.kde.org/futurelemon">GitLab KDE</a></p></th>
 						<th><p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p></th>
-						<th><p><a rel="my-site" href="index.html">公式サイト</a></p></th>
+						<th><p><a rel="my-site" href="index.shtml">公式サイト</a></p></th>
 					</tr>
 					<!-- # 5行目 # -->
 					<tr>
