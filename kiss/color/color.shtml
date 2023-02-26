@@ -119,6 +119,37 @@
                     </tr>
                 </table>
 
+                <!-- # LEC-CS003 # -->
+                <h3>Lemon 1340 Drink</h3>
+                <table width="90%">
+                    <tr>
+                        <th bgcolor="#96ffff">
+                            <p style="color: white;">H2O</p>
+                            <p style="color: white;">#96FFFF</p>
+                        </th>
+                        
+                        <th bgcolor="#96ffbd">
+                            <p style="color: white;">Drug</p>
+                            <p style="color: white;">#96FFBD</p>
+                        </th>
+                        
+                        <th bgcolor="#ffc896">
+                            <p style="color: white;">Fine</p>
+                            <p style="color: white;">#FFC896</p>
+                        </th>
+                        
+                        <th bgcolor="#a696ff">
+                            <p style="color: white;">Sky</p>
+                            <p style="color: white;">#A696FF</p>
+                        </th>
+
+                        <th bgcolor="#f9ff96">
+                            <p style="color: white;">LEC</p>
+                            <p style="color: white;">#F0FF96</p>
+                        </th>
+                    </tr>
+                </table>
+
 			</div>
 		</main>
 
