@@ -3,12 +3,13 @@
 
 ### ライセンス
 こちらのコードのライセンスに関しては、これから変更する可能性が高いのですが、<br>
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)は文章のほうに引き続き適応されるため、
 [GPL-3.0](LICENSE)と[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)のツインライセンス体制となります。<br>
-それに加えて、独自のルールなどを定める予定なので、制定次第そちらもご確認ください。<br>
+・[GPL-3.0](LICENSE)…プログラムや(s)html/cssの構成や内容などに適応
+・[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)…文章の内容に適応
+独自のルールなどを定める可能性もあるため、その際はそちらもご確認ください。<br>
 
 ##### ライセンスの履歴
-設立ごろ [Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択<br>
+設立ごろ [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択<br>
 2023/2/28(火)~ [GNU GPL v3.0](LICENSE)を採択<br>
 
 ### サイトについて
