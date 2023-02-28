@@ -3,7 +3,8 @@
 
 ### ライセンス
 こちらのコードのライセンスに関しては、これから変更する可能性が高いのですが、<br>
-2023/2/26(日)現時点では[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択します。<br>
+~~2023/2/26(日)現時点では[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択します。<br>~~
+2023/2/28(火)以降は[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を廃止し、[GNU GPL v3.0](LICENSE)を採択します。<br>
 それに加えて、独自のルールなどを定める予定なので、制定次第そちらもご確認ください。<br>
 
 ### サイトについて
