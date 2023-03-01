@@ -1,8 +1,8 @@
 <aside>
-            <p style="background-color: aquamarine;">専門事業一覧</p><br>
-            <p style="background-color: lemonchiffon;"><a href="/index.shtml">LEC本部</a></p>
-            <p style="background-color: mistyrose;"><a href="/kiss/kiss_main.shtml">KISS</a></p>
-            <p style="background-color: lightpink;"><a href="/coi/coi_main.shtml">COI</a></p>
-            <p style="background-color: lightcyan;"><a href="/neo/neo_main.shtml">NEO</a></p>
-            <p style="background-color: lightgreen;"><a href="/lfa/lfa_main.shtml">LFA</a></p>
-        </aside>
+                <p style="background-color: aquamarine;">専門事業一覧</p><br>
+                <p style="background-color: lemonchiffon;"><a href="/index.shtml">LEC本部</a></p>
+                <p style="background-color: mistyrose;"><a href="/kiss/kiss_main.shtml">KISS</a></p>
+                <p style="background-color: lightpink;"><a href="/coi/coi_main.shtml">COI</a></p>
+                <p style="background-color: lightcyan;"><a href="/neo/neo_main.shtml">NEO</a></p>
+                <p style="background-color: lightgreen;"><a href="/lfa/lfa_main.shtml">LFA</a></p>
+            </aside>
