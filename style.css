@@ -76,6 +76,8 @@ p{font-size: 1.4rem;}
 footer p{font-size: 0.8rem}
 footer b p{font-size: 1.4rem}
 a{color:green;}
+aside p a{color: #006300;}/*Greenだとコントラスト比が足りないため*/
+table tr th p a{color: #006300;}/*Greenだとコントラスト比が足りないため*/
 
 /* # # 携帯(縦)でのアクセス用(文字表記) # # */
 @media screen and (max-width:1080px)
