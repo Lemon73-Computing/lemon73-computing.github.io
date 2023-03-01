@@ -75,6 +75,9 @@ aside p a
 {
     color: #006300;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 aside p a:hover{color: #003000;}
 /*Greenだとコントラスト比が足りないため*/
@@ -82,6 +85,9 @@ table tr th p a
 {
     color: #006300;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
 }
 table tr th p a:hover{color: #003000;}
 
