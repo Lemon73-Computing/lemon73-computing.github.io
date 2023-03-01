@@ -71,7 +71,7 @@ a{color: green;}
 /*マウスカーソルが乗っているときの色変更*/
 a:hover{color: #006300;}
 /*Greenだとコントラスト比が足りないため*/
-aside p a
+aside p a, table tr th p a
 {
     color: #006300;
     text-decoration: none;
@@ -79,17 +79,7 @@ aside p a
     width: 100%;
     height: 100%;
 }
-aside p a:hover{color: #003000;}
-/*Greenだとコントラスト比が足りないため*/
-table tr th p a
-{
-    color: #006300;
-    text-decoration: none;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-table tr th p a:hover{color: #003000;}
+aside p a:hover, table tr th p a:hover{color: #003000;}
 
 /* # # 携帯(縦)でのアクセス用(文字表記) # # */
 @media screen and (max-width:1080px)
@@ -102,12 +92,9 @@ table tr th p a:hover{color: #003000;}
     p{font-size: 2.1rem;}
     footer p{font-size: 1.2rem;}
     footer b p{font-size: 1.2rem;}
-
-    /*表内の文字サイズを変更*/
     table tr th p{font-size: 1.4rem;}
 }
 
 /* # # 範囲選択の時の文字の色 # # */
-
 ::selection{background: rgba(175, 238, 238/*paleturquoise*/, .45);}
 a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
