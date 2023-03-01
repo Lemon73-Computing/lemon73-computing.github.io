@@ -3,14 +3,6 @@
 /* # # フォント # # */
 html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 
-/* --なぜか使えないので封印--
- # # ライトモードでの表示 # # 
-@media (prefers-color-scheme: light){body{background-color: #ffffff;}}
-
- # # ダークモードでの表示 # # 
-@media (prefers-color-scheme: dark){body{background-color: #121212;}}
-*/
-
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
 *   {box-sizing: border-box;}
 
@@ -63,14 +55,12 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 
 /* # # 文字表記に関して # # */
 h1{font-size: 3.2rem;}
-
 h2
 {
     -webkit-box-shadow: 5px 5px 0 white;
     box-shadow: 5px 5px 0 white;
     font-size: 2.4rem;
 }
-
 h3{font-size: 1.8rem;}
 h5{font-size: 0.9rem;}
 h6{font-size: 0.8rem;}
@@ -78,10 +68,21 @@ p{font-size: 1.4rem;}
 footer p{font-size: 0.8rem}
 footer b p{font-size: 1.4rem}
 a{color: green;}
-a:hover{color: #006300;}/*マウスカーソルが乗っているときの色変更*/
-aside p a{color: #006300;}/*Greenだとコントラスト比が足りないため*/
+/*マウスカーソルが乗っているときの色変更*/
+a:hover{color: #006300;}
+/*Greenだとコントラスト比が足りないため*/
+aside p a
+{
+    color: #006300;
+    text-decoration: none;
+}
 aside p a:hover{color: #003000;}
-table tr th p a{color: #006300;}/*Greenだとコントラスト比が足りないため*/
+/*Greenだとコントラスト比が足りないため*/
+table tr th p a
+{
+    color: #006300;
+    text-decoration: none;
+}
 table tr th p a:hover{color: #003000;}
 
 /* # # 携帯(縦)でのアクセス用(文字表記) # # */
