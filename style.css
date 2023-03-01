@@ -14,7 +14,7 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
 *   {box-sizing: border-box;}
 
-    header, main, .content , aside, footer
+    header, main, .content, aside, footer
     {
         padding: 10px;
         width: 100%;
@@ -45,6 +45,8 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
         .content{width: 100%;}
         aside{width: 0%;}
         aside p{font-size: 0px;}
+        main{padding: 15px;}
+        .content, aside{padding: 0px;}
     }
 
     footer{background-color: whitesmoke;}
