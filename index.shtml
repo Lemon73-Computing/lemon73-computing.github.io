@@ -18,14 +18,14 @@
 		<!-- # # 使用する文字セット # # -->
 		<meta charset="utf-8">
 		<!-- # # ファイル外部化 # # -->
-		<!--#include virtual="lec/meta.shtml"-->
+		<!--#include virtual="/lec/meta.shtml"-->
 		<title>LEC本部 | LEC公式サイト</title>
 		<!-- # # CSSの連携 # # -->
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="lec/lec_style.css">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/lec/lec_style.css">
 		<!-- # # アイコンの設定 # # -->
-		<link rel="apple-touch-icon" sizes="1024x1024" href="lec/Icon-LEC.png">
-		<link rel="icon" type="image/x-icon" href="lec/Icon-LEC.png">
+		<link rel="apple-touch-icon" sizes="1024x1024" href="/lec/Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="/lec/Icon-LEC.png">
 	</head>
 
 	<!-- #### 内容 #### -->
@@ -161,7 +161,7 @@
 		<!-- # # フッター部分 # # -->
 		<footer>
 			<!-- # # 外部化 # # -->
-			<!--#include virtual="lec/footer.shtml"-->
+			<!--#include virtual="/lec/footer.shtml"-->
 		</footer>
 	</div>
 	</center>
