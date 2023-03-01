@@ -3,7 +3,7 @@
 SetEnvIf Request_URI ".*" WpCommentDeny
 #####end:wpcomment_nojpdeny#####
 
-ErrorDocument 404 /lec/404.html
+ErrorDocument 404 /lec/404.shtml
 
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.shtml
