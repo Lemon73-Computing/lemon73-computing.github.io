@@ -70,20 +70,14 @@ footer b p{font-size: 1.4rem}
 a{color: green;}
 /*マウスカーソルが乗っているときの色変更*/
 a:hover{color: #006300;}
-/*Greenだとコントラスト比が足りないため*/
 aside p a, table tr th p a, table tr td p a
 {
+    /*Greenだとコントラスト比が足りないため*/
     color: #006300;
+    /*下線無効化*/
     text-decoration: none;
-    display: block;
     width: 100%;
-    height: 100%;    
-}
-table tr th, table te td
-{
-    padding: 0px;
-    line-height: 100px;
-    vertical-align:middle;
+    height: 100%;
 }
 aside p a:hover, table tr th p a:hover, table tr td p a:hover{color: #003000;}
 
