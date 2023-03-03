@@ -76,9 +76,10 @@ aside p a, table tr th p a, table tr td p a
     color: #006300;
     /*下線無効化*/
     text-decoration: none;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 100%;
-	display: block;
 }
 table tr th, table tr td
 {
