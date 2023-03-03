@@ -1,44 +1,51 @@
 # LEC-MainSite
 [LECのメインサイト][lec-main]のソースコードです。
 
-### ライセンス
-こちらのコードのライセンスに関しては、これから変更する可能性が高いのですが、<br>
-[GPL-3.0](LICENSE)と[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)のツインライセンス体制となります。<br>
-・[GPL-3.0](LICENSE)…プログラムや(s)html/cssの構成や内容などに適応<br>
-・[Creative Commons License BY-SA 4.0(CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)…文章の内容に適応<br>
-独自のルールなどを定める可能性もあるため、その際はそちらもご確認ください。<br>
-
-##### ライセンスの履歴
-2023/ 2/ 2(木)~ [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)を採択<br>
-2023/ 2/28(火)~ [GNU GPL v3.0](LICENSE)を追加で採択<br>
-
 ### サイトについて
-運営/管理は私、LEC代表Lemon73のみで行っています。<br>
-バグの改善が遅かったりするかもしれませんがご了承ください。<br>
 [こちら][lec-main]がメインサイトのリンクとなっています。<br>
-サイトに関してのご意見は、Microsoft Formsの用意を考えているので少々お待ちください。<br>
-(GitHubでのIssuesなどは使い方がよくわからないので現時点では対応できませんが、将来的には対応を考えています。)<br>
-メールのほうは確認していないので、メールには送らないでください。<br>
 
-[lec-main]: http://lec.starfree.jp
+#### 更新
+運営/管理は私、LEC代表Lemon73のみで行っています。<br>
+そのため、バグの改善が遅かったりするかもしれませんがご了承ください。<br>
+当サイト及び、データサイトでのサイト、ソースコードの更新は不定期に行われます。<br>
+
+#### サイトの要望や不具合について
+サイトの運営状況や方針は[Discord](https://discord.com/channels/972718425937952798/1080900222152097913 "LEC公式サイトサポート")にて発表しています。<br>
+サイトに関してのご意見は以下の通りです。<br>
+○GitHubのIssues(私は使い方がよくわかっていないのですが、使ってもらっても構いません。)<br>
+○Form系(準備中)<br>
+×メール<br>
+
+[lec-main]: http://lec.starfree.jp "LEC公式サイト"
 
 #### 注意点
 ブラウザにキャッシュがたまっているとCSSが更新されないことがあります。<br>
 その際はお手数ですが、[Ctrl]+[F5]にてリロードを行ってください。<br>
 また、それでも解決しない場合はブラウザのシークレットモードにてページをアクセスする又は、時間が経ってから再度アクセスしてください。<br>
 
-### 使っているフレームワークについて
+### ライセンスについて
+こちらのコードのライセンスに関しては、これから変更する可能性が高いのですが、<br>
+[GPL-3.0]と[CC BY-SA 4.0]のツインライセンス体制となります。<br>
+・[GPL-3.0]…プログラムや(s)html/cssの構成や内容などに適応<br>
+・[CC BY-SA 4.0]…文章の内容に適応<br>
+独自のルールなどを定める可能性もあるため、その際はそちらもご確認ください。<br>
+
+##### ライセンスの履歴
+2023/ 2/ 2(木)~ [CC BY-SA 4.0]を採択<br>
+2023/ 2/28(火)~ [GPL-3.0]を追加で採択<br>
+
+[GPL-3.0]: LICENSE "GNU GPL v3.0"
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons License BY-SA 4.0"
+
+### 開発構成などについて
 #### メイン部分
-    IDE:Microsoft Visual Studio Code
+    エディター:Microsoft Visual Studio Code
     フレームワーク:なし
     言語:HTML+CSS
 #### [N-SCF(NEO)](http://lec.starfree.jp/neo/neo_scf/)
     IDE:Microsoft Visual Studio2022 Community
     フレームワーク:Blazor WebAssembly(.NET6)
     言語:HTML+CSS+JavaScript(記述自体はC#)
-
-### 更新
-当サイト及び、データサイトでのサイト、ソースコードの更新は不定期に行われます。<br>
 
 ### 開発環境+動作テスト環境
 #### ローカル開発環境
