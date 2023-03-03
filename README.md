@@ -11,10 +11,11 @@
 
 #### サイトの要望や不具合について
 サイトの運営状況や方針は[Discord](https://discord.com/channels/972718425937952798/1080900222152097913 "LEC公式サイトサポート")にて発表しています。<br>
-サイトに関してのご意見は以下の通りです。<br>
+サイトに関してのご意見は以下の場所で共有してください。<br>
 ○GitHubのIssues(私は使い方がよくわかっていないのですが、使ってもらっても構いません。)<br>
 ○Form系(準備中)<br>
 ×メール<br>
+×Twitter、RedditなどのSNSやDM<br>
 
 [lec-main]: http://lec.starfree.jp "LEC公式サイト"
 
