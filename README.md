@@ -38,8 +38,8 @@
 [GPL-3.0]: LICENSE "GNU GPL v3.0"
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons License BY-SA 4.0"
 
-### 開発構成などについて
-#### メイン部分
+### 開発構成や使用しているエディタについて
+#### [メイン部分][lec-main]
     エディター:Microsoft Visual Studio Code
     フレームワーク:なし
     言語:HTML+CSS
