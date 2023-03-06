@@ -30,7 +30,7 @@ RewriteRule ^(.*)$ $1.shtml [L]
 RewriteCond %{THE_REQUEST} \.(shtml|html)\ HTTP
 RewriteRule ^(.*)\.(shtml|html)$ /$1 [R=301,L]
 
-<Files ~ "¥.(html|php|jpe?g|gif|png|css|js|pdf)$">
+<Files ~ "¥.(css|htaccess)$">
 Header add Pragma "no-cache"
 Header set Cache-Control no-cache
 </Files>
