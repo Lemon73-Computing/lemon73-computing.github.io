@@ -9,17 +9,23 @@ ErrorDocument 404 /lec/404.shtml
 AddType application/wasm wasm
 </IfModule>
 
+RewriteBase /
+
 RewriteEngine on
 RewriteCond %{THE_REQUEST} ^.*/index.shtml
-RewriteRule ^(.*)index.shtml$ http://lec.starfree.jp/$1 [R=301,L]
+RewriteRule ^(.*)index.shtml$ http://lec.starfree.jp/$1 [L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\index.shtml -f
+RewriteRule ^(.*)$ $1/index.shtml [L,QSA]
 
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html 
+RewriteRule ^(.*)$ $1.html [L]
  
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.shtml -f
-RewriteRule ^(.*)$ $1.shtml
+RewriteRule ^(.*)$ $1.shtml [L]
 
 RewriteCond %{THE_REQUEST} \.(shtml|html)\ HTTP
 RewriteRule ^(.*)\.(shtml|html)$ /$1 [R=301,L]
