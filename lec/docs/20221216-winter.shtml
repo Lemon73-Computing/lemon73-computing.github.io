@@ -93,7 +93,7 @@
 			<!-- # # 外部化 # # -->
             <!--#include virtual="../footer.shtml"-->
 
-			<h5 style="text-align: left;"><a href="lec_docs.html">←LEC資料に戻る</a></h5>
+			<h5 style="text-align: left;"><a href="lec_docs.shtml">←LEC資料に戻る</a></h5>
 		</footer>
 	</center>
 </html>

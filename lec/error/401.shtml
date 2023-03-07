@@ -60,7 +60,7 @@
 		<footer>
 			<!-- # # 外部化 # # -->
 			<!--#include virtual="/lec/footer.shtml"-->
-			<h5 style="text-align: left;"><a href="/index.html">←LEC本部ページに戻る</a></h5>
+			<h5 style="text-align: left;"><a href="/index.shtml">←LEC本部ページに戻る</a></h5>
 		</footer>
 	</div>
 	</center>

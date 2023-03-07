@@ -82,7 +82,7 @@
 			<!-- # # 外部化 # # -->
             <!--#include virtual="../lec/footer.shtml"-->
             
-            <h5 style="text-align: left;"><a href="neo_main.html">←NEOページに戻る</a></h5>
+            <h5 style="text-align: left;"><a href="neo_main.shtml">←NEOページに戻る</a></h5>
         </footer>
     </center>
 </html>
