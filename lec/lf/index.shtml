@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<!--
+ __         ________         _
+|  |       |   _____|      _/ \_
+|  |       |  |_____      /     \
+|  |       |   _____|     |     |
+|  |       |  |           |     |
+|  |_____  |  |           \_   _/
+|________| |__|             \_/
+          _    _ _    _ _    _ _    _
+          \\  // \\  // \\  // \\  //
+           \\//   \\//   \\//   \\// 
+           //\\   //\\   //\\   //\\ 
+          Z/  \\ Z/  \\ Z/  \\ Z/  \\
+            ------------------
+             |Lemon Festival|
+            ------------------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイルの外部化 # # -->
+		<!--#include virtual="/lec/meta.shtml"-->
+		<title>LF | LEC本部</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/lec/lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="/lec/Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="/lec/Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # ヘッダー部分 # #-->
+		<header>
+			<b><h1>Lemon Festival</h1></b>
+		</header>
+
+		<!-- # # メイン部分 # # -->
+		<main>
+			<!-- # # aside(外部化) # # -->
+			<!--#include virtual="/lec/aside.shtml"-->
+
+			<div class="content">
+				<!-- # # 概要 # # -->
+				<h2><b>LFとは</b></h2>
+				<p>LF(Lemon Festival)とは、LECが不定期で開催しているイベントです。</p>
+				<!-- LFは別名Lemon Flashや、Lemon Flower dayなどの異名もあります。
+				稀にLF大祭という言い方をしますが、その言い方だと"祭り"を2回言っていることになるのでSega Gamesみたいになっていますね。
+				また、LFの開催が不定期と記述していますが、実際は1季節1回というのが一般となっています。(事実上の定期)
+				通常は1年で4回ですが、それ以外の臨時や不定期の大祭も許可しています。 -->
+				<p>リアルイベントなどには及ばない程度の小さい祭りですが、LECを代表するイベントとなっています。</p>
+				<p>四季に応じた動画の作成を行ったり、ゲームやソフトウェアの発表を行ったりしています。</p>
+
+				<!-- # # 実績 # # -->
+				<h2>開催</h2>
+				<!-- # # ↑古い/新しい↓ # # -->
+				<h3>2022年</h3>
+				<p>LF2201</p>
+				<!-- # LF2202 # -->
+				<p><img src="logo/lf2202.png" width="40%"></p>
+				<!-- # LF2203 - 秋 -  # -->
+				<p><img src="logo/lf2203.png" width="40%"></p>
+				<!-- # LF2204 - 冬 -  # -->
+				<p><img src="logo/lf2204.png" width="40%"></p>
+				<h3>2023年</h3>
+				<!-- # LF2301 - 花 - (予定) # -->
+				<p><img src="logo/lf2301.png" width="40%"></p>
+				<p>LF2302 - 春 - (予定)</p>
+				<p>LF2303 - 夏 - (予定)</p>
+			</div>
+		</main>
+
+		<!-- # # フッター部分 # # -->
+		<footer>
+            <b><p>こちらのページの画像は著作権によって保護されています。許可なく利用しないでください。</p></b><br>
+			<!-- # # 外部化 # # -->
+            <!--#include virtual="/lec/footer.shtml"-->
+
+			<h5 style="text-align: left;"><a href="/index.shtml">←LEC本部ページに戻る</a></h5>
+		</footer>
+	</div>
+	</center>
+</html>
