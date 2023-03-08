@@ -22,6 +22,7 @@
 		<title>LEC本部 | LEC公式サイト</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="/lec/for_table.css">
 		<link rel="stylesheet" href="/lec/lec_style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="/lec/Icon-LEC.png">
@@ -49,14 +50,14 @@
 				<table width="100%" cellpading="5px">
 					<tr>
 						<td width="20%"></td>
-						<td width="30%" bgcolor="mistyrose"><p><a href="kiss/kiss_main.shtml">KISS</a></p></td>
-						<td width="30%" bgcolor="lightpink"><p><a href="coi/coi_main.shtml">COI</a></p></td>
+						<td width="30%"><p style="background-color: mistyrose; border-radius: 5px; transition: 0.3s all;"><a href="kiss/kiss_main.shtml">KISS</a></p></td>
+						<td width="30%"><p style="background-color: lightpink; border-radius: 5px; transition: 0.3s all;"><a href="coi/coi_main.shtml">COI</a></p></td>
 						<td width="20%"></td>
 					</tr>
 					<tr>
 						<td width="20%"></td>
-						<td width="30%" bgcolor="lightcyan"><p><a href="neo/neo_main.shtml">NEO</a></p></td>
-						<td width="30%" bgcolor="lightgreen"><p><a href="lfa/">LFA</a></p></td>
+						<td width="30%"><p style="background-color: lightcyan; border-radius: 5px; transition: 0.3s all;"><a href="neo/neo_main.shtml">NEO</a></p></td>
+						<td width="30%"><p style="background-color: lightgreen; border-radius: 5px; transition: 0.3s all;"><a href="lfa/">LFA</a></p></td>
 						<td width="20%"></td>
 					</tr>
 				</table>
