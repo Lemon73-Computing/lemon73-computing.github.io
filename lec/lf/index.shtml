@@ -92,9 +92,9 @@
 
 		<!-- # # フッター部分 # # -->
 		<footer>
-            <b><p>こちらのページの画像は著作権によって保護されています。許可なく利用しないでください。</p></b><br>
 			<!-- # # 外部化 # # -->
             <!--#include virtual="/lec/footer.shtml"-->
+            <p>こちらのページの画像は著作権によって保護されています。許可なく利用しないでください。</p>
 
 			<h5 style="text-align: left;"><a href="/index.shtml">←LEC本部ページに戻る</a></h5>
 		</footer>
