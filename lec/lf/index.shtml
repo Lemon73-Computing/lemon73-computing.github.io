@@ -32,6 +32,12 @@
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="/lec/Icon-LEC.png">
 		<link rel="icon" type="image/x-icon" href="/lec/Icon-LEC.png">
+		<!-- # # 画像表示用特化型CSS # # -->
+		<style>
+			img{width: 50%;}
+			/* # # 携帯(縦)でのアクセス用 # # */
+			@media screen and (max-width:1080px){img{width: 95%;}}
+		</style>
 	</head>
 
 	<!-- #### 内容 #### -->
@@ -62,18 +68,25 @@
 				<h2>開催</h2>
 				<!-- # # ↑古い/新しい↓ # # -->
 				<h3>2022年</h3>
-				<p>LF2201</p>
+				<br><p>(画像なし)</p>
+				<p>LF2201</p><br>
 				<!-- # LF2202 # -->
-				<p><img src="logo/lf2202.png" width="40%"></p>
+				<p><img src="logo/lf2202.png"</p>
+				<p>LF2202</p><br>
 				<!-- # LF2203 - 秋 -  # -->
-				<p><img src="logo/lf2203.png" width="40%"></p>
+				<p><img src="logo/lf2203.png"</p>
+				<p>LF2203 - 秋 - </p><br>
 				<!-- # LF2204 - 冬 -  # -->
-				<p><img src="logo/lf2204.png" width="40%"></p>
+				<p><img src="logo/lf2204.png"</p>
+				<p>LF2204 - 冬 - </p><br>
 				<h3>2023年</h3>
 				<!-- # LF2301 - 花 - (予定) # -->
-				<p><img src="logo/lf2301.png" width="40%"></p>
-				<p>LF2302 - 春 - (予定)</p>
-				<p>LF2303 - 夏 - (予定)</p>
+				<p><img src="logo/lf2301.png"</p>
+				<p>LF2301 - 花 - (予定)</p><br>
+				<p>(画像なし)</p>
+				<p>LF2302 - 春 - (予定)</p><br>
+				<p>(画像なし)</p>
+				<p>LF2303 - 夏 - (予定)</p><br>
 			</div>
 		</main>
 
