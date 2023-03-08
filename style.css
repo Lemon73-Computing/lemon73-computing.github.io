@@ -70,6 +70,12 @@ footer b p{font-size: 1.4rem}
 a{color: green;}
 /*マウスカーソルが乗っているときの色変更*/
 a:hover, a:focus{color: #006300;}
+aside p:hover, aside p:focus
+{
+    transform: translate(0, -3px);
+    opacity: 0.7;
+    box-shadow:0px 1px 8px 4px whitesmoke;
+}
 aside p a, table tr th p a, table tr td p a
 {
     /*Greenだとコントラスト比が足りないため*/
