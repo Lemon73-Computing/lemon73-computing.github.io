@@ -36,6 +36,18 @@
 			img{width: 50%;}
 			/* # # 携帯(縦)でのアクセス用 # # */
 			@media screen and (max-width:1080px){img{width: 95%;}}
+			
+			/* # 画像の動き(リンク用) # */
+			img
+			{
+				transition: 0.5s;
+			}
+			img:hover, img:focus
+			{
+				transform: translate(0, -5px);
+				opacity: .8;
+				box-shadow:0px 1px 8px 4px whitesmoke;
+			}
 		</style>
 	</head>
 
@@ -68,19 +80,19 @@
 				<!-- # # ↑古い/新しい↓ # # -->
 				<h3>2022年</h3>
 				<br><p>(画像なし)</p>
-				<p>LF2201</p><br>
+				<p><a href="https://youtu.be/TtgjXb6dBLo">LF2201</a></p><br>
 				<!-- # LF2202 # -->
-				<p><img src="logo/lf2202.png"</p>
-				<p>LF2202</p><br>
+				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share"><img src="logo/lf2202.png"></a></p>
+				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share">LF2202</a></p><br>
 				<!-- # LF2203 - 秋 -  # -->
-				<p><img src="logo/lf2203.png"</p>
-				<p>LF2203 - 秋 - </p><br>
+				<p><a href="https://youtu.be/dwMXjiAyVZA"><img src="logo/lf2203.png"></a></p>
+				<p><a href="https://youtu.be/dwMXjiAyVZA">LF2203 - 秋 - </a></p><br>
 				<!-- # LF2204 - 冬 -  # -->
-				<p><img src="logo/lf2204.png"</p>
-				<p>LF2204 - 冬 - </p><br>
+				<p><a href="https://youtu.be/0jgJ3N4NHIA"><img src="logo/lf2204.png"></a></p>
+				<p><a href="https://youtu.be/0jgJ3N4NHIA">LF2204 - 冬 - </a></p><br>
 				<h3>2023年</h3>
 				<!-- # LF2301 - 花 - (予定) # -->
-				<p><img src="logo/lf2301.png"</p>
+				<p><img src="logo/lf2301.png"></p>
 				<p>LF2301 - 花 - (予定)</p><br>
 				<p>(画像なし)</p>
 				<p>LF2302 - 春 - (予定)</p><br>
