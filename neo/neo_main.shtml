@@ -61,10 +61,12 @@
                 <p>なし</p>
                 <p style="font-size: 1.0rem;">最終確認:2023/2/2(木)</p>
                 <!-- # LEC外部 # -->
-                <h3>LEC外部の組織</h3>
-                <h4>KDE</h4>
+                <h3>KDE</h3>
                 <p><a href="https://userbase.kde.org/Welcome_to_KDE_UserBase/ja">KDE Userbase</a>の日本語翻訳の協力</p>
                 <p><a href="https://plasma-mobile.org/ja/">Plasma Mobile</a>や<a href="https://krita.org/jp/">Krita</a>の日本語翻訳の協力</p>
+                <p style="font-size: 1.0rem;">最終確認:2023/3/10(金)</p>
+                <h3>その他のLEC外部の組織</h3>
+                <p>なし</p>
                 <p style="font-size: 1.0rem;">最終確認:2023/3/10(金)</p>
             </div>
         </main>
