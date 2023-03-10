@@ -20,7 +20,7 @@
 		<meta charset="utf-8">
 		<!--#include virtual="../lec/meta.shtml"-->
 		<title>LFA | LEC-LFA</title>
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="/style.css">
 		<link rel="stylesheet" href="lfa_style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="lfa_icon.png">
@@ -44,14 +44,13 @@
             <div class="content">
                 <!-- # # 専門事業 # # -->
                 <h2><b>LFAでの活動</b></h2>
-                <p>LECでは専門事業というブランドを支えています。</p>
-                <p>その中でも、LFAは主に他の専門事業とも連携・協力して教育系の仕事を請け負っています。</p>
+                <p>LFAはLECの中でも教育関連の開発や発表を主に行っています。</p>
 
                 <!-- # # 活動内容 # # -->
                 <h2><b>LFAでの活動履歴</b></h2>
-                <p>PINKとして設立したが、ほとんど活動していなかったため、</p>
-                <p>(同じくほとんど活動していない)LEC内部やそれ以外の研究チームと統合してLFAとして再編。</p>
-                <p style="font-size: 1.0rem;">最終確認:2023/2/9(木)</p>
+                <p>2022/7/16:PINK設立</p>
+                <p>2023/2/10:研究チームと統合してLFAとして再編</p>
+                <p style="font-size: 1.0rem;">最終確認:2023/3/10(金)</p>
 
                 <!-- # # 他組織との協力 # # -->
                 <h2><b>他組織との協力</b></h2>
