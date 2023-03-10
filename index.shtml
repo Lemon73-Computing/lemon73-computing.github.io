@@ -29,6 +29,42 @@
 		<link rel="icon" type="image/x-icon" href="/lec/Icon-LEC.png">
 		<!-- # # Google検索での認証用 # # -->
 		<meta name="google-site-verification" content="qjxjTPNpRJ9eJ3o3REYWS7wwvNPpbJfZ16lF0nQ3mXg" />
+		<!-- # # テーブル専用CSS # # -->
+		<style>
+			table tr th p a, table tr td p a, table tr th p, table tr td p
+			{
+				/*Greenだとコントラスト比が足りないため*/
+				color: #006300;
+				/*下線無効化*/
+				text-decoration: none;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				width: 100%;
+				height: 100%;
+			}
+			table tr th, table tr td
+			{
+				padding: 0px;
+				height: 0px;
+			}
+			table tr th p a:hover, table tr td p a:hover{color: #003000;}
+			table tr td p:hover, table tr td p:focus
+			{
+				opacity: 0.7;
+				box-shadow:0px 1px 8px 4px whitesmoke;
+			}
+			.link table tr td p a{font-size: 1.4rem;}
+			@media screen and (max-width:1080px){.link table tr td p a{font-size: 3.0rem;}}
+
+
+			/* # # 携帯(縦)でのアクセス用(文字表記) # # */
+			@media screen and (max-width:1080px)
+			{
+				table tr th p{font-size: 1.6rem;}
+				table tr td p{font-size: 1.6rem;}
+			}
+		</style>
 	</head>
 
 	<!-- #### 内容 #### -->
@@ -144,7 +180,7 @@
 						<td></td>
 						<td></td>
 						<td></td>
-						<td><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transcript/d825jupyjmp01qg">Microsoft</a></p></td>
+						<td><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transtyle/d825jupyjmp01qg">Microsoft</a></p></td>
 						<td><p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p></td>
 						<td><p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">データサイト</a></p></td>
 					</tr>
