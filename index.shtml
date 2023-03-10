@@ -25,8 +25,10 @@
 		<link rel="stylesheet" href="/lec/for_table.css">
 		<link rel="stylesheet" href="/lec/lec_style.css">
 		<!-- # # アイコンの設定 # # -->
-		<link rel="apple-touch-icon" sizes="1024x1024" href="/lec/Icon-LEC.png">
+		<link rel="icon" type="apple-touch-icon" href="/lec/Icon-LEC.png">
 		<link rel="icon" type="image/x-icon" href="/lec/Icon-LEC.png">
+		<!-- # # Google検索での認証用 # # -->
+		<meta name="google-site-verification" content="qjxjTPNpRJ9eJ3o3REYWS7wwvNPpbJfZ16lF0nQ3mXg" />
 	</head>
 
 	<!-- #### 内容 #### -->
