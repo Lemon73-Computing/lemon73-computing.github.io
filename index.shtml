@@ -91,6 +91,11 @@
 				<h3><a href="lec/docs/lec_docs.shtml">資料</a></h3>
 				<p>このページでは資料のアーカイブを行っています。</p>
 
+				<!-- # 翻訳 # -->
+				<h3>翻訳</h3>
+				<p>LECでは、KDEのOSやソフトウェア、Wikiなどの日本語翻訳の協力を行っています。</p>
+				<p>また、<a rel="me" href="lec/sns/qiita.shtml">Qitta</a>では翻訳に関する文章をまとめています。</p>
+
 				<!-- # SNS # -->
 				<h3><b>SNS</b></h3>
 				<p>LEC本部では、数多くのSNSの運用と保持を行っています。</p>
