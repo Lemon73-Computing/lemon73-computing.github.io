@@ -3,11 +3,21 @@
 /* # # フォント # # */
 html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 
+/* # ライトモード # */
+@media (prefers-color-scheme: light)
+{
+    html
+    {
+      background-color: white;
+      color: black;
+    }
+}
+/* # ダークモード # */
 @media (prefers-color-scheme: dark)
 {
     html
     {
-      background-color: #0a0020;
+      background-color: rgb(0, 0, 20);
       color: #fafaff;
     }
 }
@@ -55,7 +65,7 @@ aside
 /* # ライトモード # */
 @media (prefers-color-scheme: light){footer{background-color: whitesmoke;}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){footer{background-color: rgb(26, 22, 51);}}
+@media (prefers-color-scheme: dark){footer{background-color: rgb(0, 0, 40);}}
 
 /* # # フッター下固定 # # */
 .conteiner
@@ -88,7 +98,11 @@ footer b p{font-size: 1.2rem}
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){a{color: greenyellow;}}
 /*マウスカーソルが乗っているときの色変更*/
-a:hover, a:focus{color: #006300;}
+/* # ライトモード # */
+@media (prefers-color-scheme: light){a:hover, a:focus{color: #006300;}}
+/* # ダークモード # */
+@media (prefers-color-scheme: dark){a:hover, a:focus{color: rgb(213, 255, 151);}}
+
 /*左追従バーの動きについて*/
 aside p a
 {
@@ -109,6 +123,13 @@ aside p:hover, aside p:focus
     box-shadow:0px 1px 8px 4px whitesmoke;
     color: #003000;
 }
+/* # ダークモード # */
+@media (prefers-color-scheme: dark)
+{
+    aside p a {color: greenyellow;}
+    aside p:hover, aside p:focus{color: rgb(213, 255, 151);}
+}
+
 
 /* # # 携帯(縦)でのアクセス用(文字表記) # # */
 @media screen and (max-width:1080px)
