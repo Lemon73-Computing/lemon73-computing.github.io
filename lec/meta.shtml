@@ -6,13 +6,3 @@
         <meta property="og:url" content="http://lec.starfree.jp">
         <meta property="og:site_name" content="LECメインサイト">
         <meta property="og:locale" content="ja">
-        <!-- # # Googleアナリティクス # # -->
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4T4DG87YTG"></script>
-        <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'G-4T4DG87YTG');
-        </script>
