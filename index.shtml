@@ -74,13 +74,13 @@
 				<!-- # ゲーム開発 # -->
 				<h3>ゲーム</h3>
 				<p>LECでは、2D、3Dでのブラウザゲームの作成を行っています。</p>
-				<p><a rel="my game" href="https://play.unity.com/p/63a5c262a7d4ed03b3f5ac54">A-Adventure2D</a>(<a href="kiss/kiss_main.shtml">KISS</a>)(開発中)</p>
-				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a>(<a href="kiss/kiss_main.shtml">KISS</a>)(開発中)</p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c262a7d4ed03b3f5ac54">A-Adventure2D</a></p>
+				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a></p>
 
 				<!-- # ソフト開発 # -->
 				<h3>ソフト</h3>
 				<p>LECではアプリケーションソフトウェアの開発を行っています。</p>
-				<p><a href="neo/neo_rainbow.shtml">N-SCF</a>(<a href="neo/neo_scf/">Webテスト版</a>)(<a href="neo/neo_main.shtml">NEO</a>)</p>
+				<p><a href="neo/neo_rainbow.shtml">N-SCF</a>(<a href="neo/neo_scf/">Webテスト版</a>)</p>
 
 				<!-- # 独自規格 # -->
 				<h3><a href="/lec/lec_standard.shtml">独自規格</a></h3>
@@ -97,12 +97,12 @@
 				<table width="100%" cellpadding="5">
 					<!-- # 1列目 # -->
 					<tr bgcolor="mintcream">
-						<th><b>コメント系</b></th>
-						<th><b> ゲーム系 </b></th>
-						<th><b>サーバー型</b></th>
-						<th><b>  技術系  </b></th>
-						<th><b>イラスト系</b></th>
-						<th><b>  特殊系  </b></th>
+						<th width="15%"><b>コメント系</b></th>
+						<th width="15%"><b> ゲーム系 </b></th>
+						<th width="15%"><b>サーバー型</b></th>
+						<th width="15%"><b>  技術系  </b></th>
+						<th width="15%"><b>イラスト系</b></th>
+						<th width="15%"><b>  特殊系  </b></th>
 					</tr>
 					<!-- # 2列目 # -->
 					<tr>
@@ -127,7 +127,7 @@
 						<td></td>
 						<td></td>
 						<td><p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p></td>
-						<td><p><a rel="me" href="https://invent.kde.org/futurelemon">GitLab KDE</a></p></td>
+						<td><p><a rel="me" href="https://invent.kde.org/futurelemon">KDE</a></p></td>
 						<td><p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p></td>
 						<td><p><a rel="my-site" href="index.shtml">公式サイト</a></p></td>
 					</tr>
