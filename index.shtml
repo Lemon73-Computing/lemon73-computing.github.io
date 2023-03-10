@@ -22,7 +22,6 @@
 		<title>LEC本部 | LEC公式サイト</title>
 		<!-- # # CSSの連携 # # -->
 		<link rel="stylesheet" href="/style.css">
-		<link rel="stylesheet" href="/lec/for_table.css">
 		<link rel="stylesheet" href="/lec/lec_style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="icon" type="apple-touch-icon" href="/lec/Icon-LEC.png">
