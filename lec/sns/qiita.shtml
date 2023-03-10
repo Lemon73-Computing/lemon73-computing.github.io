@@ -51,7 +51,7 @@
                     <tr>
                         <th width="15%"></th>
                         <!-- # Qiita公式 のアイコンを利用しています # -->
-                        <th width="25%"><a rel="me" href="https://qiita.com/Lemon73"><img src="../sns_icon/" width="70%"></a></th>
+                        <th width="25%"><a rel="me" href="https://qiita.com/Lemon73"><img src="../sns_icon/qiita.png" width="70%"></a></th>
                         <th width="10%"></th>
                         <th width="35%">
                             <h3>Qiita</h3>
