@@ -145,7 +145,7 @@
                     <tr>
                         <!-- # Reddit公式のアイコンを利用しています # -->
                         <th width="30%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
-						<th width="70%"><p style="text-align: left; font-size: 1.4rem;">Reddit</p></th>
+						<th width="70%"><p style="text-align: left; font-size: 1.4rem;"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
                     </tr>
 				</table>
 				<!-- # # 説明文 # # -->
