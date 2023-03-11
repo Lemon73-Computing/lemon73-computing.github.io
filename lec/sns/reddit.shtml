@@ -39,16 +39,8 @@
 		<!-- # # メイン部分 # # -->
 		<main>
 			<!-- # # 左画面 # # -->
-			<aside>
-				<br><br>
-				<h3><a href="/">LECメインサイト</a></h3>
-				<p>
-					Lemon73によって2022年に設立された組織。<br>
-					正式名称はLemon Electric Computer。<br>
-					イラスト、動画編集、3Dモデリング、プログラム、Webデザインなど数多くの事業に取り組む総合型個人サークルとして運営されている。<br>
-					基本的な情報を伝えるサイトとして設立され、姉妹サイトのデータサイトとともに管理を行っている。
-				</p>
-			</aside>
+			<!-- # # ファイル外部化 # # -->
+			<!--#include virtual="left-lec.shtml"-->
 
 			<!-- # # 右画面 # # -->
 			<div class="content">
@@ -57,7 +49,9 @@
                 <table>
                     <tr>
                         <!-- # Reddit公式のアイコンを利用しています # -->
-                        <th width="30%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
+                        <th width="30%">
+							<a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img alt="Reddit" src="../sns_icon/reddit-logo.svg" width="100%"></a>
+						</th>
 						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
                     </tr>
 				</table>
