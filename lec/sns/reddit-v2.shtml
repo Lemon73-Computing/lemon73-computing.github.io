@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<!--
+ ______________
+ |@Reddit   []|
+ |------------|
+ |O<--------- |___
+ | |        | | []|
+ | |        | |---|
+ | |________| |_| |
+ |____________|   |
+	 |O<--------- |
+	 | |        | |
+     |_L________I_|
+     -----------
+      |LEC SNS|
+     -----------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>Reddit | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="../../style.css">
+		<link rel="stylesheet" href="../lec_style.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+		<style>
+			/*背景*/
+			html
+			{
+				max-width: 100%;
+				min-height: 100%;
+				/*background-color: rgb(5, 2, 22);*/
+				background-attachment: fixed;
+				background-image: url(/lec/lf/logo/lf2202.png);
+				background-position: left center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+			}
+			/*背景ぼかし*/
+			html::before
+			{
+				background: inherit;
+				content: '';
+				filter: blur(6px);
+				position: absolute;
+				top: -5px;
+				right: 0;
+				bottom: 0px;
+				left: -5px;
+			}
+
+			a{color: unset;}
+			a:hover, a:focus{color: rgb(15, 15, 12)}
+			aside
+			{
+				width: 30%;
+				height: 100vh;
+			}
+			aside h3, aside p{color: white;}
+			aside p{font-size: 1.0rem;}
+			.content
+			{
+				width: 70%;
+				min-height: 100vh;
+				background-color: rgba(220, 220, 220, 0.9);
+				color: rgb(49, 47, 41);
+			}
+			main, .content, aside{padding: 0;}
+			.conteiner
+			{
+				min-height: 100vh;
+			}
+			aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus
+			{
+				color: white;
+				opacity: 1.0;
+			}
+			a{text-decoration: none;}
+			/*選択時の色を白に変更*/
+			::selection{background: rgba(255, 255, 255, .70);}
+			a::selection{background: rgba(255, 255, 255, .70);}
+			/*携帯版の動作(サイドバーを上に移動する)*/
+			@media screen and (max-width:1080px)
+			{
+				main
+				{
+					display: block;
+					margin: 0;
+					padding: 0;
+					max-width: 100%;
+					min-width: initial;
+				}
+				aside
+				{
+					width: 100%;
+					height: auto;
+					position: unset;
+				}
+				.content
+				{
+					width: 100%;
+					margin: 0;
+				}
+				/*携帯版の時はLECの説明文を削除(非表示)*/
+				aside p{font-size: 0;}
+			}
+		</style>
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # メイン部分 # # -->
+		<main>
+			<!-- # # 左画面 # # -->
+			<aside style="background-color: rgba(10, 10, 10, .60);">
+				<br><br>
+				<h3><a href="/index.shtml">LECメインサイト</a></h3>
+				<p style="width: 70%;">
+					Lemon73によって2022年に設立された組織。<br>
+					正式名称はLemon Electric Computer。<br>
+					イラスト、動画編集、3Dモデリング、プログラム、Webデザインなど数多くの事業に取り組む総合型個人サークルとして運営されている。<br>
+					基本的な情報を伝えるサイトとして設立され、姉妹サイトのデータサイトとともに管理を行っている。
+				</p>
+			</aside>
+
+			<!-- # # 右画面 # # -->
+			<div class="content">
+				<!-- # # Redditロゴ # # -->
+				<br><br>
+                <table width="80%">
+                    <tr>
+                        <!-- # Reddit公式のアイコンを利用しています # -->
+                        <th width="30%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
+						<th width="70%"><p style="text-align: left; font-size: 1.4rem;">Reddit</p></th>
+                    </tr>
+				</table>
+				<!-- # # 説明文 # # -->
+				<table width="80%">
+					<tr>
+						<td width="20%"><p style="font-size: 1.2rem;">Host</p></td>
+						<td width="80%"><p style="font-size: 1.2rem;"><a href="https://www.reddit.com">Reddit</a></p></td>
+					</tr>
+					<tr>
+						<td><p style="font-size: 1.2rem;">管理組織</p></td>
+						<td><p style="font-size: 1.2rem;"><a href="https://www.redditinc.com">Reddit, Inc.</a></p></td>
+					</tr>
+					<tr>
+						<td><p style="font-size: 1.2rem;">説明</p></td>
+						<td>
+							<p style="font-size: 1.2rem;">
+								LECのSNSの中でも初期に設立され、それ以来長い間運営を続けています。<br>
+								投稿自体はあまり頻繁には行われていませんが、英語圏向けの投稿を続けています。<br>
+								<a href="../sns/youtube.shtml">YouTube</a>で投稿した動画の公式転載などを主に行っています。
+							</p>
+						</td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td><p style="font-size: 1.2rem;">利用開始</p></td>
+						<td><p style="font-size: 1.2rem;">2022/6/22</p></td>
+					</tr>
+				</table>
+			</div>
+		</main>
+	</div>
+	</center>
+</html>
