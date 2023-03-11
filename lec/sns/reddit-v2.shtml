@@ -58,23 +58,23 @@
                     <tr>
                         <!-- # Reddit公式のアイコンを利用しています # -->
                         <th width="30%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
-						<th width="70%"><p style="text-align: left; font-size: 1.4rem;"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
+						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
                     </tr>
 				</table>
 				<!-- # # 説明文 # # -->
 				<table>
 					<tr>
-						<td width="20%"><p style="font-size: 1.2rem;">Host</p></td>
-						<td width="80%"><p style="font-size: 1.2rem;"><a href="https://www.reddit.com">Reddit</a></p></td>
+						<td width="20%"><p>Host</p></td>
+						<td width="80%"><p><a href="https://www.reddit.com">Reddit</a></p></td>
 					</tr>
 					<tr>
-						<td><p style="font-size: 1.2rem;">管理組織</p></td>
-						<td><p style="font-size: 1.2rem;"><a href="https://www.redditinc.com">Reddit, Inc.</a></p></td>
+						<td><p>管理組織</p></td>
+						<td><p><a href="https://www.redditinc.com">Reddit, Inc.</a></p></td>
 					</tr>
 					<tr>
-						<td><p style="font-size: 1.2rem;">説明</p></td>
+						<td><p>説明</p></td>
 						<td>
-							<p style="font-size: 1.2rem;">
+							<p>
 								LECのSNSの中でも初期に設立され、それ以来長い間運営を続けています。<br>
 								投稿自体はあまり頻繁には行われていませんが、英語圏向けの投稿を続けています。<br>
 								<a href="../sns/youtube.shtml">YouTube</a>で投稿した動画の公式転載などを主に行っています。
@@ -82,12 +82,12 @@
 						</td>
 					</tr>
 					<tr>
-						<td><p style="font-size: 1.2rem; color:white; text-align: left;">---- ----</p></td>
-						<td><p style="font-size: 1.2rem; color:white; text-align: left;">---- ---- ---- ----</p></td>
+						<td><p style="color:white;">---- ----</p></td>
+						<td><p style="color:white;">---- ---- ---- ----</p></td>
 					</tr>
 					<tr>
-						<td><p style="font-size: 1.2rem;">利用開始</p></td>
-						<td><p style="font-size: 1.2rem;">2022/6/22</p></td>
+						<td><p>利用開始</p></td>
+						<td><p>2022/6/22</p></td>
 					</tr>
 				</table>
 			</div>
