@@ -26,8 +26,8 @@
 		<!--#include virtual="../meta.shtml"-->
 		<title>Reddit | LEC</title>
 		<!-- # # CSSの連携 # # -->
-		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../lec_style.css">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="sns.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
 		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
@@ -36,50 +36,62 @@
 	<!-- #### 内容 #### -->
 	<center>
 	<div class="conteiner">
-		<!-- # # ヘッダー部分 # #-->
-		<header>
-			<b><h1>Reddit</h1></b>
-		</header>
-
 		<!-- # # メイン部分 # # -->
 		<main>
-			<!-- # # aside(外部化) # # -->
-			<!--#include virtual="/lec/aside.shtml"-->
+			<!-- # # 左画面 # # -->
+			<aside>
+				<br><br>
+				<h3><a href="/">LECメインサイト</a></h3>
+				<p>
+					Lemon73によって2022年に設立された組織。<br>
+					正式名称はLemon Electric Computer。<br>
+					イラスト、動画編集、3Dモデリング、プログラム、Webデザインなど数多くの事業に取り組む総合型個人サークルとして運営されている。<br>
+					基本的な情報を伝えるサイトとして設立され、姉妹サイトのデータサイトとともに管理を行っている。
+				</p>
+			</aside>
 
+			<!-- # # 右画面 # # -->
 			<div class="content">
 				<!-- # # Redditロゴ # # -->
-                <table width="100%">
+				<br><br>
+                <table>
                     <tr>
-                        <th width="15%"></th>
                         <!-- # Reddit公式のアイコンを利用しています # -->
-                        <th width="25%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
-                        <th width="10%"></th>
-                        <th width="35%">
-                            <h3>Reddit</h3>
-                            <p>運営:Reddit</p>
-                            <p>ユーザー:<a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Lemon73</a></p>
-                        <th width="15%"></th>
-					</th>
+                        <th width="30%"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing"><img src="../sns_icon/reddit-logo.svg" width="100%"></a></th>
+						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://www.reddit.com/user/Lemon73-Computing">Reddit</a></p></th>
                     </tr>
-                </table>
-
-                <!-- # 役割/運用 # -->
-                <h2>設置意義</h2>
-				<p>Redditは、Lemon73のSNSの中でも初期に設立され、それ以来長い間運営を続けています。</p>
-				<p>投稿自体はあまり頻繁には行われていませんが、一応運営を続けています。</p>
-				<p><a href="../sns/youtube.shtml">YouTube</a>で投稿した動画の一部を公式転載しています。</p>
-				<p>ほとんどのSNSは国内向き(日本語)ですが、Redditは欧米方面に向けた投稿になっています。</p>
-
+				</table>
+				<!-- # # 説明文 # # -->
+				<table>
+					<tr>
+						<td width="20%"><p>Host</p></td>
+						<td width="80%"><p><a href="https://www.reddit.com">Reddit</a></p></td>
+					</tr>
+					<tr>
+						<td><p>管理組織</p></td>
+						<td><p><a href="https://www.redditinc.com">Reddit, Inc.</a></p></td>
+					</tr>
+					<tr>
+						<td><p>説明</p></td>
+						<td>
+							<p>
+								LECのSNSの中でも初期に設立され、それ以来長い間運営を続けています。<br>
+								投稿自体はあまり頻繁には行われていませんが、英語圏向けの投稿を続けています。<br>
+								<a href="../sns/youtube.shtml">YouTube</a>で投稿した動画の公式転載などを主に行っています。
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><p style="color:white;">---- ----</p></td>
+						<td><p style="color:white;">---- ---- ---- ----</p></td>
+					</tr>
+					<tr>
+						<td><p>利用開始</p></td>
+						<td><p>2022/6/22</p></td>
+					</tr>
+				</table>
 			</div>
 		</main>
-
-		<!-- # # フッター部分 # # -->
-		<footer>
-			<!-- # # 外部化 # # -->
-            <!--#include virtual="../footer.shtml"-->
-            
-            <h5 style="text-align: left;"><a href="../../index.html">←LEC本部ページに戻る</a></h5>
-		</footer>
 	</div>
 	</center>
 </html>
