@@ -85,6 +85,16 @@ table{width: 80%;}
     min-height: 100vh;
 }
 
+/* # テーブル内の文字サイズ # */
+table tr th p{font-size: 1.4rem;}
+table tr td p{font-size: 1.2rem;}
+/* # # 携帯版 # # */
+@media screen and (max-width:1080px)
+{
+    table tr th p{font-size: 2.8rem;}
+    table tr td p{font-size: 2.4rem;}
+}
+
 /* # 選択時の色を白に変更 # */
 ::selection{background: rgba(255, 255, 255, .70);}
 a::selection{background: rgba(255, 255, 255, .70);}
