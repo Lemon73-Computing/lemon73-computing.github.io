@@ -26,8 +26,7 @@
 		<!--#include virtual="../meta.shtml"-->
 		<title>Reddit | LEC</title>
 		<!-- # # CSSの連携 # # -->
-		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../lec_style.css">
+		<link rel="stylesheet" href="/style.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
 		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
@@ -85,9 +84,14 @@
 				opacity: 1.0;
 			}
 			a{text-decoration: none;}
+			/*サイドバーh3を光らせる*/
+			aside h3:hover, aside h3:focus{box-shadow:0px 1px 8px 4px whitesmoke;}
+			/*サイドバーPを動かさない*/
+			aside p:hover, aside p:focus{transform: unset;}
 			/*選択時の色を白に変更*/
 			::selection{background: rgba(255, 255, 255, .70);}
 			a::selection{background: rgba(255, 255, 255, .70);}
+
 			/*携帯版の動作(サイドバーを上に移動する)*/
 			@media screen and (max-width:1080px)
 			{
@@ -124,7 +128,7 @@
 			<!-- # # 左画面 # # -->
 			<aside style="background-color: rgba(10, 10, 10, .60);">
 				<br><br>
-				<h3><a href="/index.shtml">LECメインサイト</a></h3>
+				<h3 style="width: 80%;"><a href="/">LECメインサイト</a></h3>
 				<p style="width: 70%;">
 					Lemon73によって2022年に設立された組織。<br>
 					正式名称はLemon Electric Computer。<br>
@@ -164,7 +168,10 @@
 							</p>
 						</td>
 					</tr>
-					<tr></tr>
+					<tr>
+						<td><p style="font-size: 1.2rem; color:white; text-align: left;">---- ----</p></td>
+						<td><p style="font-size: 1.2rem; color:white; text-align: left;">---- ---- ---- ----</p></td>
+					</tr>
 					<tr>
 						<td><p style="font-size: 1.2rem;">利用開始</p></td>
 						<td><p style="font-size: 1.2rem;">2022/6/22</p></td>
