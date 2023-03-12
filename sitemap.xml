@@ -5,231 +5,43 @@
 <url>
   <loc>http://lec.starfree.jp/</loc>
   <priority>1.0</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/index.shtml</loc>
-  <priority>0.8</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/kiss/kiss_main.shtml</loc>
   <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/coi_main.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_main.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lfa/index.shtml</loc>
-  <priority>0.8</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/lfa/</loc>
   <priority>0.8</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/lec/lf/index.shtml</loc>
   <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/youtube.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow.shtml</loc>
-  <priority>0.8</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/neo/neo_scf/</loc>
   <priority>0.8</priority>
-  <lastmod>2023-03-10T15:04:10+09:00</lastmod>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/lec_standard.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/docs/lec_docs.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/qiita.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/fediverse.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/discord.shtml</loc>
-  <priority>0.8</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/reddit.shtml</loc>
-  <priority>0.8</priority>
+  <lastmod>2023-03-11T01:11:16+09:00</lastmod>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/kiss/kiss_main</loc>
   <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/coi_main</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_main</loc>
-  <priority>0.7</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/lec/lf/</loc>
   <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/youtube</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/lec_standard</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/docs/lec_docs</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/qiita</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/fediverse</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/discord</loc>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/reddit</loc>
-  <priority>0.7</priority>
+  <changefreq>always</changefreq>
 </url>
 <url>
   <loc>http://lec.starfree.jp/kiss/kiss_main/color/color.shtml</loc>
   <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/index.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/kiss/kiss_main.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/coi_main/coi_main.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/index.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_main/neo_rainbow.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_main/neo_scf/</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/index.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow/neo_main.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow/neo_scf/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/index.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow/neo_scf/</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/neo_rainbow/neo_main.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/kiss/color/color.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/index.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/docs/lec_docs/20221216-winter.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/docs/lec_docs/20221103-fall.html</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/sns/sns/youtube.shtml</loc>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/index</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/kiss/kiss_main</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/index</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/coi/</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/neo/</loc>
-  <priority>0.5</priority>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/index</loc>
-  <priority>0.5</priority>
+  <changefreq>always</changefreq>
 </url>
 
 </urlset>
