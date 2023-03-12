@@ -26,8 +26,8 @@ _--___--_\.o-----|-    |
 		<!--#include virtual="../meta.shtml"-->
 		<title>YouTube | LEC</title>
 		<!-- # # CSSの連携 # # -->
-		<link rel="stylesheet" href="../../style.css">
-		<link rel="stylesheet" href="../lec_style.css">
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="sns.css">
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
 		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
@@ -36,60 +36,56 @@ _--___--_\.o-----|-    |
 	<!-- #### 内容 #### -->
 	<center>
 	<div class="conteiner">
-		<!-- # # ヘッダー部分 # #-->
-		<header>
-			<b><h1>YouTube</h1></b>
-		</header>
-
 		<!-- # # メイン部分 # # -->
 		<main>
-			<!-- # # aside(外部化) # # -->
-			<!--#include virtual="/lec/aside.shtml"-->
+			<!-- # # 左画面 # # -->
+			<!-- # # ファイル外部化 # # -->
+			<!--#include virtual="left-lec.shtml"-->
 
+			<!-- # # 右画面 # # -->
 			<div class="content">
 				<!-- # # YouTubeロゴ # # -->
-                <table width="100%">
+				<br><br>
+                <table>
                     <tr>
-                        <th width="15%"></th>
-                        <!-- # https://icooon-mono.com/15443-再生ボタン/ のアイコンを利用しています # -->
-                        <th width="25%"><a rel="me" href="https://www.youtube.com/@lemon73"><img src="../sns_icon/icoon-mono_youtube.png" width="70%"></a></th>
-                        <th width="10%"></th>
-                        <th width="35%">
-                            <h3>YouTube</h3>
-                            <p>運営:Google</p>
-                            <p>チャンネル:<a rel="me" href="https://www.youtube.com/@lemon73">Lemon73</a></p>
-                        <th width="15%"></th>
-					</th>
+                        <!-- # 非公式のアイコンを利用しています(後ほど換装予定です) # -->
+                        <th width="30%">
+							<a rel="me" href="https://www.youtube.com/@lemon73"><img alt="YouTube" src="../sns_icon/icoon-mono_youtube.png" width="50%"></a>
+						</th>
+						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://www.youtube.com/@lemon73">YouTube</a></p></th>
                     </tr>
-                </table>
-
-                <!-- # 役割/運用 # -->
-                <h2>設置意義</h2>
-                <p>YouTubeは、Lemon73のSNSの中でも最初に設立され、それ以来長い間運営を続けています。</p>
-                <p>YouTubeではLECで運営している他のSNSにはない動画投稿に特化しているという特徴があるため、</p>
-                <p>その特徴を生かして、総合大祭であるLFやそれ以外の投稿も行っています。</p>
-                <p>投稿自体はかなり遅いですが、LFなどはクオリティーがかなり高くなっていますので、ぜひご覧ください。</p>
-
-                <!-- # LF大祭 # -->
-				<h3><a href="/lec/lf/index.shtml">LF</a></h3>
-                <p>YouTubeではLemon Festival(LF)を不定期開催しています。</p>
-                <p><a href="https://www.youtube.com/playlist?list=PLBss4RwsE9gSxIW-o1CnUUiQPwbiNhchV">LFの再生リスト</a></p>
-                <br>
-				<p><a href="https://youtu.be/TtgjXb6dBLo">LF2201(動画)</a></p>
-				<p><a href="https://youtube.com/shorts/u3gibcDnGbc?feature=share">LF2202(動画)</a></p>
-				<p><a href="https://youtu.be/dwMXjiAyVZA">LF2203 - 秋 - (動画)</a></p>
-				<p><a href="https://youtu.be/0jgJ3N4NHIA">LF2204 - 冬 - (動画)</a></p>
-
+				</table>
+				<!-- # # 説明文 # # -->
+				<table>
+					<tr>
+						<td width="20%"><p>Host</p></td>
+						<td width="80%"><p><a href="https://www.youtube.com">YouTube</a></p></td>
+					</tr>
+					<tr>
+						<td><p>管理組織</p></td>
+						<td><p><a href="https://www.youtube.com">YouTube</a></p></td>
+					</tr>
+					<tr>
+						<td><p>説明</p></td>
+						<td>
+							<p>
+								LEC設立以前に設置されたSNSで、それ以来長い間運営を続けています。<br>
+								動画投稿に特化しているという特徴を生かして、総合大祭である<a href="/lec/lf/index.shtml">LF</a>やそれ以外の投稿も行っています。<br>
+								投稿頻度はかなり低いですが、<a href="/lec/lf/index.shtml">LF</a>などはクオリティーがかなり高くなっていますので、ぜひご覧ください。
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><p style="color:white;">----</p></td>
+						<td><p style="color:white;">---- ---- ---- ----</p></td>
+					</tr>
+					<tr>
+						<td><p>利用開始</p></td>
+						<td><p>2022/3/22</p></td>
+					</tr>
+				</table>
 			</div>
 		</main>
-
-		<!-- # # フッター部分 # # -->
-		<footer>
-			<!-- # # 外部化 # # -->
-            <!--#include virtual="../footer.shtml"-->
-            
-            <h5 style="text-align: left;"><a href="../../index.html">←LEC本部ページに戻る</a></h5>
-		</footer>
 	</div>
 	</center>
 </html>
