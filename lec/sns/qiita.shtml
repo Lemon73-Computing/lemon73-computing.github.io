@@ -49,7 +49,7 @@
                     <tr>
                         <!-- # Qiita公式のアイコンを利用しています # -->
                         <th width="30%">
-							<a rel="me" href="https://qiita.com/Lemon73"><img alt="Reddit" src="../sns_icon/qiita.png" width="100%"></a>
+							<a rel="me" href="https://qiita.com/Lemon73"><img alt="Qiita" src="../sns_icon/qiita.png" width="50%"></a>
 						</th>
 						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://qiita.com/Lemon73">Qiita</a></p></th>
                     </tr>
