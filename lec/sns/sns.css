@@ -30,6 +30,19 @@ html::before
     left: -5px;
 }
 
+/* # マージン削除 # */
+body{margin: 0;}
+aside{margin: 1vh 0 1vh 8px}
+.content{margin: 1vh 8px 1vh 0}
+/* # 携帯版の動作 # */
+@media screen and (max-width:1080px)
+{
+    aside{margin: 1vh 8px 0 8px}
+    .content{margin: 0 8px 1vh 8px}
+}
+
+
+/* # 全体共通 # */
 a{color: unset;}
 a{text-decoration: none;}
 a:hover, a:focus{color: rgb(15, 15, 12)}
@@ -44,7 +57,7 @@ main, .content, aside{padding: 0;}
 aside
 {
     width: 30%;
-    height: 100vh;
+    min-height: 98vh;
 }
 aside h3
 {
@@ -76,7 +89,7 @@ aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus
 .content
 {
     width: 70%;
-    min-height: 100vh;
+    min-height: 98vh;
     color: rgb(49, 47, 41);
 }
 table{width: 80%;}
@@ -112,15 +125,11 @@ a::selection{background: rgba(255, 255, 255, .70);}
     }
     aside
     {
-        width: 100%;
-        height: auto;
+        width: calc(100% - 16px);
+        min-height: auto;
         position: unset;
     }
-    .content
-    {
-        width: 100%;
-        margin: 0;
-    }
+    .content{width: calc(100% - 16px);}
     /* # 携帯版の時はLECの説明文を削除(非表示) # */
     aside p{font-size: 0;}
     /* # 携帯版の時は背景の画像を中央に表示 # */
