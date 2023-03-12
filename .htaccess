@@ -8,6 +8,9 @@ ErrorDocument 401 /lec/error/401.shtml
 ErrorDocument 402 /lec/error/402.shtml
 ErrorDocument 403 /lec/error/403.shtml
 ErrorDocument 404 /lec/error/404.shtml
+ErrorDocument 405 /lec/error/405.shtml
+ErrorDocument 406 /lec/error/406.shtml
+ErrorDocument 407 /lec/error/407.shtml
 ErrorDocument 408 /lec/error/408.shtml
 ErrorDocument 410 /lec/error/410.shtml
 ErrorDocument 414 /lec/error/414.shtml
@@ -19,6 +22,8 @@ ErrorDocument 502 /lec/error/502.shtml
 ErrorDocument 503 /lec/error/503.shtml
 ErrorDocument 504 /lec/error/504.shtml
 ErrorDocument 505 /lec/error/505.shtml
+ErrorDocument 511 /lec/error/511.shtml
+ErrorDocument 521 /lec/error/521.shtml
 
 <IfModule mime_module>
 AddType application/wasm wasm
