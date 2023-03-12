@@ -23,7 +23,6 @@ ErrorDocument 503 /lec/error/503.shtml
 ErrorDocument 504 /lec/error/504.shtml
 ErrorDocument 505 /lec/error/505.shtml
 ErrorDocument 511 /lec/error/511.shtml
-ErrorDocument 521 /lec/error/521.shtml
 
 <IfModule mime_module>
 AddType application/wasm wasm
