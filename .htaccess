@@ -5,9 +5,14 @@ SetEnvIf Request_URI ".*" WpCommentDeny
 
 ErrorDocument 400 /lec/error/400.shtml
 ErrorDocument 401 /lec/error/401.shtml
+ErrorDocument 402 /lec/error/402.shtml
 ErrorDocument 403 /lec/error/403.shtml
 ErrorDocument 404 /lec/error/404.shtml
 ErrorDocument 408 /lec/error/408.shtml
+ErrorDocument 410 /lec/error/410.shtml
+ErrorDocument 414 /lec/error/414.shtml
+ErrorDocument 428 /lec/error/428.shtml
+ErrorDocument 451 /lec/error/451.shtml
 ErrorDocument 500 /lec/error/500.shtml
 ErrorDocument 501 /lec/error/501.shtml
 ErrorDocument 502 /lec/error/502.shtml
