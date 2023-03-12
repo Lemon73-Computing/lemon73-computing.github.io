@@ -57,6 +57,7 @@ main, .content, aside{padding: 0;}
 aside
 {
     width: 30%;
+    /*100vhから上下marginの1vh x2分減らした数値*/
     min-height: 98vh;
 }
 aside h3
@@ -89,6 +90,7 @@ aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus
 .content
 {
     width: 70%;
+    /*100vhから上下marginの1vh x2分減らした数値*/
     min-height: 98vh;
     color: rgb(49, 47, 41);
 }
@@ -134,4 +136,21 @@ a::selection{background: rgba(255, 255, 255, .70);}
     aside p{font-size: 0;}
     /* # 携帯版の時は背景の画像を中央に表示 # */
     html{background-position: center center;}
+
+    /* # # 以下はごり押し(そもそも余白を作るためにhtmlのほうでbr改行x2しているのがあんまりよくない) # # */
+    /* (paddingかmargin使って空白は作るべきだったけど、ここはごり押せるので押す(後のメンテを考えない作り)) */
+    /* # 上部分に微妙な隙間が生まれるのでbrを無効化 # */
+    aside br{display: none;}
+    /* # 逆に上部分の空白がなくなりすぎるので追加 # */
+    aside h3
+    {
+        margin: 0;
+        padding: 1em;
+    }
+
+    /* # # ↓ごり押しでは無理でした…↓ # # */
+    /* # 文字が少ない時はスクロールしなくてもいいように調整(ごり押し) # */
+    /* .content{min-height: clac(98vh - 2em(h3の上下padding分) - 3.6rem(h3の文字サイズ分));} (これではだめだったので、emとremをpxに変換↓)*/
+    /*↓172.8px=2emと3.6rem分。2emの親…h3 = 3.6rem x3(2em+元の文字分) = 3.6 x(1rem=16px) x3=172.8px(めっちゃごり押し)*/
+    /*.content{min-height: clac(98vh - 172.8px);} (これでもダメでした…。負の数が出る可能性があるからかな？)*/
 }
