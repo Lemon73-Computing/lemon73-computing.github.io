@@ -59,6 +59,8 @@ aside
     width: 30%;
     /*100vhから上下marginの1vh x2分減らした数値*/
     min-height: 98vh;
+    height: auto;
+    position: unset;
 }
 aside h3
 {
