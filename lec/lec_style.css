@@ -30,18 +30,9 @@
     h1
     {
         padding: 1rem 2rem;
-        background: white;
-        -webkit-box-shadow: 5px 5px 0 rgb(226, 226, 0);
-        box-shadow: 5px 5px 0 rgb(226, 226, 0);
-
+        background: unset;
         color:white;
-        font-weight: bold;
-        display: inline-block;
-        background: linear-gradient(45deg, #97a100, #00ac00 20%, #0095af 90%);
-        -webkit-background-clip: text;
-                background-clip: text;
-        -webkit-text-fill-color: transparent;
     }
 
-    h2{background: rgb(160, 160, 0);}
+    h2{background: unset;}
 }
