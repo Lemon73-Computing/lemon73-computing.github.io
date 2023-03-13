@@ -17,8 +17,8 @@ html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
 {
     html
     {
-      background-color: rgb(0, 0, 20);
-      color: #fafaff;
+      background-color: rgb(12, 12, 12);
+      color: rgb(250, 250, 255);
     }
 }
 
@@ -65,7 +65,7 @@ aside
 /* # ライトモード # */
 @media (prefers-color-scheme: light){footer{background-color: whitesmoke;}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){footer{background-color: rgb(0, 0, 40);}}
+@media (prefers-color-scheme: dark){footer{background-color: rgba(255, 255, 255, .05);}}
 
 /* # # フッター下固定 # # */
 .conteiner
@@ -84,7 +84,7 @@ h1{font-size: 3.2rem;}
 h2
 {
     -webkit-box-shadow: 5px 5px 0 white;
-    box-shadow: 5px 5px 0 white;
+    box-shadow: 0px 5px 0 white;
     font-size: 2.4rem;
 }
 h3{font-size: 1.8rem;}
@@ -96,18 +96,16 @@ footer b p{font-size: 1.2rem}
 /* # ライトモード # */
 @media (prefers-color-scheme: light){a{color: green;}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){a{color: greenyellow;}}
+@media (prefers-color-scheme: dark){a{color: #d0adf0;}}
 /*マウスカーソルが乗っているときの色変更*/
 /* # ライトモード # */
 @media (prefers-color-scheme: light){a:hover, a:focus{color: #006300;}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){a:hover, a:focus{color: rgb(213, 255, 151);}}
+@media (prefers-color-scheme: dark){a:hover, a:focus{color: #9e9eff;}}
 
 /*左追従バーの動きについて*/
 aside p a
 {
-    /*Greenだとコントラスト比が足りないため*/
-    color: #006300;
     /*下線無効化*/
     text-decoration: none;
     display: flex;
@@ -119,15 +117,28 @@ aside p a
 aside p:hover, aside p:focus
 {
     transform: translate(0, -3px);
-    opacity: 0.7;
     box-shadow:0px 1px 8px 4px whitesmoke;
-    color: #003000;
+    opacity: 0.7;
 }
 /* # ダークモード # */
 @media (prefers-color-scheme: dark)
 {
-    aside p a {color: greenyellow;}
-    aside p:hover, aside p:focus{color: rgb(213, 255, 151);}
+    aside p{opacity: 0.7;}
+    aside p:hover, aside p:focus{opacity: 1.0;}
+}
+
+
+/* # ライトモード # */
+@media (prefers-color-scheme: light)
+{
+    aside p a {color: #006300;}
+    aside p a:hover, aside p a:focus{color: #003000;}
+}
+/* # ダークモード # */
+@media (prefers-color-scheme: dark)
+{
+    aside p a {color: #d0adf0;}
+    aside p a:hover, aside p a:focus{color: #9e9eff;}
 }
 
 
