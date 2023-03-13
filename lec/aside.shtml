@@ -1,8 +1,8 @@
 <aside>
                 <p style="background-color: paleturquoise; border-radius: 8px;">専門事業一覧</p><br>
                 <p style="background-color: lemonchiffon; border-radius: 8px;"><a href="/">LEC本部</a></p>
-                <p style="background-color: mistyrose; border-radius: 8px;"><a href="/kiss/kiss_main.shtml">KISS</a></p>
-                <p style="background-color: lightpink; border-radius: 8px;"><a href="/coi/coi_main.shtml">COI</a></p>
-                <p style="background-color: lightcyan; border-radius: 8px;"><a href="/neo/neo_main.shtml">NEO</a></p>
+                <p style="background-color: mistyrose; border-radius: 8px;"><a href="/kiss/kiss_main">KISS</a></p>
+                <p style="background-color: lightpink; border-radius: 8px;"><a href="/coi/coi_main">COI</a></p>
+                <p style="background-color: lightcyan; border-radius: 8px;"><a href="/neo/neo_main">NEO</a></p>
                 <p style="background-color: lightgreen; border-radius: 8px;"><a href="/lfa/">LFA</a></p>
             </aside>
