@@ -32,8 +32,6 @@
 		<style>
 			table tr th p a, table tr td p a, table tr th p, table tr td p
 			{
-				/*Greenだとコントラスト比が足りないため*/
-				color: #006300;
 				/*下線無効化*/
 				text-decoration: none;
 				display: flex;
@@ -47,15 +45,38 @@
 				padding: 0px;
 				height: 0px;
 			}
-			table tr th p a:hover, table tr td p a:hover{color: #003000;}
 			table tr td p:hover, table tr td p:focus
 			{
-				opacity: 0.7;
 				box-shadow:0px 1px 8px 4px whitesmoke;
+				opacity: 0.7;
+			}
+			/* # ダークモード # */
+			@media (prefers-color-scheme: dark)
+			{
+				.link table tr td p, table tr td p{opacity: 0.7;}
+				.link table tr td p:hover, table tr td p:focus{opacity: 1.0;}
+			}
+
+			/* # ライトモード # */
+			@media (prefers-color-scheme: light)
+			{
+				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #006300;}
+				table tr th p a:hover, table tr td p a:hover{color: #003000;}
+			}
+			/* # ダークモード # */
+			@media (prefers-color-scheme: dark)
+			{
+				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #d0adf0;}
+				table tr th p a:hover, table tr td p a:hover{color: #9e9eff;}
+			}
+
+			.link table tr td p
+			{
+				border-radius: 5px;
+				transition: 0.3s all;
 			}
 			.link table tr td p a{font-size: 1.4rem;}
 			@media screen and (max-width:1080px){.link table tr td p a{font-size: 3.0rem;}}
-
 
 			/* # # 携帯(縦)でのアクセス用(文字表記) # # */
 			@media screen and (max-width:1080px)
@@ -63,6 +84,18 @@
 				table tr th p{font-size: 1.6rem;}
 				table tr td p{font-size: 1.6rem;}
 			}
+
+			/* # ライトモード # */
+			@media (prefers-color-scheme: light)
+			{
+				table tr th{background-color: mintcream;}
+			}
+			/* # ダークモード # */
+			@media (prefers-color-scheme: dark)
+			{
+				table tr th{background-color: unset;}
+			}
+
 		</style>
 	</head>
 
@@ -88,14 +121,14 @@
 					<table width="100%" cellpading="5px">
 						<tr>
 							<td width="20%"></td>
-							<td width="30%"><p style="background-color: mistyrose; border-radius: 5px; transition: 0.3s all;"><a href="kiss/kiss_main.shtml">KISS</a></p></td>
-							<td width="30%"><p style="background-color: lightpink; border-radius: 5px; transition: 0.3s all;"><a href="coi/coi_main.shtml">COI</a></p></td>
+							<td width="30%"><p style="background-color: mistyrose;"><a href="kiss/kiss_main.shtml">KISS</a></p></td>
+							<td width="30%"><p style="background-color: lightpink;"><a href="coi/coi_main.shtml">COI</a></p></td>
 							<td width="20%"></td>
 						</tr>
 						<tr>
 							<td width="20%"></td>
-							<td width="30%"><p style="background-color: lightcyan; border-radius: 5px; transition: 0.3s all;"><a href="neo/neo_main.shtml">NEO</a></p></td>
-							<td width="30%"><p style="background-color: lightgreen; border-radius: 5px; transition: 0.3s all;"><a href="lfa/">LFA</a></p></td>
+							<td width="30%"><p style="background-color: lightcyan;"><a href="neo/neo_main.shtml">NEO</a></p></td>
+							<td width="30%"><p style="background-color: lightgreen;"><a href="lfa/">LFA</a></p></td>
 							<td width="20%"></td>
 						</tr>
 					</table>
@@ -139,7 +172,7 @@
 				<!-- # 表 # -->
 				<table width="100%" cellpadding="5">
 					<!-- # 1列目 # -->
-					<tr bgcolor="mintcream">
+					<tr>
 						<th width="15%"><b>コメント系</b></th>
 						<th width="15%"><b> ゲーム系 </b></th>
 						<th width="15%"><b>サーバー型</b></th>
