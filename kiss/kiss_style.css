@@ -1,20 +1,24 @@
 @charset "UTF-8";
 
-/* # # 文字表記に関して # # */
-h1
+/* # ライトモード # */
+@media (prefers-color-scheme: light)
 {
-    padding: 1rem 2rem;
-    background: white;
-    -webkit-box-shadow: 5px 5px 0 mistyrose;
-    box-shadow: 5px 5px 0 mistyrose;
+    /* # # 文字表記に関して # # */
+    h1
+    {
+        padding: 1rem 2rem;
+        background: white;
+        -webkit-box-shadow: 5px 5px 0 mistyrose;
+        box-shadow: 5px 5px 0 mistyrose;
 
-    color:white;
-    font-weight: bold;
-    display: inline-block;
-    background: linear-gradient(45deg, #f4ff54, #92ff92 20%, #76eaff 90%);
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
+        color:white;
+        font-weight: bold;
+        display: inline-block;
+        background: linear-gradient(45deg, #f4ff54, #92ff92 20%, #76eaff 90%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h2{background: mistyrose;}
 }
-
-h2{background: mistyrose;}

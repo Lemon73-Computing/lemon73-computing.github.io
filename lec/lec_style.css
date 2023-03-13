@@ -23,16 +23,3 @@
 
     h2{background: lemonchiffon;}
 }
-
-/* # ダークモード # */
-@media (prefers-color-scheme: dark)
-{
-    h1
-    {
-        padding: 1rem 2rem;
-        background: unset;
-        color:white;
-    }
-
-    h2{background: unset;}
-}

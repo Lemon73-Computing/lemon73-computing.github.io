@@ -3,40 +3,44 @@
 /* # # フォント # # */
 html{font-family: Meiryo, sans-serif, monospace;}
 
-/* # # 文字表記に関して # # */
-h1
+/* # ライトモード # */
+@media (prefers-color-scheme: light)
 {
-    padding: 1rem 2rem;
-    background: white;
-    -webkit-box-shadow: 5px 5px 0 whitesmoke;
-    box-shadow: 5px 5px 0 whitesmoke;
-    
-    color:white;
-    font-weight: bold;
-    display: inline-block;
-    background: linear-gradient(45deg, lightgrey, darkgrey 20%, gray 90%);
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+    /* # # 文字表記に関して # # */
+    h1
+    {
+        padding: 1rem 2rem;
+        background: white;
+        -webkit-box-shadow: 5px 5px 0 whitesmoke;
+        box-shadow: 5px 5px 0 whitesmoke;
+        
+        color:white;
+        font-weight: bold;
+        display: inline-block;
+        background: linear-gradient(45deg, lightgrey, darkgrey 20%, gray 90%);
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 
-h2{background: whitesmoke;}
+    h2{background: whitesmoke;}
 
-/* # # 範囲選択の時の文字の色 # # */
-h1::selection
-{
-    background: gainsboro;
-    color: white;
-}
+    /* # # 範囲選択の時の文字の色 # # */
+    h1::selection
+    {
+        background: gainsboro;
+        color: white;
+    }
 
-a::selection
-{
-    background: lightsteelblue;
-    color: white;
-}
+    a::selection
+    {
+        background: lightsteelblue;
+        color: white;
+    }
 
-::selection
-{
-    background: gainsboro;
-    color: white;
+    ::selection
+    {
+        background: gainsboro;
+        color: white;
+    }
 }
