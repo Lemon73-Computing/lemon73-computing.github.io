@@ -125,6 +125,7 @@ aside p:hover, aside p:focus
 {
     aside p{opacity: 0.7;}
     aside p:hover, aside p:focus{opacity: 1.0;}
+    aside p a{opacity: 1.0;}
 }
 
 /* # ライトモード # */
