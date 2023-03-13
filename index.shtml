@@ -53,21 +53,21 @@
 			/* # ダークモード # */
 			@media (prefers-color-scheme: dark)
 			{
-				.link table tr td p, table tr td p{opacity: 0.7;}
-				.link table tr td p:hover, table tr td p:focus{opacity: 1.0;}
+				.link table tr td p, .link table tr td p{opacity: 0.7;}
+				.link table tr td p:hover, .link table tr td p:focus{opacity: 1.0;}
 			}
 
 			/* # ライトモード # */
 			@media (prefers-color-scheme: light)
 			{
 				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #006300;}
-				table tr th p a:hover, table tr td p a:hover{color: #003000;}
+				table tr th p a:hover, table tr td p a:focus{color: #003000;}
 			}
 			/* # ダークモード # */
 			@media (prefers-color-scheme: dark)
 			{
 				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #d0adf0;}
-				table tr th p a:hover, table tr td p a:hover{color: #9e9eff;}
+				table tr th p a:hover, table tr td p a:focus{color: #9e9eff;}
 			}
 
 			.link table tr td p
