@@ -28,6 +28,11 @@ ErrorDocument 511 /lec/error/511.shtml
 AddType application/wasm wasm
 </IfModule>
 
+<Files ~ "¥.htaccess$">
+Header add Pragma "no-cache"
+Header set Cache-Control no-cache
+</Files>
+
 RewriteBase /
 
 RewriteEngine on
@@ -48,8 +53,3 @@ RewriteRule ^(.*)$ $1.shtml [L]
 
 RewriteCond %{THE_REQUEST} \.(shtml|html)\ HTTP
 RewriteRule ^(.*)\.(shtml|html)$ /$1 [R=301,L]
-
-<Files ~ "¥.(css|htaccess)$">
-Header add Pragma "no-cache"
-Header set Cache-Control no-cache
-</Files>
