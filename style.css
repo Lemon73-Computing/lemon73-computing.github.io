@@ -127,7 +127,6 @@ aside p:hover, aside p:focus
     aside p:hover, aside p:focus{opacity: 1.0;}
 }
 
-
 /* # ライトモード # */
 @media (prefers-color-scheme: light)
 {
@@ -141,6 +140,18 @@ aside p:hover, aside p:focus
     aside p a:hover, aside p a:focus{color: #9e9eff;}
 }
 
+/* # ダークモード # */
+@media (prefers-color-scheme: dark)
+{
+    h1
+    {
+        padding: 1rem 2rem;
+        background: unset;
+        color:white;
+    }
+
+    h2{background: unset;}
+}
 
 /* # # 携帯(縦)でのアクセス用(文字表記) # # */
 @media screen and (max-width:1080px)
@@ -164,4 +175,3 @@ a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
 }
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){::selection{background: rgba(255, 255, 255, .45);}}
-
