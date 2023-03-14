@@ -123,7 +123,11 @@ aside p:hover, aside p:focus
 /* # ダークモード # */
 @media (prefers-color-scheme: dark)
 {
-    aside p{opacity: 0.7;}
+    aside p
+    {
+        opacity: 0.8;
+        color: black;
+    }
     aside p:hover, aside p:focus{opacity: 1.0;}
     aside p a{opacity: 1.0;}
 }
@@ -137,8 +141,8 @@ aside p:hover, aside p:focus
 /* # ダークモード # */
 @media (prefers-color-scheme: dark)
 {
-    aside p a {color: #d0adf0;}
-    aside p a:hover, aside p a:focus{color: #9e9eff;}
+    aside p a {color: black;}
+    aside p a:hover, aside p a:focus{color: black;}
 }
 
 /* # ダークモード # */
@@ -166,6 +170,9 @@ aside p:hover, aside p:focus
     footer p{font-size: 1.6rem;}
     footer b p{font-size: 2.0rem;}
 }
+
+/* # 携帯のタップした一瞬の時の色を透明に変更 # */
+a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .15);}
 
 /* # # 範囲選択の時の文字の色 # # */
 /* # ライトモード # */
