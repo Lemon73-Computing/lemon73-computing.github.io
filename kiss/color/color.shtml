@@ -28,6 +28,12 @@
 		<!-- # # アイコンの設定 # # -->
 		<link rel="apple-touch-icon" sizes="1024x1024" href="../kiss_icon.png">
 		<link rel="icon" type="image/x-icon" href="../kiss_icon.png">
+        <style>
+            table{width: 90%;}
+            table tr th p{color: white;}
+            @media screen and (max-width: 1080px){table tr th p{font-size: 2.0rem;}}
+            @media screen and (max-width: 980px){table tr th p{font-size: 1.4rem;}}
+        </style>
 	</head>
 
 	<!-- #### 内容 #### -->
@@ -53,93 +59,93 @@
 
                 <!-- # LEC-CS001 # -->
                 <h3>Lemon 1200 Blue</h3>
-                <table width="90%">
+                <table>
                     <tr>
                         <th bgcolor="#b3fffa">
-                            <p style="color: white;">SKY</p>
-                            <p style="color: white;">#B3FFFA</p>
+                            <p>SKY</p>
+                            <p>#B3FFFA</p>
                         </th>
                         
                         <th bgcolor="#5152ff">
-                            <p style="color: white;">Blue</p>
-                            <p style="color: white;">#5152FF</p>
+                            <p>Blue</p>
+                            <p>#5152FF</p>
                         </th>
                         
                         <th bgcolor="#51ffe0">
-                            <p style="color: white;">B+G</p>
-                            <p style="color: white;">#51FFE0</p>
+                            <p>B+G</p>
+                            <p>#51FFE0</p>
                         </th>
                         
                         <th bgcolor="#51ffa0">
-                            <p style="color: white;">Green</p>
-                            <p style="color: white;">#51FFA0</p>
+                            <p>Green</p>
+                            <p>#51FFA0</p>
                         </th>
 
                         <th bgcolor="#85f1ff">
-                            <p style="color: white;">KDE</p>
-                            <p style="color: white;">#85F1FF</p>
+                            <p>KDE</p>
+                            <p>#85F1FF</p>
                         </th>
                     </tr>
                 </table>
                 
                 <!-- # LEC-CS002 # -->
                 <h3>Lemon 1550 Core</h3>
-                <table width="90%">
+                <table>
                     <tr>
                         <th bgcolor="#ac6aff">
-                            <p style="color: white;">Dark</p>
-                            <p style="color: white;">#AC6AFF</p>
+                            <p>Dark</p>
+                            <p>#AC6AFF</p>
                         </th>
                         
                         <th bgcolor="#8a6aff">
-                            <p style="color: white;">Core</p>
-                            <p style="color: white;">#8A6AFF</p>
+                            <p>Core</p>
+                            <p>#8A6AFF</p>
                         </th>
                         
                         <th bgcolor="#ff6aec">
-                            <p style="color: white;">Pink</p>
-                            <p style="color: white;">#FF6AEC</p>
+                            <p>Pink</p>
+                            <p>#FF6AEC</p>
                         </th>
                         
                         <th bgcolor="#ff6aad">
-                            <p style="color: white;">Red</p>
-                            <p style="color: white;">#FF6AAD</p>
+                            <p>Red</p>
+                            <p>#FF6AAD</p>
                         </th>
 
                         <th bgcolor="#ff6a7f">
-                            <p style="color: white;">Kill</p>
-                            <p style="color: white;">#FF6A7F</p>
+                            <p>Kill</p>
+                            <p>#FF6A7F</p>
                         </th>
                     </tr>
                 </table>
 
                 <!-- # LEC-CS003 # -->
                 <h3>Lemon 1340 Drink</h3>
-                <table width="90%">
+                <table>
                     <tr>
                         <th bgcolor="#96ffff">
-                            <p style="color: white;">H2O</p>
-                            <p style="color: white;">#96FFFF</p>
+                            <p>H2O</p>
+                            <p>#96FFFF</p>
                         </th>
                         
                         <th bgcolor="#96ffbd">
-                            <p style="color: white;">Drug</p>
-                            <p style="color: white;">#96FFBD</p>
+                            <p>Drug</p>
+                            <p>#96FFBD</p>
                         </th>
                         
                         <th bgcolor="#ffc896">
-                            <p style="color: white;">Fine</p>
-                            <p style="color: white;">#FFC896</p>
+                            <p>Fine</p>
+                            <p>#FFC896</p>
                         </th>
                         
                         <th bgcolor="#a696ff">
-                            <p style="color: white;">Sky</p>
-                            <p style="color: white;">#A696FF</p>
+                            <p>Sky</p>
+                            <p>#A696FF</p>
                         </th>
 
                         <th bgcolor="#f9ff96">
-                            <p style="color: white;">LEC</p>
-                            <p style="color: white;">#F0FF96</p>
+                            <p>LEC</p>
+                            <p>#F0FF96</p>
                         </th>
                     </tr>
                 </table>
