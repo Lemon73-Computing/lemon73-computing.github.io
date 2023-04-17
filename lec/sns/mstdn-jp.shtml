@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<!--
+ ________________
+/   ____  ____   \
+|  / __ \/ __ \  |
+|  | | |  | | |  |
+|  |_| |__| |_|  |
+\_     __________/
+  \_   \___
+    \______|
+    -----------
+     |LEC SNS|
+    -----------
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>Mstdn.jp | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="sns.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # メイン部分 # # -->
+		<main>
+			<!-- # # 左画面 # # -->
+			<!-- # # ファイル外部化 # # -->
+			<!--#include virtual="left-lec.shtml"-->
+
+			<!-- # # 右画面 # # -->
+			<div class="content">
+				<!-- # # Mstdn.jpロゴ # # -->
+				<br><br>
+                <table>
+                    <tr>
+                        <!-- # Mstdn.jp公式のアイコンを利用しています # -->
+                        <th width="30%">
+							<a rel="me" href="https://mstdn.jp/web/@Lemon73"><img alt="Mstdn.jp" src="../sns_icon/mastodon-purple-official.svg" width="50%"></a>
+						</th>
+						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://mstdn.jp/web/@Lemon73">Mstdn.jp</a></p></th>
+                    </tr>
+				</table>
+				<!-- # # 説明文 # # -->
+				<table>
+					<tr>
+						<td width="20%"><p>Host</p></td>
+						<td width="80%"><p><a href="https://mstdn.jp">Mstdn.jp</a></p></td>
+					</tr>
+					<tr>
+						<td><p>管理組織</p></td>
+						<td><p><a href="https://sujitech.com">Sujitech, LLC.</a></p></td>
+					</tr>
+					<tr>
+						<td><p>説明</p></td>
+						<td>
+							<p>
+								Mstdn.jpは、Lemon73のSNSの中でも長い間運営を続けています。
+								投稿自体は頻繁には行っていませんが、TL(タイムライン)での投稿などを行っています。
+								現時点ではあまり動きはありませんが、今後動きが拡大する可能性があります。
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><p style="color:white;">----</p></td>
+						<td><p style="color:white;">---- ---- ---- ----</p></td>
+					</tr>
+					<tr>
+						<td><p>利用開始</p></td>
+						<td><p>2022/9/4</p></td>
+					</tr>
+				</table>
+			</div>
+		</main>
+	</div>
+	</center>
+</html>
