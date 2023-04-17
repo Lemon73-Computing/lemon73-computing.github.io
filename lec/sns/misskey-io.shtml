@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<!--
+  _____ _         _           
+ |     |_|___ ___| |_ ___ _ _ 
+ | | | | |_ -|_ -| '_| -_| | |
+ |_|_|_|_|___|___|_,_|___|_  |
+                         |___|
+          -----------
+           |LEC SNS|
+		  -----------
+※上記のアイコンはMisskeyのサイト内のソースコードから拝借
+-->
+
+<!-- #### 情報 #### -->
+<html lang="ja">
+	<head>
+		<!-- # # 使用する文字セット # # -->
+		<meta charset="utf-8">
+		<!-- # # ファイル外部化 # # -->
+		<!--#include virtual="../meta.shtml"-->
+		<title>Misskey.io | LEC</title>
+		<!-- # # CSSの連携 # # -->
+		<link rel="stylesheet" href="/style.css">
+		<link rel="stylesheet" href="sns.css">
+		<!-- # # アイコンの設定 # # -->
+		<link rel="apple-touch-icon" sizes="1024x1024" href="../Icon-LEC.png">
+		<link rel="icon" type="image/x-icon" href="../Icon-LEC.png">
+	</head>
+
+	<!-- #### 内容 #### -->
+	<center>
+	<div class="conteiner">
+		<!-- # # メイン部分 # # -->
+		<main>
+			<!-- # # 左画面 # # -->
+			<!-- # # ファイル外部化 # # -->
+			<!--#include virtual="left-lec.shtml"-->
+
+			<!-- # # 右画面 # # -->
+			<div class="content">
+				<!-- # # Misskey.ioロゴ # # -->
+				<br><br>
+                <table>
+                    <tr>
+                        <!-- # Misskey.io公式のアイコン(https://misskey.io/notes/8ggopmjgyg)を利用しています # -->
+                        <th width="30%">
+							<a rel="me" href="https://misskey.io/@lemon73"><img alt="Misskey.io" src="../sns_icon/misskey_io.webp" width="50%"></a>
+						</th>
+						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></p></th>
+                    </tr>
+				</table>
+				<!-- # # 説明文 # # -->
+				<table>
+					<tr>
+						<td width="20%"><p>Host</p></td>
+						<td width="80%"><p><a href="https://misskey.io">Misskey.io</a></p></td>
+					</tr>
+					<tr>
+						<td><p>管理組織</p></td>
+						<td><p><a href="https://go.misskey.io/support">Misskey HQ</a></p></td>
+					</tr>
+					<tr>
+						<td><p>説明</p></td>
+						<td>
+							<p>
+								日常的なコメントの投稿をたびたびしています。
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td><p style="color:white;">----</p></td>
+						<td><p style="color:white;">---- ---- ---- ----</p></td>
+					</tr>
+					<tr>
+						<td><p>利用開始</p></td>
+						<td><p>2023/2/25</p></td>
+					</tr>
+				</table>
+			</div>
+		</main>
+	</div>
+	</center>
+</html>
