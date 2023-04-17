@@ -56,8 +56,6 @@
                             <p>Mastodon</p>
                             <p>サーバー:<a rel="me" href="https://mstdn.jp/web/@Lemon73">Mastodon.jp</a></p>
 							<p>サーバー:<a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></p>
-							<p>Misskey</p>
-							<p>サーバー:<a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></p>
                         </th>
                         <th width="15%"></th>
                     </tr>
@@ -74,12 +72,6 @@
 				<h3><a rel="me" href="https://fedibird.com/web/accounts/109308258600511871/about">Fedibird</a></h3>
 				<p>.jpと同じく、投稿自体はあまり頻繁には行っていません。</p>
 				<p>Misskey勢に対して絵文字返答が可能なので、MastodonとMisskeyの中間の役割を果たしています。</p>
-
-				<h2>Misskey</h2>
-				<p>Misskeyは近日参加したSNSです。</p>
-
-				<h3><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></h3>
-				<p>日常的なコメントの投稿をたびたびしています。</p>
 
 			</div>
 		</main>
