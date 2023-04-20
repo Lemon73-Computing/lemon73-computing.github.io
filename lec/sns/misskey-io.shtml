@@ -45,7 +45,7 @@
                     <tr>
                         <!-- # Misskey.io公式のアイコン(https://misskey.io/notes/8ggopmjgyg)を利用しています # -->
                         <th width="30%">
-							<a rel="me" href="https://misskey.io/@lemon73"><img alt="Misskey.io" src="../sns_icon/misskey_io.webp" width="50%"></a>
+							<a rel="me" href="https://misskey.io/@lemon73"><img alt="Misskey.io" src="../sns_icon/misskey_io.webp" width="45%"></a>
 						</th>
 						<th width="70%"><p style="text-align: left;"><a rel="me" href="https://misskey.io/@lemon73">Misskey.io</a></p></th>
                     </tr>
