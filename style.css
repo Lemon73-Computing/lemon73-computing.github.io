@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* # # フォント # # */
-html{font-family: Meiryo, sans-serif, monospace, 'IBM Plex Sans';}
+html{font-family: "Meiryo", "Arial", sans-serif;}
 
 /* # ライトモード # */
 @media (prefers-color-scheme: light)
