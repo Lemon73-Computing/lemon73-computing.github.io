@@ -7,6 +7,10 @@
 新サイトは[こちら](https://lemon73.gitlab.io "LEC公式サイト")で、
 レポジトリは[こちら](https://gitlab.com/lemon73/lemon73.gitlab.io "GitLab LEC公式サイト")となっています。<br />
 
+#### 旧サイト側(こちら)の管理
+こちらのサイトもアーカイブとしていつでも見れるように調節中です。<br />
+GitHub Pagesに移管中なので、不具合が多くみられるかと思いますが、[こちら](https://lemon73-computing.github.io/LEC-MainSite/)からアクセスできます。
+
 #### 更新
 運営/管理は私、LEC代表Lemon73のみで行っています。<br />
 そのため、誤字脱字やバグの修正に時間がかかるかもしれませんがご了承ください。<br />
