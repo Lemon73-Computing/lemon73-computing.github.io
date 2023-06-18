@@ -1,7 +1,7 @@
 {
   "name": "NEO-Flomia-Web",
   "short_name": "NEO-Flomia-Web",
-  "start_url": "/neo/neo_scf/",
+  "start_url": "/LEC-MainSite/neo/neo_scf/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#03173d",
