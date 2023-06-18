@@ -2,9 +2,9 @@
 
 /* # # 背景 # # */
 /* # ライトモード # */
-@media (prefers-color-scheme: light){html{background-image: url(/lec/lf/logo/lf2301.png);}}
+@media (prefers-color-scheme: light){html{background-image: url(/LEC-MainSite/lec/lf/logo/lf2301.png);}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){html{background-image: url(/lec/lf/logo/lf2202.png);}}
+@media (prefers-color-scheme: dark){html{background-image: url(/LEC-MainSite/lec/lf/logo/lf2202.png);}}
 /* # 共通 # */
 html
 {
