@@ -1,5 +1,4 @@
 ﻿[
-  /*参考データ:https://www.colordic.org/v (YMCKはsRGB-IEC61966-2.1(RGB)→JapanColor2001Coated(YMCK)によって算出されている。)*/
   {
     "name": "Red",
     "html": "#ff0000",
