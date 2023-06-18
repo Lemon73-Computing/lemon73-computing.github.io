@@ -149,10 +149,4 @@ a::selection{background: rgba(255, 255, 255, .70);}
         margin: 0;
         padding: 1em;
     }
-
-    /* # # ↓ごり押しでは無理でした…↓ # # */
-    /* # 文字が少ない時はスクロールしなくてもいいように調整(ごり押し) # */
-    /* .content{min-height: clac(98vh - 2em(h3の上下padding分) - 3.6rem(h3の文字サイズ分));} (これではだめだったので、emとremをpxに変換↓)*/
-    /*↓172.8px=2emと3.6rem分。2emの親…h3 = 3.6rem x3(2em+元の文字分) = 3.6 x(1rem=16px) x3=172.8px(めっちゃごり押し)*/
-    /*.content{min-height: clac(98vh - 172.8px);} (これでもダメでした…。負の数が出る可能性があるからかな？)*/
 }
