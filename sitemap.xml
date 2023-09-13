@@ -3,44 +3,28 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>http://lec.starfree.jp/</loc>
+  <loc>https://Lemon73-Computing.github.io/</loc>
   <priority>1.0</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://lec.starfree.jp/kiss/kiss_main.shtml</loc>
+  <loc>https://Lemon73-Computing.github.io/kiss/</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://lec.starfree.jp/lfa/</loc>
+  <loc>https://Lemon73-Computing.github.io/coi/</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://lec.starfree.jp/lec/lf/index.shtml</loc>
+  <loc>https://Lemon73-Computing.github.io/neo/</loc>
   <priority>0.8</priority>
   <changefreq>always</changefreq>
 </url>
 <url>
-  <loc>http://lec.starfree.jp/neo/neo_scf/</loc>
-  <priority>0.8</priority>
-  <lastmod>2023-03-11T01:11:16+09:00</lastmod>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/kiss_main</loc>
-  <priority>0.7</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/lec/lf/</loc>
-  <priority>0.7</priority>
-  <changefreq>always</changefreq>
-</url>
-<url>
-  <loc>http://lec.starfree.jp/kiss/kiss_main/color/color.shtml</loc>
-  <priority>0.6</priority>
+  <loc>https://Lemon73-Computing.github.io/neo/neo_scf/</loc>
+  <priority>0.5</priority>
   <changefreq>always</changefreq>
 </url>
 
