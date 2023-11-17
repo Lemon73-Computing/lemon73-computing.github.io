@@ -33,8 +33,7 @@
 		<meta name="google-site-verification" content="qjxjTPNpRJ9eJ3o3REYWS7wwvNPpbJfZ16lF0nQ3mXg" />
 		<!-- # # テーブル専用CSS # # -->
 		<style>
-			table tr th p a, table tr td p a, table tr th p, table tr td p
-			{
+			table tr th p a, table tr td p a, table tr th p, table tr td p{
 				/*下線無効化*/
 				text-decoration: none;
 				display: flex;
@@ -43,19 +42,16 @@
 				width: 100%;
 				height: 100%;
 			}
-			table tr th, table tr td
-			{
+			table tr th, table tr td{
 				padding: 0px;
 				height: 0px;
 			}
-			table tr td p:hover, table tr td p:focus
-			{
+			table tr td p:hover, table tr td p:focus{
 				box-shadow:0px 1px 8px 4px whitesmoke;
 				opacity: 0.7;
 			}
 			/* # ダークモード # */
-			@media (prefers-color-scheme: dark)
-			{
+			@media (prefers-color-scheme: dark){
 				.link table tr td p, .link table tr td p{opacity: 0.8;}
 				.link table tr td p:hover, .link table tr td p:focus{opacity: 1.0;}
 				.link table tr td p a{color: black;}
@@ -63,20 +59,17 @@
 			}
 
 			/* # ライトモード # */
-			@media (prefers-color-scheme: light)
-			{
+			@media (prefers-color-scheme: light){
 				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #006300;}
 				table tr th p a:hover, table tr td p a:focus{color: #003000;}
 			}
 			/* # ダークモード # */
-			@media (prefers-color-scheme: dark)
-			{
+			@media (prefers-color-scheme: dark){
 				table tr th p a, table tr td p a, table tr th p, table tr td p{color: #d0adf0;}
 				table tr th p a:hover, table tr td p a:focus{color: #9e9eff;}
 			}
 
-			.link table tr td p
-			{
+			.link table tr td p{
 				border-radius: 5px;
 				transition: 0.3s all;
 			}
@@ -84,22 +77,13 @@
 			@media screen and (max-width:1080px){.link table tr td p a{font-size: 3.0rem;}}
 
 			/* # # 携帯(縦)でのアクセス用(文字表記) # # */
-			@media screen and (max-width:1080px)
-			{
+			@media screen and (max-width:1080px){
 				table tr th p{font-size: 1.6rem;}
 				table tr td p{font-size: 1.6rem;}
 			}
 
-			/* # ライトモード # */
-			@media (prefers-color-scheme: light)
-			{
-				table tr th{background-color: mintcream;}
-			}
-			/* # ダークモード # */
-			@media (prefers-color-scheme: dark)
-			{
-				table tr th{background-color: unset;}
-			}
+			@media (prefers-color-scheme: light){table tr th{background-color: mintcream;}}
+			@media (prefers-color-scheme: dark){table tr th{background-color: unset;}}
 
 		</style>
 	</head>
@@ -132,9 +116,7 @@
 					現在は<a href="https://lemon73.gitlab.io/">こちら(新サイト)</a>の参照を推奨しています。</p>
 
 				<!-- # # 専門事業 # # -->
-				<h2><b>LECの専門事業</b></h2>
-				<p>LECでは専門事業というブランドを支えています。</p>
-				<p>現時点では本部と以下の4つのブランドが相互に協力し合って運営を行っています。</p>
+				<h2>ブランド</h2>
 				<div class="link">
 					<table width="100%" cellpading="5px">
 						<tr>
@@ -151,6 +133,7 @@
 						</tr>
 					</table>
 				</div>
+				
 				<!-- # # 活動 # # -->
 				<h2>LECの活動</h2>
 
@@ -167,8 +150,8 @@
 				<p><a rel="my game" href="https://play.unity.com/p/63a5c056a7d4ed03b3f5abd7">A-Adventure3D</a></p>
 
 				<!-- # ソフト開発 # -->
-				<h3>ソフト</h3>
-				<p>LECではアプリケーションソフトウェアの開発を行っています。</p>
+				<h3>ソフトウェア</h3>
+				<p>LECでは様々なソフトウェアの開発を行っています。</p>
 				<p><a href="neo/neo_rainbow">N-SCF</a>(<a href="neo/neo_scf/">Webテスト版</a>)</p>
 
 				<!-- # 独自規格 # -->
@@ -177,12 +160,11 @@
 
 				<!-- # 文章 # -->
 				<h3><a href="lec/docs/">資料</a></h3>
-				<p>このページでは資料のアーカイブを行っています。</p>
+				<p>このページでは資料公開を行っています。</p>
 
 				<!-- # 翻訳 # -->
 				<h3>翻訳</h3>
-				<p>LECでは、KDEのOSやソフトウェア、Wikiなどの日本語翻訳の協力を行っています。</p>
-				<p>また、<a rel="me" href="lec/sns/qiita">Qitta</a>では翻訳に関する文章をまとめています。</p>
+				<p>KDEの日本語翻訳の協力を行っています。</p>
 
 				<!-- # SNS # -->
 				<h3><b>SNS</b></h3>
@@ -200,39 +182,39 @@
 					</tr>
 					<!-- # 2列目 # -->
 					<tr>
-						<td><p><a rel="me" href="lec/sns/fediverse">Fediverse</a></p></td>
-						<td><p><a rel="me" href="https://play.unity.com/u/Lemon73">Unity</a></p></td>
-						<td><p><a rel="my-server" href="lec/sns/discord">Discord</a></p></td>
-						<td><p><a rel="me" href="https://github.com/Lemon73-Computing">GitHub</a></p></td>
-						<td><p><a rel="me" href="lec/sns/reddit">Reddit</a></p></td>
-						<td><p><a rel="me" href="lec/sns/youtube">YouTube</a></p></td>
+						<td><p><a href="lec/sns/fediverse">Fediverse</a></p></td>
+						<td><p><a href="https://play.unity.com/u/Lemon73">Unity</a></p></td>
+						<td><p><a href="lec/sns/discord">Discord</a></p></td>
+						<td><p><a href="https://github.com/Lemon73-Computing">GitHub</a></p></td>
+						<td><p><a href="lec/sns/reddit">Reddit</a></p></td>
+						<td><p><a href="lec/sns/youtube">YouTube</a></p></td>
 					</tr>
 					<!-- # 3列目 # -->
 					<tr>
-						<td><p><a rel="me" href="https://jp.quora.com/profile/Lemon73">Quora</a></p></td>
-						<td><p><a rel="me" href="https://steamcommunity.com/profiles/76561199447542409/">Steam</a></p></td>
-						<td><p><a rel="my-server" href="https://app.element.io/#/room/#lec-main:matrix.org">Element</a></p></td>
-						<td><p><a rel="me" href="lec/sns/qiita">Qitta</a></p></td>
-						<td><p><a rel="me" href="https://www.pinterest.jp/SuperLemon73/_created/">Pinterest</a></p></td>
-						<td><p><a rel="me" href="https://www.instagram.com/lemon73_digital/">Instagram</a></p></td>
+						<td><p><a href="https://jp.quora.com/profile/Lemon73">Quora</a></p></td>
+						<td><p><a href="https://steamcommunity.com/profiles/76561199447542409/">Steam</a></p></td>
+						<td><p><a href="https://app.element.io/#/room/#lec-main:matrix.org">Element</a></p></td>
+						<td><p><a href="lec/sns/qiita">Qitta</a></p></td>
+						<td><p><a href="https://www.pinterest.jp/SuperLemon73/_created/">Pinterest</a></p></td>
+						<td><p><a href="https://www.instagram.com/lemon73_digital/">Instagram</a></p></td>
 					</tr>
 					<!-- # 4行目 # -->
 					<tr>
-						<td><p><a rel="me" href="lec/sns/mstdn-jp">Mstdn.jp</a></p></td>
+						<td><p><a href="lec/sns/mstdn-jp">Mstdn.jp</a></p></td>
 						<td></td>
-						<td><p><a rel="me" href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p></td>
-						<td><p><a rel="me" href="https://invent.kde.org/futurelemon">KDE</a></p></td>
-						<td><p><a rel="me" href="https://medibang.com/mypage/">ARTstreet</a></p></td>
-						<td><p><a rel="my-site" href="/LEC-MainSite/">公式サイト</a></p></td>
+						<td><p><a href="https://www.facebook.com/profile.php?id=100089223282478">Facebook</a></p></td>
+						<td><p><a href="https://invent.kde.org/futurelemon">KDE</a></p></td>
+						<td><p><a href="https://medibang.com/mypage/">ARTstreet</a></p></td>
+						<td><p><a href="/LEC-MainSite/">公式サイト</a></p></td>
 					</tr>
 					<!-- # 5行目 # -->
 					<tr>
-						<td><p><a rel="me" href="lec/sns/misskey-io">Misskey.io</a></p></td>
+						<td><p><a href="lec/sns/misskey-io">Misskey.io</a></p></td>
 						<td></td>
 						<td></td>
-						<td><p><a rel="me" href="https://learn.microsoft.com/ja-jp/users/lemon73/transtyle/d825jupyjmp01qg">Microsoft</a></p></td>
-						<td><p><a rel="me" href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p></td>
-						<td><p><a rel="my-site" href="http://lemonfuture.s239.xrea.com">データサイト</a></p></td>
+						<td><p><a href="https://learn.microsoft.com/ja-jp/users/lemon73/transtyle/d825jupyjmp01qg">Microsoft</a></p></td>
+						<td><p><a href="https://www.deviantart.com/lemon73neo">DeviantArt</a></p></td>
+						<td><p><a href="http://lemonfuture.s239.xrea.com">データサイト</a></p></td>
 					</tr>
 					<!-- # 6行目 # -->
 					<tr>
@@ -240,7 +222,7 @@
 						<td></td>
 						<td></td>
 						<td></td>
-						<td><p><a rel="me" href="https://krita-artists.org/u/lemon73/">Krita Artists</a></p></td>
+						<td><p><a href="https://krita-artists.org/u/lemon73/">Krita Artists</a></p></td>
 						<td></td>
 					</tr>
 				</table>
