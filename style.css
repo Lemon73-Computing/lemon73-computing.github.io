@@ -1,22 +1,21 @@
 @charset "UTF-8";
 
 /* # # フォント # # */
-html{font-family: "Meiryo", "Arial", sans-serif;}
+html{
+    font-family: "游ゴシック", "Meiryo", "Arial", sans-serif;
+    font-weight: 500;
+}
 
 /* # ライトモード # */
-@media (prefers-color-scheme: light)
-{
-    html
-    {
+@media (prefers-color-scheme: light){
+    html{
       background-color: #fff;
       color: #2f2f2f;
     }
 }
 /* # ダークモード # */
-@media (prefers-color-scheme: dark)
-{
-    html
-    {
+@media (prefers-color-scheme: dark){
+    html{
       background-color: #2f2f2f;
       color: #fff;
     }
@@ -27,15 +26,13 @@ html{font-family: "Meiryo", "Arial", sans-serif;}
 /* # # ヘッダー・フッター・追従メニュー設定 # # */
 *{box-sizing: border-box;}
 
-header, main, .content, aside, footer
-{
+header, main, .content, aside, footer{
     padding: 10px;
     width: 100%;
     height: 100%;
 }
 
-main
-{
+main{
     display: flex;
     position: relative;
     justify-content: space-between;
@@ -43,8 +40,7 @@ main
 
 .content{width: 84%;}
 
-aside
-{
+aside{
     position: sticky;
     height: 100%;
     top: 10px;
@@ -57,8 +53,7 @@ aside p{
 }
 
 /* # # 携帯(縦)でのアクセス用(追従メニューの割合) # # */
-@media screen and (max-width:1080px)
-{
+@media screen and (max-width:1080px){
     .content{width: 100%;}
     aside{width: 0%;}
     aside p{font-size: 0px;}
@@ -72,8 +67,7 @@ aside p{
 @media (prefers-color-scheme: dark){footer{background-color: rgba(255, 255, 255, .05);}}
 
 /* # # フッター下固定 # # */
-.conteiner
-{
+.conteiner{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -84,8 +78,7 @@ footer{margin-top: auto;}
 /* ----- ----- ----- ----- ----- ----- ----- ----- ----- */
 
 /* # # 文字表記に関して # # */
-h2
-{
+h2{
     -webkit-box-shadow: 5px 5px 0 #fff;
     box-shadow: 0px 5px 0 #fff;
 }
@@ -100,8 +93,7 @@ h2
 @media (prefers-color-scheme: dark){a:hover, a:focus{color: #9e9eff;}}
 
 /*左追従バーの動きについて*/
-aside p a
-{
+aside p a{
     /*下線無効化*/
     text-decoration: none;
     display: flex;
@@ -110,17 +102,14 @@ aside p a
     width: 100%;
     height: 100%;
 }
-aside p:hover, aside p:focus
-{
+aside p:hover, aside p:focus{
     transform: translate(0, -3px);
     box-shadow:0px 1px 8px 4px whitesmoke;
     opacity: 0.7;
 }
 /* # ダークモード # */
-@media (prefers-color-scheme: dark)
-{
-    aside p
-    {
+@media (prefers-color-scheme: dark){
+    aside p{
         opacity: 0.8;
         color: black;
     }
@@ -129,23 +118,19 @@ aside p:hover, aside p:focus
 }
 
 /* # ライトモード # */
-@media (prefers-color-scheme: light)
-{
+@media (prefers-color-scheme: light){
     aside p a {color: #006300;}
     aside p a:hover, aside p a:focus{color: #003000;}
 }
 /* # ダークモード # */
-@media (prefers-color-scheme: dark)
-{
+@media (prefers-color-scheme: dark){
     aside p a {color: black;}
     aside p a:hover, aside p a:focus{color: black;}
 }
 
 /* # ダークモード # */
-@media (prefers-color-scheme: dark)
-{
-    h1
-    {
+@media (prefers-color-scheme: dark){
+    h1{
         padding: 1rem 2rem;
         background: unset;
         color:#fff;
@@ -159,10 +144,9 @@ a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .15);}
 
 /* # # 範囲選択の時の文字の色 # # */
 /* # ライトモード # */
-@media (prefers-color-scheme: light)
-{
-::selection{background: rgba(175, 238, 238/*paleturquoise*/, .45);}
-a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
+@media (prefers-color-scheme: light){
+    ::selection{background: rgba(175, 238, 238/*paleturquoise*/, .45);}
+    a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
 }
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){::selection{background: rgba(255, 255, 255, .45);}}
