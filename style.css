@@ -52,6 +52,10 @@ aside
     font-size: 1.0rem;
 }
 
+aside p{
+    padding: 0.8em 0;
+}
+
 /* # # 携帯(縦)でのアクセス用(追従メニューの割合) # # */
 @media screen and (max-width:1080px)
 {
@@ -80,19 +84,11 @@ footer{margin-top: auto;}
 /* ----- ----- ----- ----- ----- ----- ----- ----- ----- */
 
 /* # # 文字表記に関して # # */
-h1{font-size: 3.2rem;}
 h2
 {
     -webkit-box-shadow: 5px 5px 0 #fff;
     box-shadow: 0px 5px 0 #fff;
-    font-size: 2.4rem;
 }
-h3{font-size: 1.8rem;}
-h5{font-size: 0.9rem;}
-h6{font-size: 0.8rem;}
-p{font-size: 1.4rem;}
-footer p{font-size: 0.8rem}
-footer b p{font-size: 1.2rem}
 /* # ライトモード # */
 @media (prefers-color-scheme: light){a{color: green;}}
 /* # ダークモード # */
@@ -156,19 +152,6 @@ aside p:hover, aside p:focus
     }
 
     h2{background: unset;}
-}
-
-/* # # 携帯(縦)でのアクセス用(文字表記) # # */
-@media screen and (max-width:1080px)
-{
-    h1{font-size: 7.6rem;}
-    h2{font-size: 5.0rem;}
-    h3{font-size: 3.6rem;}
-    h5{font-size: 1.8rem;}
-    h6{font-size: 1.6rem;}
-    p{font-size: 3.0rem;}
-    footer p{font-size: 1.6rem;}
-    footer b p{font-size: 2.0rem;}
 }
 
 /* # 携帯のタップした一瞬の時の色を透明に変更 # */
