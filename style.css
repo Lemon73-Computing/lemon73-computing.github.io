@@ -48,10 +48,6 @@ aside{
     font-size: 1.0rem;
 }
 
-aside p{
-    padding: 0.8em 0;
-}
-
 /* # # 携帯(縦)でのアクセス用(追従メニューの割合) # # */
 @media screen and (max-width:1080px){
     .content{width: 100%;}
@@ -94,7 +90,7 @@ h2{
 
 /*左追従バーの動きについて*/
 aside p a{
-    /*下線無効化*/
+    padding: 0.8em 0;
     text-decoration: none;
     display: flex;
     justify-content: center;
