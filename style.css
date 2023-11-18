@@ -141,8 +141,8 @@ a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .15);}
 /* # # 範囲選択の時の文字の色 # # */
 /* # ライトモード # */
 @media (prefers-color-scheme: light){
-    ::selection{background: rgba(175, 238, 238/*paleturquoise*/, .45);}
-    a::selection{background: rgba(152, 251, 152/*palegreen*/, .45);}
+    ::selection{background: rgba(180 255 255 /.5);}
+    a::selection{background: rgba(150 250 200 /.5);}
 }
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){::selection{background: rgba(255, 255, 255, .45);}}
