@@ -42,15 +42,30 @@
 			}
 			table tr td p:hover, table tr td p:focus{
 				border-radius: 10px;
-				box-shadow:0px 1px 8px 4px whitesmoke;
+				box-shadow: 0px 1px 8px 4px whitesmoke;
+				opacity: 0.7;
+			}
+
+			.link p{
+				margin: 36px 0;
+			}
+			.link p a{
+				padding: 12px 14%;
+				margin: 0 2%;
+				border-radius: 8px;
+				transition: 0.3s all;
+				text-decoration: none;
+			}
+			.link p a:hover,
+			.link p a:focus{
+				box-shadow: 0px 1px 8px 4px whitesmoke;
 				opacity: 0.7;
 			}
 			/* # ダークモード # */
 			@media (prefers-color-scheme: dark){
-				.link table tr td p, .link table tr td p{opacity: 0.8;}
-				.link table tr td p:hover, .link table tr td p:focus{opacity: 1.0;}
-				.link table tr td p a{color: black;}
-				.link table tr td p a:hover, .link table tr td p a:focus{color: black;}
+				.link p a{opacity: 0.8;}
+				.link p a:hover, .link p a:focus{opacity: 1.0;}
+				.link p a, .link p a:hover, .link p a:focus{color: black;}
 			}
 
 			/* # ライトモード # */
@@ -64,14 +79,8 @@
 				table tr th p a:hover, table tr td p a:focus{color: #9e9eff;}
 			}
 
-			.link table tr td p{
-				border-radius: 8px;
-				transition: 0.3s all;
-			}
-
 			@media (prefers-color-scheme: light){table tr th{background-color: mintcream;}}
 			@media (prefers-color-scheme: dark){table tr th{background-color: unset;}}
-
 		</style>
 	</head>
 
@@ -96,21 +105,16 @@
 				<p>そのため、最新情報に関しては<a href="https://lemon73.gitlab.io/">新サイト</a>を参照してください。</p>
 
 				<h2>ブランド</h2>
+
 				<div class="link">
-					<table width="100%" cellpading="8px">
-						<tr>
-							<td width="20%"></td>
-							<td width="30%"><p style="background-color: mistyrose;"><a href="/LEC-MainSite/kiss/">KISS</a></p></td>
-							<td width="30%"><p style="background-color: lightpink;"><a href="/LEC-MainSite/coi/">COI</a></p></td>
-							<td width="20%"></td>
-						</tr>
-						<tr>
-							<td width="20%"></td>
-							<td width="30%"><p style="background-color: lightcyan;"><a href="/LEC-MainSite/neo/">NEO</a></p></td>
-							<td width="30%"><p style="background-color: lightgreen;"><a href="/LEC-MainSite/lfa/">LFA</a></p></td>
-							<td width="20%"></td>
-						</tr>
-					</table>
+					<p>
+						<a style="background-color: mistyrose;" href="/LEC-MainSite/kiss/">KISS</a>
+						<a style="background-color: lightpink;" href="/LEC-MainSite/coi/">COI</a>
+					</p>
+					<p>
+						<a style="background-color: lightcyan;" href="/LEC-MainSite/neo/">NEO</a>
+						<a style="background-color: lightgreen;" href="/LEC-MainSite/lfa/">LFA</a>
+					</p>
 				</div>
 				
 				<h2>LECの活動</h2>
