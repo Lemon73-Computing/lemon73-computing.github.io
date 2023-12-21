@@ -50,7 +50,6 @@ aside{
     top: 10px;
     width: 16%;
     height: 100%;
-    font-size: 1.0rem;
 }
 
 /* # # 携帯(縦)でのアクセス用(追従メニューの割合) # # */
@@ -159,9 +158,9 @@ a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .2);}
 
 /* # # 背景 # # */
 /* # ライトモード # */
-@media (prefers-color-scheme: light){html{background-image: url(/LEC-MainSite/lec/lf/logo/lf2301.png);}}
+@media (prefers-color-scheme: light){html{background-image: url(../lf/img/lf2301.png);}}
 /* # ダークモード # */
-@media (prefers-color-scheme: dark){html{background-image: url(/LEC-MainSite/lec/lf/logo/lf2202.png);}}
+@media (prefers-color-scheme: dark){html{background-image: url(../lf/img/lf2202.png);}}
 /* # 共通 # */
 html
 {
@@ -226,7 +225,6 @@ aside h3
 }
 aside p
 {
-    font-size: 1.0rem;
     color: white;
     width: 70%;
 }
@@ -263,11 +261,6 @@ table{width: 80%;}
 table tr th p{font-size: 1.4rem;}
 table tr td p{font-size: 1.2rem;}
 /* # # 携帯版 # # */
-@media screen and (max-width:1080px)
-{
-    table tr th p{font-size: 2.8rem;}
-    table tr td p{font-size: 2.4rem;}
-}
 
 /* # 選択時の色を白に変更 # */
 ::selection{background: rgba(255, 255, 255, .70);}
