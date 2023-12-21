@@ -21,10 +21,5 @@ We can see [new url][lec-main] as an archive every time. / [新しいURL][lec-ma
 
 [CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons License BY-SA 4.0"
 
-## Dev / 開発構成など
-#### [Main / メイン][lec-main]
-- Framework: None / なし
+## Tech / 開発構成
 - Languages: HTML+CSS
-#### [N-SCF](https://lemon73-computing.github.io/LEC-MainSite/neo/neo_scf/ "NEO Sky Colors + Flomia")
-- Framework: Blazor WebAssembly(.NET6)
-- Languages: HTML + CSS + C#
