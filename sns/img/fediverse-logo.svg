@@ -58,6 +58,27 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
+  <style>
+   @media (prefers-color-scheme: dark){
+      #path9722,
+      #path9729,
+      #path9713,
+      #path1015,
+      #path1674,
+      #path1676,
+      #path1678,
+      #path1680,
+      #path9758,
+      #path9760,
+      #path817,
+      #path819,
+      #path823,
+      #path825,
+      #path827{
+         fill: #fff !important;
+      }
+   }
+   </style>
   <g
      inkscape:groupmode="layer"
      id="layer2"
