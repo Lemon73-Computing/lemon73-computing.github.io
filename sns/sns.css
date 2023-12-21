@@ -178,7 +178,6 @@ html::before
 {
     background: inherit;
     content: '';
-    filter: blur(6px);
     position: absolute;
     top: -5px;
     right: 0;
@@ -255,6 +254,11 @@ table{width: 80%;}
 .conteiner
 {
     min-height: 100vh;
+}
+
+.content,
+aside{
+    backdrop-filter: blur(6px);
 }
 
 /* # テーブル内の文字サイズ # */
