@@ -2,8 +2,8 @@
 This is source code of [LEC old website][lec-main] (Archive). / [旧LECメインサイト][lec-main] (アーカイブ)のソースコードです。
 
 > [!warning]
-> This site is exist to support huge update. / こちらのサイトの大型更新は終了しました。<br />
-> Now, I have been writing latest information in [new site](https://lemon73.gitlab.io). / 現在、最新情報は[新サイト](https://lemon73.gitlab.io "LEC公式サイト")([レポジトリ](https://gitlab.com/lemon73/lemon73.gitlab.io "LEC official site | GitLab"))
+> This website was exist to support huge update. / こちらのサイトの大型更新は終了しました。<br />
+> Now, I have been writing latest information on [new site](https://lemon73.gitlab.io). / 現在、最新情報は[新サイト](https://lemon73.gitlab.io "LEC公式サイト")([レポジトリ](https://gitlab.com/lemon73/lemon73.gitlab.io "LEC official site | GitLab"))
 のほうに記載しています。
 
 > [!note]
