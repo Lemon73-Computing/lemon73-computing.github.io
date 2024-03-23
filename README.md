@@ -1,4 +1,4 @@
-# LEC Website
+# LRA Website
 This is source code of [LEC old website][lec-main] (Archive). / [旧LECメインサイト][lec-main] (アーカイブ)のソースコードです。
 
 > [!warning]
