@@ -162,8 +162,7 @@ a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .2);}
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){html{background-image: url(../lf/img/lf2202.png);}}
 /* # 共通 # */
-html
-{
+html{
     max-width: 100%;
     min-height: 100vh;
     /*background-color: rgb(5, 2, 22);*/
@@ -174,8 +173,7 @@ html
     position: relative;
 }
 /*背景ぼかし*/
-html::before
-{
+html::before{
     background: inherit;
     content: '';
     position: absolute;
@@ -196,7 +194,6 @@ aside{margin: 1vh 0 1vh 8px}
     .content{margin: 0 8px 1vh 8px}
 }
 
-
 /* # 全体共通 # */
 a{color: unset;}
 a{text-decoration: none;}
@@ -209,30 +206,41 @@ main, .content, aside{padding: 0;}
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){aside{background-color: rgba(10, 10, 10, .60);}}
 /* # 共通 # */
-aside
-{
+aside{
     width: 30%;
     /*100vhから上下marginの1vh x2分減らした数値*/
     min-height: 98vh;
     height: auto;
     position: unset;
+    backdrop-filter: blur(6px);
 }
-aside h3
-{
+aside h3{
     color: white;
     width: 80%;
+    padding: 0.4em 0;
+    border-radius: 8px;
 }
-aside p
-{
+aside h3 a{
+    display: block;
+    border-radius: 12px;
+}
+aside p{
     color: white;
-    width: 70%;
+    width: 80%;
+    padding: 0 3%;
+    border-radius: 8px;
 }
-/*サイドバーh3を光らせる*/
-aside h3:hover, aside h3:focus{box-shadow:0px 1px 8px 4px whitesmoke;}
-/*サイドバーPを動かさない*/
-aside p:hover, aside p:focus{transform: unset;}
-aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus
-{
+
+aside h3:hover,
+aside h3:focus{
+    box-shadow:0px 1px 8px 4px whitesmoke;
+}
+/* サイドバー p を動かさない */
+aside p:hover,
+aside p:focus{
+    transform: unset;
+}
+aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus{
     color: white;
     opacity: 1.0;
 }
@@ -243,52 +251,42 @@ aside p:hover, aside p:focus, aside h3 a:hover, aside h3 a:focus
 /* # ダークモード # */
 @media (prefers-color-scheme: dark){.content{background-color: rgba(220, 220, 220, 0.9);}}
 /* # 共通 # */
-.content
-{
+.content{
     width: 70%;
     /*100vhから上下marginの1vh x2分減らした数値*/
     min-height: 98vh;
     color: rgb(49, 47, 41);
+    backdrop-filter: blur(6px);
 }
 table{width: 80%;}
-.conteiner
-{
+.conteiner{
     min-height: 100vh;
-}
-
-.content,
-aside{
-    backdrop-filter: blur(6px);
 }
 
 /* # テーブル内の文字サイズ # */
 table tr th p{font-size: 1.4rem;}
 table tr td p{font-size: 1.2rem;}
-/* # # 携帯版 # # */
 
 /* # 選択時の色を白に変更 # */
 ::selection{background: rgba(255, 255, 255, .70);}
 a::selection{background: rgba(255, 255, 255, .70);}
 
 /* # # 携帯版の動作(サイドバーを上に移動する) # # */
-@media screen and (max-width:1080px)
-{
-    main
-    {
+@media screen and (max-width:1080px){
+    main{
         display: block;
         margin: 0;
         padding: 0;
         max-width: 100%;
         min-width: initial;
     }
-    aside
-    {
+    aside{
         width: calc(100% - 16px);
         min-height: auto;
         position: unset;
     }
     .content{width: calc(100% - 16px);}
-    /* # 携帯版の時はLECの説明文を削除(非表示) # */
+    /* # 携帯版の時は LRA の説明文を削除(非表示) # */
     aside p{font-size: 0;}
     /* # 携帯版の時は背景の画像を中央に表示 # */
     html{background-position: center center;}
@@ -298,9 +296,10 @@ a::selection{background: rgba(255, 255, 255, .70);}
     /* # 上部分に微妙な隙間が生まれるのでbrを無効化 # */
     aside br{display: none;}
     /* # 逆に上部分の空白がなくなりすぎるので追加 # */
-    aside h3
-    {
+    aside h3{
         margin: 0;
-        padding: 1em;
+    }
+    aside h3 a{
+        padding: 0.8em;
     }
 }
