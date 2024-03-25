@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <url>
-  <loc>https://Lemon73-Computing.github.io/</loc>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite</loc>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/kiss/</loc>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/docs</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/coi/</loc>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/apps</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/neo/</loc>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/lfa</loc>
   <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/lf</loc>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/sns</loc>
+  <priority>0.4</priority>
+</url>
+<url>
+  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/old</loc>
+  <priority>0.2</priority>
 </url>
 
 </urlset>

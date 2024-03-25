@@ -1,16 +1,7 @@
-# LEC Website (Archive)
-This is source code of [LEC old website][lec-main] (Archive). / [旧LECメインサイト][lec-main] (アーカイブ)のソースコードです。
+# Lemon's Resting Area - Website
+This is source code of [LRA website][lra-main]. / [レモンの休息所 ウェブサイト][lra-main]のソースコードです。
 
-> [!warning]
-> This website was exist to support huge update. / こちらのサイトの大型更新は終了しました。<br />
-> Now, I have been writing latest information on [new site](https://lemon73.gitlab.io). / 現在、最新情報は[新サイト](https://lemon73.gitlab.io "LEC公式サイト")([レポジトリ](https://gitlab.com/lemon73/lemon73.gitlab.io "LEC official site | GitLab"))
-のほうに記載しています。
-
-> [!note]
-> This old site was desided to keep for save as the historical documention. / こちらの旧サイトは、歴史的資料保存を目的として維持することに決定しました。<br />
-> We can see [new URL][lec-main] as an archive every time. / [新しいURL][lec-main]からアーカイブとしていつでも見れるようになりました。<br />
-
-[lec-main]: https://lemon73-computing.github.io/LEC-MainSite/ "LEC old site (Archive)"
+[lra-main]: https://lemon73-computing.github.io/LEC-MainSite/ "Lemon's Resting Area - Website"
 
 ## Licenses / ライセンス
 - Text / 文章
