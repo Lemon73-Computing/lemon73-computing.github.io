@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite</loc>
+  <loc>https://Lemon73-Computing.github.io</loc>
   <priority>1.0</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/docs</loc>
+  <loc>https://Lemon73-Computing.github.io/docs</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/apps</loc>
+  <loc>https://Lemon73-Computing.github.io/apps</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/lfa</loc>
+  <loc>https://Lemon73-Computing.github.io/lfa</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/lf</loc>
+  <loc>https://Lemon73-Computing.github.io/lf</loc>
   <priority>0.8</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/sns</loc>
+  <loc>https://Lemon73-Computing.github.io/sns</loc>
   <priority>0.4</priority>
 </url>
 <url>
-  <loc>https://Lemon73-Computing.github.io/LEC-MainSite/old</loc>
+  <loc>https://Lemon73-Computing.github.io/old</loc>
   <priority>0.2</priority>
 </url>
 
