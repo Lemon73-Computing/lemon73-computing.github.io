@@ -67,3 +67,10 @@ a {
   color: var(--links-color);
   text-decoration: none;
 }
+
+/* color when we touch URL in smartphone */
+a:active{-webkit-tap-highlight-color: rgba(255, 255, 255, .2);}
+
+::selection {
+  background-color: var(--selection-color);
+}
