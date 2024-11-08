@@ -1,0 +1,69 @@
+/* ## IMPORT FONTS ## */
+
+/* IBM Plex Sans (Static 400, 500 / Italic 400, 500) */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* IBM Plex Sans JP (Static 400, 500) */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans+JP */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500&display=swap');
+
+/* Kaisei Opti (Static 400) */
+/* https://fonts.google.com/specimen/Kaisei+Opti */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+
+/* Sevillana (Static 400) */
+/* https://fonts.google.com/specimen/Sevillana */
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+/* ## IMPORT FONTS (END) ## */
+
+
+/* ## THEME COLORS ## */
+:root {
+  @media (prefers-color-scheme: light) {
+    --fonts-color: #2f2f2f;
+    --background-color: #ffffff;
+    --links-color: darkslateblue;
+    --selection-color: rgba(0, 0, 0, .2);
+  }
+  @media (prefers-color-scheme: dark) {
+    --fonts-color: #ffffff;
+    --background-color: #2f2f2f;
+    --links-color: aquamarine;
+    --selection-color: rgba(255, 255, 255, .2);
+  }
+}
+
+/* ## THEME COLORS (END) ## */
+
+:root {
+  font-family: "IBM Plex Sans JP", "IBM Plex Sans",
+               "Noto Serif Japanese", "Noto Sans",
+               "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+
+  color: var(--fonts-color);
+  /* font-family: sans-serif; */
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid var(--fonts-color);
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid var(--fonts-color);
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--links-color);
+  text-decoration: none;
+}
