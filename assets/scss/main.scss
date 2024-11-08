@@ -1,0 +1,48 @@
+// ## IMPORT FONTS ##
+
+// IBM Plex Sans (Static 400, 500 / Italic 400, 500)
+// https://fonts.google.com/specimen/IBM+Plex+Sans
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+// IBM Plex Sans JP (Static 400, 500)
+// https://fonts.google.com/specimen/IBM+Plex+Sans+JP
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500&display=swap');
+
+// Kaisei Opti (Static 400)
+// https://fonts.google.com/specimen/Kaisei+Opti
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+
+// Sevillana (Static 400)
+// https://fonts.google.com/specimen/Sevillana
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+// ## IMPORT FONTS (END) ##
+
+:root {
+  font-family: "IBM Plex Sans JP", "IBM Plex Sans",
+               "Noto Serif Japanese", "Noto Sans",
+               "Roboto", sans-serif;
+}
+
+body {
+  color: #222;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a {
+  color: #00e;
+  text-decoration: none;
+}
