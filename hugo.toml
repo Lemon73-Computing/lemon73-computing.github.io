@@ -2,6 +2,8 @@ baseURL = 'https://lemon73-computing.github.io/'
 DefaultContentLanguage = "ja"
 title = 'Lemonium'
 
+enableGitInfo = true
+
 [languages]
   [languages.en]
     weight = 10
