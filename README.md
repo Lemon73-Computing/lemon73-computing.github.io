@@ -4,7 +4,9 @@ Promoting [website] for foundation Lemon's Resting Area. Build with the Hugo sta
 
 [website]: https://lemon73-computing.github.io "Lemon's Resting Area - Website"
 
-## Building and testing the site locally
+## How to use
+
+### Building and testing the site locally
 
 Here are the steps to build site on Ubuntu-based system (tested on KDE neon 24.04):
 
@@ -21,6 +23,30 @@ hugo server
 
 # http://localhost:1313
 ```
+
+### Create new article
+
+To create an article using [the default archetype](./archetypes/default.md):
+```shell
+# Japanese
+hugo new content posts/2024/something.md
+
+# English
+hugo new content/en/posts/2024/something.md
+```
+
+To create an article using [the release note arthetype](./archetypes/releasenote.md):
+```shell
+# Japanese
+hugo new content -k releasenote posts/2024/something.md
+
+# English
+hugo new -k releasenote content/en/posts/2024/something.md
+```
+
+More information: https://gohugo.io/content-management/archetypes
+
+(About multilingual archetypes: https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
 
 ## License
 

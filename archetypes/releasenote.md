@@ -17,27 +17,27 @@ draft: true
 
 ### Windows
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### macOS
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### Linux
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### Android
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### iOS
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### Web
 
-**Support**: <!-- Target -->
+**Support**: <!-- Target version and environment -->
 
 ### Source code
 
