@@ -1,6 +1,22 @@
 baseURL = 'https://lemon73-computing.github.io/'
-languageCode = 'en-us'
+DefaultContentLanguage = "ja"
 title = 'Lemonium'
+
+enableGitInfo = true
+
+[languages]
+  [languages.en]
+    weight = 10
+    languageName = "English"
+    languageCode = 'en-us'
+    contentDir = 'content/en'
+
+  [languages.ja]
+    weight = 20
+    languageName = "Japanese"
+    languageCode = 'ja-jp'
+    contentDir = 'content/ja'
+    hasCJKLanguage = true
 
 [[menus.main]]
 name = 'Home'

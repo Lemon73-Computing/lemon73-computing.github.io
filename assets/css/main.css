@@ -49,7 +49,7 @@ body {
   color: var(--fonts-color);
   /* font-family: sans-serif; */
   line-height: 1.5;
-  margin: 1rem;
+  margin: 0 auto;
   max-width: 768px;
 }
 
