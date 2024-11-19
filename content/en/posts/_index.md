@@ -1,7 +1,18 @@
-+++
-title = 'Posts'
-date = 2023-01-01T08:30:00-07:00
-draft = false
-+++
+---
+title: Posts
+date: 2024-11-20 00:36:00+0900
+draft: false
+---
 
-Tempor est exercitation ad qui pariatur quis adipisicing aliquip nisi ea consequat ipsum occaecat. Nostrud consequat ullamco laboris fugiat esse esse adipisicing velit laborum ipsum incididunt ut enim. Dolor pariatur nulla quis fugiat dolore excepteur. Aliquip ad quis aliqua enim do consequat.
+<!--
+T-----T  ___
+|~ ~~~| /~~ --7
+| ~~~ |--T ~~/
+|~~ ~~|~ |~ / ZN
+L-----J ~|_/  ||
+   | ~~~ |    ||
+   L_____J    LJ
+  ------------
+   |LRA Docs|
+  ------------
+-->
