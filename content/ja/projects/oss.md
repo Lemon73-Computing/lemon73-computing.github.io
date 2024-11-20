@@ -178,6 +178,8 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 
 ### Simple Icons
 
+<https://simpleicons.org>
+
 - Update Kdenlive logo source ([#10179](https://github.com/simple-icons/simple-icons/pull/10179))
 
 ### .NET Workshops and Presentations
@@ -185,5 +187,7 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 - Fix typo in README.md ([#122](https://github.com/dotnet-presentations/dotnet-maui-workshop/pull/122))
 
 ### Iron Python
+
+<https://ironpython.net>
 
 - fix: typo in WhatsNewInPython36.md ([#1795](https://github.com/IronLanguages/ironpython3/pull/1795))
