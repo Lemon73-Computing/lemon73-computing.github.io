@@ -2,7 +2,11 @@
 title: <Application Name> v1.x.x Released!
 description: <Description>
 slug: <Slug>
-date: '{{ .Date }}'
+date: {{ .Date | time.Format "2006-01-02 15:04:05+0700" }}
+categories:
+    - <Application Name>
+tags:
+    - Release Note
 draft: true
 ---
 
