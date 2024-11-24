@@ -16,6 +16,10 @@
 /* https://fonts.google.com/specimen/Sevillana */
 @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
 
+/* Playpen Sans (Variable) */
+/* https://fonts.google.com/specimen/Playpen+Sans */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
 /* ## IMPORT FONTS (END) ## */
 
 
@@ -38,9 +42,10 @@
 /* ## THEME COLORS (END) ## */
 
 :root {
-  font-family: "IBM Plex Sans JP", "IBM Plex Sans",
-               "Noto Serif Japanese", "Noto Sans",
-               "Roboto", sans-serif;
+  --default-fonts: "IBM Plex Sans JP", "IBM Plex Sans",
+                   "Noto Serif Japanese", "Noto Sans",
+                   "Roboto", sans-serif;
+  font-family: var(--default-fonts);
 }
 
 body {
@@ -80,4 +85,8 @@ img {
 
 ::selection {
   background-color: var(--selection-color);
+}
+
+footer p {
+  font-family: "Playpen Sans", var(--default-fonts);
 }
