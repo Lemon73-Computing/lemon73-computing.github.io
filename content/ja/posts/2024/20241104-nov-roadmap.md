@@ -82,9 +82,9 @@ Alice Project 側としては **A**lice **Nov**el の略として、CR 計画側
 
 Anov 構文の最終的な目標は、ノベルゲーム作成だけでなく、資料作成や動画作成などの幅広い分野で利用できる汎用的なスクリプト言語です。
 
-### Alienor Protocol
+### Aliénor Protocol
 
-- 担当: Alienor Protocol (新規)
+- 担当: Aliénor Protocol (新規)
 
 動画系 SNS の開発を行います。
 
