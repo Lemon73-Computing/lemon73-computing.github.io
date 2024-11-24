@@ -48,4 +48,4 @@ SkyColors の各バージョンの公開方針についてです。
 - Lemon73 Blog[^new-website] (2024/8/5)
 - [Lemonium (ここ)](./) (2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み

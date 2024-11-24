@@ -92,4 +92,4 @@ KDE 向けの資料は、明示的な計画ではなかったため、評価が�
 - Lemon73 Blog[-new-website] (2024/3/16)
 - [Lemonium (ここ)](./) (2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み

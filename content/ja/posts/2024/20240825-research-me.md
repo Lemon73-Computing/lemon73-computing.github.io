@@ -316,4 +316,4 @@ Claude とか他にも AI はあるけど、面倒なのでやってません。
 - Lemon73 Blog[^new-website] (2024/8/26)
 - [Lemonium (ここ)](./) (2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み

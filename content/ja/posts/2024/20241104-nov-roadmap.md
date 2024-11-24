@@ -129,4 +129,4 @@ MAUI の Linux 実装を進めることを考えています。しかし、開�
 - Lemon73 Blog[^new-website] (2024/11/4)
 - [Lemonium (ここ)](./) (2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み

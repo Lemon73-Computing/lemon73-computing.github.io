@@ -41,4 +41,4 @@ Alice Novel の次期バージョン v0.9.3 のリリースを検討していま
 - Lemon73 Blog[^new-website] (EN: 2024/10/4, JP: 2024/10/5)
 - [Lemonium (ここ)](./) (EN, JP: 2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み

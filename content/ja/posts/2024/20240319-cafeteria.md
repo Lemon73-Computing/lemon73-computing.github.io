@@ -90,4 +90,4 @@ tags:
 - Lemon73 Blog[^new-website] (2024/3/19)
 - [Lemonium (ここ)](./) (2024/11/24)
 
-[new-website]: Lemonium (ここ) に移行済み
+[^new-website]: Lemonium (ここ) に移行済み
