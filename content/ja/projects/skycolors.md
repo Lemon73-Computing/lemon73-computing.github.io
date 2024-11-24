@@ -5,9 +5,23 @@ slug: skycolors
 date: 2024-11-20 01:03:00+0900
 aliases:
   - /apps/sky # from old website
+  - /old/neo # from old website
 categories:
     - Sky Colors
 ---
+
+<!--
+
+| ---------
+|    _    |
+|   /_/   |
+|         |
+--------- |
+
+------------
+ |NEO Page|
+------------
+-->
 
 <!--
                 _____    |
@@ -34,6 +48,12 @@ categories:
 現時点では[Webテスト版](https://lemon73.gitlab.io/skycolors)を公開しています。
 
 初代のデスクトップ版は公開していませんが、将来的には公開する可能性もあります。
+
+## Archived: NEO Tech
+
+NEO は Lemon Electric Computer 世代に存在したブランドです。
+
+かつては技術関連の仕事を担当しており、現在はその役割を実質的に Sky Colors に引き継いでいます。
 
 ## 活動履歴
 
