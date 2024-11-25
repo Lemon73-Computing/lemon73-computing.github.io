@@ -48,8 +48,8 @@
 
 :root {
   --default-fonts: "IBM Plex Sans JP", "IBM Plex Sans",
-                   "Noto Serif Japanese", "Noto Sans",
-                   "Roboto", sans-serif;
+                   "Noto Sans Japanese", "Noto Sans",
+                   "Ubuntu", "Roboto", Sans;
   font-family: var(--default-fonts);
   margin: 0 5%;
 }
