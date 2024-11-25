@@ -46,6 +46,7 @@
                    "Noto Serif Japanese", "Noto Sans",
                    "Roboto", sans-serif;
   font-family: var(--default-fonts);
+  margin: 0 5%;
 }
 
 body {
@@ -85,6 +86,10 @@ img {
 
 ::selection {
   background-color: var(--selection-color);
+}
+
+h1 a {
+  font-family: "Kaisei Opti", var(--default-fonts);
 }
 
 footer p {
