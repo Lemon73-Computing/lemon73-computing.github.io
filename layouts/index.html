@@ -7,7 +7,7 @@
 <h2 class="toppage-h">Information</h2>
 <!-- News and Information -->
 
-<li class="info-card">
+<div class="info-card">
     <!-- タイトルが Posts になっているページを除外 -->
     {{ range ( first 3 ( where ( where .Site.Pages "Type" "posts" ) ".Title" "!=" "Posts" )) }}
         <a href="{{ .Permalink }}">
@@ -16,7 +16,7 @@
             <p id="info-summary">{{ .Summary }}…</p>
         </a>
     {{ end }}
-</li>
+</div>
 
 <!-- タグ指定 ("未定"タグ)
 {{ range ( first 3 ( where .Site.RegularPages "Params.tags" "intersect" (slice "未定"))) }}

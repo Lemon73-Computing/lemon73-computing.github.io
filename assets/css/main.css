@@ -111,7 +111,7 @@ footer p {
 
 .info-card {
   font-family: "Kaisei Opti", var(--default-fonts);
-  list-style: none;
+  /* list-style: none; */
 
   a {
     color: var(--fonts-color);
