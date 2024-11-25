@@ -19,25 +19,40 @@ enableGitInfo = true
     contentDir = 'content/ja'
     hasCJKLanguage = true
 
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
+
 [[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+name = 'About'
+pageRef = '/about'
+weight = 50
+
+[[menus.main]]
+name = 'Projects'
+pageRef = '/projects'
+weight = 60
+
+[[menus.main]]
+name = 'Events'
+pageRef = '/events'
+weight = 70
 
 [[menus.main]]
 name = 'Posts'
 pageRef = '/posts'
-weight = 20
+weight = 80
 
 [[menus.main]]
 name = 'Categories'
 pageRef = '/categories'
-weight = 30
+weight = 90
 
 [[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
-weight = 40
+weight = 100
 
 [module]
   [module.hugoVersion]
