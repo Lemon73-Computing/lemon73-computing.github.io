@@ -30,12 +30,17 @@
     --background-color: #ffffff;
     --links-color: darkslateblue;
     --selection-color: rgba(0, 0, 0, .2);
+
+    --info-card-color: transparent;
+    --info-card-border: var(--fonts-color);
   }
   @media (prefers-color-scheme: dark) {
     --fonts-color: #ffffff;
     --background-color: #2f2f2f;
     --links-color: aquamarine;
     --selection-color: rgba(255, 255, 255, .2);
+    --info-card-color: #ffffff20;
+    --info-card-border: transparent;
   }
 }
 
@@ -76,7 +81,7 @@ a {
 
 /* color when we touch URL in smartphone */
 a:active {
-  -webkit-tap-highlight-color: rgba(255, 255, 255, .2);
+  -webkit-tap-highlight-color: transparent;
 }
 
 img {
@@ -88,10 +93,62 @@ img {
   background-color: var(--selection-color);
 }
 
+/* Header "Lemonium" */
 h1 a {
   font-family: "Kaisei Opti", var(--default-fonts);
 }
 
+/* Footer copyright */
 footer p {
   font-family: "Playpen Sans", var(--default-fonts);
 }
+
+/* Top Page */
+
+.toppage-h {
+  letter-spacing: 4px;
+}
+
+.info-card {
+  font-family: "Kaisei Opti", var(--default-fonts);
+  list-style: none;
+
+  a {
+    color: var(--fonts-color);
+    background-color: var(--info-card-color);
+    border: 1px solid var(--info-card-border);
+
+    padding: 2px 12px;
+    margin: 8px 0;
+    border-radius: 12px;
+
+    display: block;
+
+    transition: 
+      opacity 0.3s ease-in-out,
+      border-radius 0.5s ease-in-out;
+
+    #info-date {
+      font-family: "Playpen Sans", var(--default-fonts);
+      opacity: .8;
+      letter-spacing: 2px;
+      font-size: small;
+      margin-bottom: 0;
+    }    
+    #info-title {
+      color: var(--links-color);
+      font-size: large;
+      margin: 2px 0;
+    }
+    #info-summary {
+      margin-top: 4px;
+    }
+  }
+  a:hover,
+  a:focus {
+    opacity: .8;
+    border-radius: 16px;
+  }
+}
+
+/* End: Top Page */

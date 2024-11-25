@@ -4,17 +4,19 @@
 
 <p>{{ i18n "index-description" }}</p>
 
-<h2>Information</h2>
+<h2 class="toppage-h">Information</h2>
 <!-- News and Information -->
 
-<!-- タイトルが Posts になっているページを除外 -->
-{{ range ( first 3 ( where ( where .Site.Pages "Type" "posts" ) ".Title" "!=" "Posts" )) }}
-    <div style="background-color: #ffffff22;border-radius: 12px;padding: 2px 12px;margin: 8px 0;">
-        <p>{{ .Date.Format "2006.01.02" }}</p>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-        <p>{{ .Summary }}…</p>
-    </div>
-{{ end }}
+<li class="info-card">
+    <!-- タイトルが Posts になっているページを除外 -->
+    {{ range ( first 3 ( where ( where .Site.Pages "Type" "posts" ) ".Title" "!=" "Posts" )) }}
+        <a href="{{ .Permalink }}">
+            <p id="info-date">{{ .Date.Format "2006.01.02" }}</p>
+            <p id="info-title">{{ .Title }}</p>
+            <p id="info-summary">{{ .Summary }}…</p>
+        </a>
+    {{ end }}
+</li>
 
 <!-- タグ指定 ("未定"タグ)
 {{ range ( first 3 ( where .Site.RegularPages "Params.tags" "intersect" (slice "未定"))) }}
@@ -25,7 +27,7 @@
 {{ end }}
 -->
 
-<h2>About</h2>
+<h2 class="toppage-h">About</h2>
 
 <p>
     {{ i18n "index-about-1" }}<br />
