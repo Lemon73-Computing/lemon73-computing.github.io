@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+<h2>Welcome to Lemonium!</h2>
+
+<p>こちらは Lemon's Resting Area 及び Lemon73 の公式ウェブサイトです。</p>
+
+<h2>Information</h2>
+<!-- News and Information -->
+
+<!-- タイトルが Posts になっているページを除外 -->
+{{ range ( first 3 ( where ( where .Site.Pages "Type" "posts" ) ".Title" "!=" "Posts" )) }}
+    <div style="background-color: #ffffff22;border-radius: 12px;padding: 2px 12px;margin: 8px 0;">
+        <p>{{ .Date.Format "2006.01.02" }}</p>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <p>{{ .Summary }}…</p>
+    </div>
+{{ end }}
+
+<!-- タグ指定 ("未定"タグ)
+{{ range ( first 3 ( where .Site.RegularPages "Params.tags" "intersect" (slice "未定"))) }}
+<li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <p>{{ .Summary }}</p>
+</li>
+{{ end }}
+-->
+
+<h2>About</h2>
+
+<p>
+    Lemon's Resting Area (レモンの休息所) は、Lemon73 によるクリエイティブな活動を行う組織です。<br />
+    2022年3月22日より活動を開始し、現在に至るまで開発やイラストの描画をはじめとした多岐にわたる活動を行っています。
+</p>
+
+<hr />
+
+<ul>
+    <li><a href="https://www.youtube.com/@lemon73">Official YouTube</a></li>
+    <li><a href="https://misskey.io/@lemon73">Official Misskey.io</a></li>
+    <li><a href="https://github.com/Lemon73-Computing">Official GitHub</a></li>
+    <li>Contact Form (準備中)</li>
+</ul>
+
+{{ end }}
