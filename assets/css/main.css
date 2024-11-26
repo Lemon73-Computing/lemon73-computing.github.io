@@ -33,14 +33,27 @@
 
     --info-card-color: transparent;
     --info-card-border: var(--fonts-color);
+
+    --svg-color: invert(16%) sepia(5%) saturate(17%) hue-rotate(316deg) brightness(96%) contrast(91%);;
+    --link-youtube: #f38ba8;
+    --link-misskey: #a6e3a1;
+    --link-github: #bac2de;
+    --link-contact: #89b4fa;
   }
   @media (prefers-color-scheme: dark) {
     --fonts-color: #ffffff;
     --background-color: #2f2f2f;
     --links-color: aquamarine;
     --selection-color: rgba(255, 255, 255, .2);
+
     --info-card-color: #ffffff20;
     --info-card-border: transparent;
+
+    --svg-color: invert(100%) sepia(1%) saturate(7500%) hue-rotate(268deg) brightness(102%) contrast(101%);
+    --link-youtube: #e64553;
+    --link-misskey: #40a02b;
+    --link-github: #5c5f77;
+    --link-contact: #7287fd;
   }
 }
 
@@ -148,6 +161,42 @@ footer p {
   a:focus {
     opacity: .8;
     border-radius: 16px;
+  }
+}
+
+.social-links li {
+  list-style: none;
+  margin: 18px 8px;
+
+  img {
+    filter: var(--svg-color);
+    padding: 0;
+    width: 20px;
+    vertical-align: middle;
+  }
+  a {
+    color: var(--fonts-color);
+  
+    padding: 6px 12px;
+    border-radius: 6px;
+
+    transition: opacity 0.2s ease-in-out;
+  }
+  a:hover,
+  a:focus {
+    opacity: .8;
+  }
+  #link-youtube {
+    background-color: var(--link-youtube);
+  }
+  #link-misskey {
+    background-color: var(--link-misskey);
+  }
+  #link-github {
+    background-color: var(--link-github);
+  }
+  #link-contact {
+    background-color: var(--link-contact);
   }
 }
 
