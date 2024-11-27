@@ -191,16 +191,16 @@ footer p {
   a:focus {
     opacity: .8;
   }
-  #link-youtube {
+  a[href="https://www.youtube.com/@lemon73"] {
     background-color: var(--link-youtube);
   }
-  #link-misskey {
+  a[href="https://misskey.io/@lemon73"] {
     background-color: var(--link-misskey);
   }
-  #link-github {
+  a[href="https://github.com/Lemon73-Computing"] {
     background-color: var(--link-github);
   }
-  #link-contact {
+  a[href=""] {
     background-color: var(--link-contact);
   }
 }
