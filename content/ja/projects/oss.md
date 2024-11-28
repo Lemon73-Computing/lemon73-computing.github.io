@@ -8,8 +8,10 @@ aliases:
   - /social/electron-net # from old website
   - /social/kde # from old website
   - /social/others # from old website
+  - /docs/rule/002-oss # from old website
+  - /blog/ja/p/rule-002-oss/ # from old blog
 categories:
-    - OSS
+  - OSS
 ---
 
 <!--
