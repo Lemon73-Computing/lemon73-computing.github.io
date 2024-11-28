@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Lemon 1200 Blue",
+    "short-name": "LEC-CS001",
+    "color-theme": [
+      {
+        "color-name": "SKY",
+        "color-code": "#B3FFFA"
+      },
+      {
+        "color-name": "Blue",
+        "color-code": "#5152FF"
+      },
+      {
+        "color-name": "B+G",
+        "color-code": "#51FFE0"
+      },
+      {
+        "color-name": "Green",
+        "color-code": "#51FFA0"
+      },
+      {
+        "color-name": "Kool",
+        "color-code": "#85F1FF"
+      }
+    ]
+  },
+  {
+    "name": "Lemon 1550 Core",
+    "short-name": "LEC-CS002",
+    "color-theme": [
+      {
+        "color-name": "Dark",
+        "color-code": "#AC6AFF"
+      },
+      {
+        "color-name": "Core",
+        "color-code": "#8A6AFF"
+      },
+      {
+        "color-name": "Pink",
+        "color-code": "#FF6AEC"
+      },
+      {
+        "color-name": "Red",
+        "color-code": "#FF6AAD"
+      },
+      {
+        "color-name": "Kill",
+        "color-code": "#FF6A7F"
+      }
+    ]
+  },
+  {
+    "name": "Lemon 1340 Drink",
+    "short-name": "LEC-CS003",
+    "color-theme": [
+      {
+        "color-name": "H2O",
+        "color-code": "#96FFFF"
+      },
+      {
+        "color-name": "Drug",
+        "color-code": "#96FFBD"
+      },
+      {
+        "color-name": "Fine",
+        "color-code": "#FFC896"
+      },
+      {
+        "color-name": "Sky",
+        "color-code": "#A696FF"
+      },
+      {
+        "color-name": "LEC",
+        "color-code": "#F0FF96"
+      }
+    ]
+  }
+]
