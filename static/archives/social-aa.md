@@ -108,10 +108,12 @@ Misskey
 ## SNS Links
 
 - Reddit - https://www.reddit.com/user/Lemon73-Computing
-- Fediverse
+- Fediverse -> </archives/social.json>
+<!--
   - Misskey.io - https://misskey.io/@lemon73
   - Mstdn.jp - https://mstdn.jp/web/@Lemon73
   - Fediverd - https://fedibird.com/web/accounts/109308258600511871/about
+-->
 - Meta
   - Instagram - https://www.instagram.com/lemon73_digital/
   - Facebook - https://www.facebook.com/profile.php?id=100089223282478
