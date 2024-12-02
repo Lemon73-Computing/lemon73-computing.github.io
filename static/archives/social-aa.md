@@ -108,7 +108,7 @@ Misskey
 ## SNS Links
 
 - Reddit - https://www.reddit.com/user/Lemon73-Computing
-- Fediverse -> </archives/social.json>
+- Fediverse -> `/archives/social.json`
 <!--
   - Misskey.io - https://misskey.io/@lemon73
   - Mstdn.jp - https://mstdn.jp/web/@Lemon73
@@ -130,8 +130,7 @@ Misskey
   - DeviantArt - https://www.deviantart.com/lemon73neo
   - Pixiv - https://www.pixiv.net/users/102017947
 - Quora - https://jp.quora.com/profile/Lemon73
-- Websites
-  - (`/ja/about/website` or `/en/about/website`)
+- Websites -> `/ja/about/website` and `/en/about/website`
   - Lemonium (here)
   - Alice Project - https://alicenovel.web.app
   - LEC (Archived) - https://lemon73.gitlab.io
