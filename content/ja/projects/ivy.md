@@ -59,11 +59,12 @@ KISS は Lemon Electric Computer 世代に存在したブランドです。"尾�
 
 現在はその技術の全てが後継である Ivy Cafeteria に引き継がれ、活動は継続しています。
 
-- KISS ColorManager
+- KISS ColorManager[^kiss-color]
+
+[^kiss-color]: アーカイブ \([資料](/archives/kiss-color.md), [データ](/archives/kiss-color.json)\)
 
 ## 活動履歴
 
 - LEC 傘下のブランドとして KISS が設立
 - SGaCB (Silver Grass and Cherry Blossom / 尾花と桜) がシナリオ、ゲーム関連の主力機関として KISS 内に設立
 - [茶屋計画](https://lemon73-computing.github.io/blog/p/20240319-cafe-project/)によってブランドから一般組織に昇格し、組織名を Ivy Cafeteria に改名
-
