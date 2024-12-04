@@ -6,7 +6,7 @@ date: 2024-11-20 20:24:00+0900
 aliases:
   - /lfa # from old website
 categories:
-    - LFA
+  - LFA
 ---
 
 <!--

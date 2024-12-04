@@ -6,8 +6,8 @@ date: 2024-05-25 12:56:00+0900
 aliases:
   - /social # from old website
 categories:
-    - Lemon73
-    - LRA
+  - Lemon73
+  - LRA
 ---
 
 <!-- 

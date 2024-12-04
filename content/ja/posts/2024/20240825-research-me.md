@@ -6,9 +6,9 @@ date: 2024-08-25 23:06:00+0900
 aliases:
   - /blog/ja/p/20240825-research-me # from old website
 categories:
-    - Lemon Future Academy
+  - LFA
 tags:
-    - Basic research
+  - Basic research
 ---
 
 ## 概要

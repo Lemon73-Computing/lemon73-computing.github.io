@@ -6,7 +6,7 @@ date: 2024-11-28 15:41:00+0900
 aliases:
   - /old/coi # from old website
 categories:
-    - Lunar Process
+  - Lunar Process
 ---
 
 <!--

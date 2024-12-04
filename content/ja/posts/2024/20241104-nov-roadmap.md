@@ -6,7 +6,7 @@ date: 2024-11-04 16:51:00+0900
 aliases:
   - /blog/ja/p/20241104-nov-roadmap # from old website
 categories:
-    - Roadmap
+  - Roadmap
 ---
 
 霜秋の候となり寒い日々が続きますが、いかがお過ごしでしょうか。私はついに現実活動での大きな節目を迎え、こちらの活動についても再開できる目処がついた次第でございます。

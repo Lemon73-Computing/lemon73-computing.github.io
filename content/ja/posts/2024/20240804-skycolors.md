@@ -6,9 +6,7 @@ date: 2024-08-04 23:46:00+0900
 aliases:
   - /blog/ja/p/20240804-skycolors # from old website
 categories:
-    - Sky Colors
-tags:
-    - 未定
+  - Sky Colors
 ---
 
 ## 概要

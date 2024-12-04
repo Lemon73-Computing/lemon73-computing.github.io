@@ -6,8 +6,7 @@ date: 2024-11-20 00:57:00+0900
 aliases:
   - /apps/himeno # from old website
 categories:
-    - Himeno Next
-    - Himeno Flex
+  - Himeno Next
 ---
 
 <!--

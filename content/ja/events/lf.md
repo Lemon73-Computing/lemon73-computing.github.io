@@ -4,9 +4,9 @@ description: Lemon's Resting Area が開催するオンラインのイベント
 slug: lf
 date: 2023-03-08 17:52:00+0900
 categories:
-    - Events
+  - Events
 tags:
-    - LF
+  - LF
 ---
 
 <!--

@@ -7,7 +7,7 @@ aliases:
   - /ivy # from old website
   - /old/kiss # from old website
 categories:
-    - Ivy Cafeteria
+  - Ivy Cafeteria
 ---
 
 <!--

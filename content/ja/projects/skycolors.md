@@ -7,7 +7,7 @@ aliases:
   - /apps/sky # from old website
   - /old/neo # from old website
 categories:
-    - Sky Colors
+  - Sky Colors
 ---
 
 <!--

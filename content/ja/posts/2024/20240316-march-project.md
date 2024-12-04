@@ -6,9 +6,7 @@ date: 2024-03-16 14:40:00+0900
 aliases:
   - /blog/ja/p/20240316-march-project # from old website
 categories:
-    - 未定
-tags:
-    - 未定
+  - Roadmap
 ---
 
 ## 目的

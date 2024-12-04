@@ -6,8 +6,8 @@ date: 2024-11-20 00:39:00+0900
 aliases:
   - /apps/alice # from old website
 categories:
-    - Alice Project
-    - Alice Novel
+  - Alice Project
+  - Alice Novel
 ---
 
 <!--

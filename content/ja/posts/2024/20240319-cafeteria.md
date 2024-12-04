@@ -6,9 +6,7 @@ date: 2024-03-19 20:10:00+0900
 aliases:
   - /blog/ja/p/20240319-cafe-project # from old website
 categories:
-    - 未定
-tags:
-    - 未定
+  - LRA
 ---
 
 ## 概要
