@@ -27,14 +27,14 @@
 {{ end }}
 -->
 
-<h2 class="toppage-h">External Documentation</h2>
-<!-- Research & Development -->
+<h2 class="toppage-h">Research & Development</h2>
+<!-- External Documentation -->
 
 <div class="info-card">
     {{ with resources.GetRemote "https://qiita.com/Lemon73/feed" | transform.Unmarshal }}
         {{ range ( first 3 .entry ) }}
             <a href="{{ .url }}" target="_blank">
-                <p id="info-date">{{ .published | time.Format "2006.01.02" }}</p>
+                <p id="info-date">{{ .published | time.Format "2006.01.02" }} (Qiita)</p>
                 <p id="info-title">{{ .title }}</p>
                 <p id="info-summary">{{ index .content "#text" | plainify }}</p>
             </a>
