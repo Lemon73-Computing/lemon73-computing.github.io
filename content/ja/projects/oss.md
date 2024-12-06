@@ -89,7 +89,7 @@ C# を中心にしています。
 
 ### KDE
 
-<https://kde.org>
+ウェブサイト: <https://kde.org>
 
 > KDE は、デスクトップ環境を中心に、様々なデスクトップアプリケーションと、それらに必要なコンポーネントの開発を行う、国際的なオープンソースプロジェクトです。
 > 
@@ -150,6 +150,8 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 
 ### Blowfish
 
+ウェブサイト: <https://blowfish.page>
+
 > A powerful, lightweight theme for Hugo.
 > 
 > —Blowfish, [*blowfish official website*](https://blowfish.page)
@@ -160,7 +162,19 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 - Update Japanese translation ([#1383](https://github.com/nunocoracao/blowfish/pull/1383))
 - Japanese translation ([#1339](https://github.com/nunocoracao/blowfish/pull/1339))
 
+### .NET MAUI (For Linux)
+
+リポジトリ: <https://github.com/jsuarezruiz/maui-linux>
+
+> This project has the potential to really prove all the folks wrong who are whining about Microsoft not loving Linux (desktop) hard enough! It would be nice if this would be more of a community crystallization point rather than a mere pull request processor.
+> 
+> —.NET MAUI (For Linux) Team, [*#34*](https://github.com/jsuarezruiz/maui-linux/issues/34#issue-1125969445)
+
+- Bump dependencies ([#96](https://github.com/jsuarezruiz/maui-linux/pull/96))
+
 ### Electron.NET
+
+リポジトリ: <https://github.com/ElectronNET/Electron.NET>
 
 > Together, let's embark on an exciting Electron.NET adventure - stay with us!
 > 
@@ -170,9 +184,13 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 
 ### Errands
 
+リポジトリ: <https://github.com/mrvladus/Errands>
+
 - Updated: Japanese translation ([#257](https://github.com/mrvladus/Errands/pull/257))
 
 ### ~~Dolores v2~~
+
+原作者: [@harchraj8843](https://github.com/harshraj8843)
 
 (現在はプロジェクトが削除されました)
 
@@ -180,16 +198,18 @@ KDE に関する情報をまとめた資料を Zenn にて公開する予定も�
 
 ### Simple Icons
 
-<https://simpleicons.org>
+ウェブサイト: <https://simpleicons.org>
 
 - Update Kdenlive logo source ([#10179](https://github.com/simple-icons/simple-icons/pull/10179))
 
 ### .NET Workshops and Presentations
 
+リポジトリ: <https://github.com/dotnet-presentations/dotnet-maui-workshop>
+
 - Fix typo in README.md ([#122](https://github.com/dotnet-presentations/dotnet-maui-workshop/pull/122))
 
 ### Iron Python
 
-<https://ironpython.net>
+ウェブサイト: <https://ironpython.net>
 
 - fix: typo in WhatsNewInPython36.md ([#1795](https://github.com/IronLanguages/ironpython3/pull/1795))
