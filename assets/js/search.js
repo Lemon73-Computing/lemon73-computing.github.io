@@ -28,6 +28,7 @@ if (query) {
     document.getElementById('search-input').setAttribute('value', query)
 
     const idx = lunr(function () {
+        this.use(lunr.multiLanguage('en', 'ja'));
         this.ref('id')
         this.field('title', {
             boost: 15

@@ -16,9 +16,13 @@ window.store = {
 </script>
 <!-- Include Lunr and code for your search function,
 which you'll write in the next section -->
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script> <!-- Include Lunr.js with CDN -->
+<!-- Include Lunr.js with CDN -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr@2.3.9/lunr.min.js"></script>
+<!-- For Japanese -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr-languages@1.14.0/lunr.stemmer.support.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr-languages@1.14.0/tinyseg.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr-languages@1.14.0/lunr.ja.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lunr-languages@1.14.0/lunr.multi.js"></script>
 
 {{ $searchJs := resources.Get "js/search.js" | minify | fingerprint }}
 <script src="{{ $searchJs.RelPermalink }}" defer></script>
-<!-- <script src="{{ "/js/search.js" | absURL }}" defer></script> -->
-<!-- <script src="{{ "/js/search.js" | relURL }}"></script> -->
