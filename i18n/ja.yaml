@@ -15,3 +15,10 @@ index-about-2:
   other: "ページが見つかりません。"
 404-return-home-page:
   other: "トップページに戻る"
+
+search-search-site:
+  other: "サイトを検索"
+search-type-here:
+  other: "検索内容を入力してください"
+# search-no-results:
+#   other: "結果が見つかりませんでした。"

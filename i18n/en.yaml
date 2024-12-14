@@ -15,3 +15,10 @@ index-about-2:
   other: "The page you requested cannot be found."
 404-return-home-page:
   other: "Return to the home page"
+
+search-search-site:
+  other: "Search site"
+search-type-here:
+  other: "Type here to search"
+# search-no-results:
+#   other: "No results found."

@@ -1,0 +1,9 @@
+<form id="search"
+    action='{{ with .GetPage "/search" }}{{.Permalink}}{{end}}' method="get">
+    <label hidden for="search-input">{{ i18n "search-search-site" }}</label>
+    <input type="text" id="search-input" name="query"
+    placeholder="{{ i18n "search-type-here" }}" />
+    <button type="submit" value="search">
+        <img src="/images/fluent-icons/search.svg" alt="search">
+    </button>
+</form>
