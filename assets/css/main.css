@@ -92,6 +92,7 @@ footer {
 a {
   color: var(--links-color);
   text-decoration: none;
+  word-break: break-all;
 }
 
 /* color when we touch URL in smartphone */
