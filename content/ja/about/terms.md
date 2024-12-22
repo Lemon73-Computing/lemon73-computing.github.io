@@ -1,5 +1,5 @@
 ---
-title: 会則
+title: 規則
 description: 茶屋計画体制
 slug: terms
 date: 2024-05-26 21:55:15+0900
@@ -13,8 +13,10 @@ categories:
 ---
 
 > 茶屋計画体制 - The Congress of Cafeteria Initiative
+> 
+> 初版改定 (2024/12/22版)
 
-レモンの休息所の会則及び法律における管理を明記した資料。
+レモンの休息所の規則及び法律における管理を明記した資料。
 
 なお、現在の体制は2024/3/19より頒布された[茶屋計画](../../posts/2024/0319/)によって確立している。
 
@@ -27,17 +29,21 @@ categories:
 
 ### 設立
 
-レモンの休息所は、日本国憲法第21条、結社の自由を含めた自由権を規定する2022年当時の基本法規定に基づいて設立された。
+レモンの休息所は、日本国憲法第21条、結社の自由を含めた自由権を規定する2022年当時の基本法規定に基づいて設立された。[^japan-21]
+
+[^japan-21]: <https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm#:~:text=第二十一条%E3%80%80集会、結社及び言論、出版その他一切の表現の自由は、これを保障する。>
 
 ### 関連組織と小組織
 
 レモンの休息所の関連組織及び小組織を以下の組織と定める。
+
 - レモンの休息所 - Lemon's Resting Area
 - レモン研究所 - Lemon Future Academy
 - Ivy Cafeteria
 - 月計画
 - SkyColors
 - Alice Project
+- Aliénor Protocol
 
 ## 目的及び事業
 
@@ -47,13 +53,13 @@ categories:
 
 ### 事業
 
-本組織は目的達成の為、情報収集や情報公開などを行う。
+本組織は目的達成の為、積極的な活動を行う他、対外的な報告や情報収集を行う。
 
 ## スタッフ
 
 ### 役員
 
-管理者: Lemon73 ([@Lemon73-Computing](https://github.com/Lemon73-Computing))
+- 管理者: Lemon73 ([@Lemon73](https://misskey.io/@Lemon73))
 
 ## 組織運営
 
@@ -70,28 +76,30 @@ categories:
 
 ### 組織
 
-会計は、小組織の資金管理も一括して行う。
+会計は、小組織を含めた全体で資金管理を行う。
 
 ### 事業年度
 
 本組織の事業年度は毎年1/1から同年12/31までとする。
 
+<!-- 未定: なお、資金管理に関しては、確定申告の関係上4/1から翌年3/31までとする。 -->
+
 ## 附則
 
 ### 発布
 
-本会則は2024/5/26より実行する。
+本規則は2024/5/26より実行する。
 
 ## 参考
 
 - [会則 (日本 KDE)](https://jp.kde.org/community/regulations/)
 - [Estatutos (KDE ESPAÑA)](https://www.kde-espana.org/estatutos)
-- [日本国憲法 第21条 結社の自由 (衆議院)](https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm#:~:text=第二十一条%E3%80%80集会、結社及び言論、出版その他一切の表現の自由は、これを保障する。)
+- [結社の自由 (日本国憲法 第21条)](https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm#:~:text=第二十一条%E3%80%80集会、結社及び言論、出版その他一切の表現の自由は、これを保障する。)
 
 ## 頒布・改定記録
 
 - 草案 - [GitHub blog#14](https://github.com/Lemon73-Computing/blog/issues/14#issuecomment-2126447272) (2024/5/23)
 - 初版 - Lemon73 Blog[^new-website] (2024/5/26)
-- 初版 - [Lemonium (ここ)](./) (2024/12/22)
+- 初版改定 - [Lemonium (ここ)](./) (2024/12/22)
 
 [^new-website]: Lemonium (ここ) に移行済み
