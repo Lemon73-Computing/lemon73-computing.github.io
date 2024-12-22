@@ -4,12 +4,9 @@ description: Lemon's Resting Area 行動規範
 slug: code-of-conduct
 date: 2024-11-28 16:35:00+0900
 aliases:
-  - /docs/rule # from old website
   - /docs/rule/001-open-chat # from old website
-  - /blog/ja/categories/rules/ # from old blog
   - /blog/ja/p/rule-001-open-chat/ # from old blog
   - /blog/ja/p/rule-003-ideology-culture/ # from old blog
-  - /blog/ja/p/rule-004-cong-of-cafe/ # from old blog
 categories:
   - LRA
   - Rules
