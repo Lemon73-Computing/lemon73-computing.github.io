@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <!--
+    A   /--\     A 
+  /|  /    \   /| 
+  /_|_ |     | /_|_
+    |  \    /    | 
+    |   \__/     | 
+  -----------------
+  |404 Not Found|
+  -----------------
+  -->
+  <h1>404 Not Found</h1>
+  <p>{{ i18n "404-description" }}</p>
+  <p>
+    <a href="{{ .Site.Home.RelPermalink }}">
+      {{ i18n "404-return-home-page" }}
+    </a>
+  </p>
+{{ end }}
