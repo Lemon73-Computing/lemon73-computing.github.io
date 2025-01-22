@@ -21,7 +21,7 @@ Lemon's Resting Area (LRA, レモンの休息所) とは Lemon73 が設立した
 
 設立当時から分野によって組織 (現在の [Ivy Cafeteria](../projects/ivy) など) を分割しており、それらをまとめる役割や法律的な判断などを行う役割を担っています。
 
-## 活動理論
+## 活動理念
 
 [行動規範](code-of-conduct)に準じ、活動を行っています。
 
