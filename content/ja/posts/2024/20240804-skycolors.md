@@ -7,6 +7,7 @@ aliases:
   - /blog/ja/p/20240804-skycolors # from old website
 categories:
   - Sky Colors
+draft: true
 ---
 
 ## 概要
