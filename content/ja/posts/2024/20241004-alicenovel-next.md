@@ -9,6 +9,7 @@ categories:
   - Alice Novel
 tags:
   - Release schedule
+draft: true
 ---
 
 Alice Novel の次期バージョン v0.9.3 のリリースを検討しています。このリリースには CI/CD の修正、ディレクトリ構成の変更、そして依存関係の更新が含まれています。

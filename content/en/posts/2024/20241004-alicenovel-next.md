@@ -9,6 +9,7 @@ categories:
     - Alice Novel
 tags:
     - Release schedule
+draft: true
 ---
 
 I am planning to release next version, v0.9.3 of Alice Novel. That's include some CI/CD fixes, changing directory structured and dependencies update.
