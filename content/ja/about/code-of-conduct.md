@@ -72,10 +72,12 @@ L-----J ~|_/  ||
 
 私は、個人情報保護の重要性を認識し、適正に個人情報の取得、利用、提供および廃棄を行います。
 
+<!--
 ## 参考
 
 - [NEC Code of Conduct](https://jpn.nec.com/profile/corp/pdf/necway/nec_code_of_conduct.pdf)  
 (発行: 日本電気株式会社, 第4版: 2019/10月)
+-->
 
 ## 頒布・改定記録
 

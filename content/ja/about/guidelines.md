@@ -48,10 +48,12 @@ Lemon's Resting Area が長く活動していくために、皆さまに守っ�
 
 ご協力のほどよろしくお願いいたします。
 
+<!--
 ## 参考
 
 - [La prière Guidelines](https://lapriere.jp/guidelines)  
 (発行: La prière, 更新: 2022/10/9)
+-->
 
 ## 頒布・改定記録
 
