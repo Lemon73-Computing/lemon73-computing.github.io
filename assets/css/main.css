@@ -36,10 +36,14 @@
 
     /* --svg-color: invert(16%) sepia(5%) saturate(17%) hue-rotate(316deg) brightness(96%) contrast(91%); */
     --svg-color: brightness(1) invert(0);
-    --link-youtube: #f38ba8;
-    --link-misskey: #a6e3a1;
-    --link-github: #bac2de;
-    --link-contact: #89b4fa;
+    --link-youtube: transparent;
+    --link-misskey: transparent;
+    --link-github: transparent;
+    --link-contact: transparent;
+    --link-youtube-border: #e64553;
+    --link-misskey-border: #40a02b;
+    --link-github-border: #5c5f77;
+    --link-contact-border: #7287fd;
   }
   @media (prefers-color-scheme: dark) {
     --fonts-color: #ffffff;
@@ -56,6 +60,10 @@
     --link-misskey: #40a02b;
     --link-github: #5c5f77;
     --link-contact: #7287fd;
+    --link-youtube-border: transparent;
+    --link-misskey-border: transparent;
+    --link-github-border: transparent;
+    --link-contact-border: transparent;
   }
 }
 
@@ -196,15 +204,19 @@ footer p {
   }
   a[href="https://www.youtube.com/@lemon73"] {
     background-color: var(--link-youtube);
+    border: 1px solid var(--link-youtube-border);
   }
   a[href="https://misskey.io/@lemon73"] {
     background-color: var(--link-misskey);
+    border: 1px solid var(--link-misskey-border);
   }
   a[href="https://github.com/Lemon73-Computing"] {
     background-color: var(--link-github);
+    border: 1px solid var(--link-github-border);
   }
   a[href=""] {
     background-color: var(--link-contact);
+    border: 1px solid var(--link-contact-border);
   }
 }
 
