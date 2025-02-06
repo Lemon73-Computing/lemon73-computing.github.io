@@ -33,10 +33,10 @@ Alice Project とはノベルゲーム向けゲームエンジン及び周辺環
 - [Alice Novel](https://github.com/AliceNovel/AliceNovel)  
 開発中 (最新: v0.9.3) | ユーザー向けのゲーム起動エンジン (ローカル)
 - [Aqua Notes](https://github.com/AliceNovel/AquaNotes) (Alice Aqua)  
-開発中 | ユーザー向けのゲーム起動エンジン (ウェブ)
+準備中 | ユーザー向けのゲーム起動エンジン (ウェブ)
 - [Alice Console](https://github.com/AliceNovel/AliceConsole) (Alice CLI)  
-開発中 (最新: v0.2.0-preview1) | 開発者向けの Anov Syntax 読み込みライブラリ
-- [Alice Docs](https://github.com/AliceNovel/Docs)  
+開発中 (最新: v0.2.0) | 開発者向けの Anov Syntax 読み込みライブラリ
+- [Alice Docs](https://github.com/AliceNovel/AliceDocs)  
 公開中 | Alice Project の公式サイト
 - [Sample Games](https://github.com/AliceNovel/SampleGames)  
 準備中 (Novel: v0.9.0-rc1, Console: x) | サンプルゲーム
