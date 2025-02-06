@@ -36,34 +36,28 @@
 
     /* --svg-color: invert(16%) sepia(5%) saturate(17%) hue-rotate(316deg) brightness(96%) contrast(91%); */
     --svg-color: brightness(1) invert(0);
-    --link-youtube: transparent;
-    --link-misskey: transparent;
-    --link-github: transparent;
-    --link-contact: transparent;
-    --link-youtube-border: #e64553;
-    --link-misskey-border: #40a02b;
-    --link-github-border: #5c5f77;
-    --link-contact-border: #7287fd;
-  }
-  @media (prefers-color-scheme: dark) {
-    --fonts-color: #ffffff;
-    --background-color: #060618;
-    --links-color: aquamarine;
-    --selection-color: rgba(255, 255, 255, .2);
-
-    --info-card-color: #ffffff20;
-    --info-card-border: transparent;
-
-    /* --svg-color: invert(100%) sepia(1%) saturate(7500%) hue-rotate(268deg) brightness(102%) contrast(101%); */
-    --svg-color: brightness(0) invert(1);
     --link-youtube: #e64553;
     --link-misskey: #40a02b;
     --link-github: #5c5f77;
     --link-contact: #7287fd;
-    --link-youtube-border: transparent;
-    --link-misskey-border: transparent;
-    --link-github-border: transparent;
-    --link-contact-border: transparent;
+  }
+  @media (prefers-color-scheme: dark) {
+    /* Color Ref: https://dribbble.com/shots/15475209-Coffee-Shop-Mobile-Apps-Dark-Mode */
+    --fonts-color: #fcfcfc;
+    --background-color: #0b0f14;
+    /* --links-color: #ce7740; */
+    --links-color: #89dbdd;
+    --selection-color: rgba(255, 255, 255, .2);
+
+    --info-card-color: #131820;
+    --info-card-border: transparent;
+
+    /* --svg-color: invert(100%) sepia(1%) saturate(7500%) hue-rotate(268deg) brightness(102%) contrast(101%); */
+    --svg-color: brightness(0) invert(1);
+    --link-youtube: #f38ba8;
+    --link-misskey: #a6e3a1;
+    --link-github: #bac2de;
+    --link-contact: #89b4fa;
   }
 }
 
@@ -203,20 +197,16 @@ footer p {
     opacity: .8;
   }
   a[href="https://www.youtube.com/@lemon73"] {
-    background-color: var(--link-youtube);
-    border: 1px solid var(--link-youtube-border);
+    border: 1px solid var(--link-youtube);
   }
   a[href="https://misskey.io/@lemon73"] {
-    background-color: var(--link-misskey);
-    border: 1px solid var(--link-misskey-border);
+    border: 1px solid var(--link-misskey);
   }
   a[href="https://github.com/Lemon73-Computing"] {
-    background-color: var(--link-github);
-    border: 1px solid var(--link-github-border);
+    border: 1px solid var(--link-github);
   }
   a[href=""] {
-    background-color: var(--link-contact);
-    border: 1px solid var(--link-contact-border);
+    border: 1px solid var(--link-contact);
   }
 }
 
