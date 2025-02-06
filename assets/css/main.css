@@ -260,7 +260,7 @@ header {
     align-items: center;
     justify-content: center;
   }
-  nav {
+  #menu-header {
     width: 100%;
     /* visibility: hidden; */
     max-height: 0;
@@ -268,7 +268,7 @@ header {
     transition: max-height .8s ease-in-out;
     overflow: hidden;
   }
-  input[type=checkbox]:checked + nav {
+  input[type=checkbox]:checked + #menu-header {
     visibility: visible;
     max-height: 100vh;
   }
