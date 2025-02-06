@@ -47,7 +47,7 @@
     {{ end }}
 </div>
 
-<p><a href="https://qiita.com/Lemon73">See more...</a></p>
+<p><a href="https://qiita.com/Lemon73" target="_blank">See more...</a></p>
 {{ else if eq .Site.Language.Lang "en" }}
 <div class="info-card">
     {{ with resources.GetRemote "https://alicenovel.web.app/en/blog/index.xml" | transform.Unmarshal }}
@@ -61,7 +61,7 @@
     {{ end }}
 </div>
 
-<p><a href="https://alicenovel.web.app/en/blog">See more...</a></p>
+<p><a href="https://alicenovel.web.app/en/blog" target="_blank">See more...</a></p>
 {{ end }}
 
 <h2 class="toppage-h">About</h2>
