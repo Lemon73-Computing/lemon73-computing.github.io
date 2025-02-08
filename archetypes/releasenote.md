@@ -48,6 +48,6 @@ draft: true
 - [v1.x.x.zip]()
 - [v1.x.x.tar.gz]()
 
-## Destribution
+## Distribution
 
 - [Lemonium (here)](./) (EN: 20xx/x/x)

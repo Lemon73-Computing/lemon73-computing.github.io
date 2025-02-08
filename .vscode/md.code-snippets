@@ -31,6 +31,9 @@
       "  - ${5:tag}",
       "draft: ${6:true}",
       "---\n",
+      "${7:<!-- contents -->}\n",
+      "## Distribution\n",
+      "- [Lemonium (here)](./) (EN: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE)\n",
     ],
     "description": "Insert default front matter"
   },
@@ -49,6 +52,9 @@
       "  - ${5:タグ}",
       "draft: ${6:true}",
       "---\n",
+      "${7:<!-- 内容 -->}\n",
+      "## 頒布\n",
+      "- [Lemonium (ここ)](./) (JP: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE)\n",
     ],
     "description": "標準のフロントマターを挿入"
   }
