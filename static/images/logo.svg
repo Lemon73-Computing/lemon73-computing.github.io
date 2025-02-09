@@ -15,7 +15,7 @@
    }
 
    #lra1 {
-      animation: hand-writing1 1.5s linear forwards;
+      animation: hand-writing1 1.5s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
       animation-delay: 1s;
       stroke-dasharray: 500;
       stroke-dashoffset: 500;
@@ -26,8 +26,8 @@
    }
 
    #lra2 {
-      animation: hand-writing2 0.5s linear forwards;
-      animation-delay: 3s;
+      animation: hand-writing2 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+      animation-delay: 2s;
       stroke-dasharray: 200;
       stroke-dashoffset: 300;
    }
