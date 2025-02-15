@@ -34,7 +34,7 @@
   @media (prefers-color-scheme: light) {
     --fonts-color: #2f2f2f;
     --background-color: #ffffff;
-    --links-color: darkslateblue;
+    --links-color: #9c2341; /* Ref: https://dribbble.com/shots/15761499-Sakura-UI-UX-Concept */
     --selection-color: rgba(0, 0, 0, .2);
 
     --info-card-color: transparent;
