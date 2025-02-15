@@ -22,3 +22,6 @@ search-type-here:
   other: "Type here to search"
 # search-no-results:
 #   other: "No results found."
+
+lang_select_title:
+  other: "Other languages"

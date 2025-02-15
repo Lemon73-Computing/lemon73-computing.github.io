@@ -22,3 +22,6 @@ search-type-here:
   other: "検索内容を入力してください"
 # search-no-results:
 #   other: "結果が見つかりませんでした。"
+
+lang_select_title:
+  other: "その他の言語"

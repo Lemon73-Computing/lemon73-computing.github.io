@@ -15,6 +15,7 @@ Renders a menu for the given menu ID.
     <ul>
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
+    {{- partial "language-switcher.html" $page }}
   </nav>
 {{- end }}
 
