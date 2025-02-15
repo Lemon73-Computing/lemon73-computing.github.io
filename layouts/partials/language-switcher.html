@@ -1,16 +1,10 @@
-<p id="select-lang">{{ i18n "lang_select_title" }}:</p>
-<nav class="language-selector layout__language-selector">
-  <ul class="navbar">
-    {{ if .IsTranslated -}}
-      {{ range .Translations }}
-      <li><a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
-      {{ end -}}
-    {{ else -}}
-      {{ range .Site.Languages -}}
-        {{ if ne $.Site.Language.Lang .Lang }}
-        <li><a rel="alternate" href="{{ .Lang | relURL }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
+{{ if .IsTranslated -}}
+  <p id="select-lang">{{ i18n "lang_select_title" }}:</p>
+  <nav class="language-selector layout__language-selector">
+    <ul class="navbar">
+        {{ range .Translations }}
+        <li><a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
         {{ end -}}
-      {{ end -}}
-    {{ end -}}
-  </ul>
-</nav>
+    </ul>
+  </nav>
+{{ end -}}
