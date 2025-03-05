@@ -10,6 +10,7 @@ aliases:
 categories:
   - LRA
   - Rules
+draft: true
 ---
 
 > 茶屋計画体制 - The Congress of Cafeteria Initiative

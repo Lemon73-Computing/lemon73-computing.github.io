@@ -21,9 +21,11 @@ It was founded as a place where development can be enjoyed (as **Resting Area**)
 
 Recently, it reigns as the organisation that makes the legal and financial decisions for each organisation (such as Ivy Cafeteria).
 
+<!--
 ## Activity philosophy
 
 We are tracing the Code of conduct (Japanese version only).
+-->
 
 ## History
 
