@@ -10,16 +10,15 @@ draft: false
 
 We have prepared this new website for implement of mentainance and design since November, 2024, then, now new website released to the public!
 
-## AOB
+## FYI
 
-### About domain
+### Domain
 
 I intend to change the website domain into `lemoium.net`.
 
-### About old-LEC website
+### Ex-LEC Website
 
-I am going to remove the old-LEC website: `lemon73.gitlab.io`, and set as redirect to this new website.
-
+I am going to remove the ex-LEC website (`lemon73.gitlab.io`), and set as redirect to this new website.
 
 ## Distribution
 
