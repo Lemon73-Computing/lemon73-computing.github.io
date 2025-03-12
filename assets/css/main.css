@@ -1,0 +1,336 @@
+/* ## IMPORT FONTS ## */
+
+/* IBM Plex Sans (Static 400, 500 / Italic 400, 500) */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* IBM Plex Sans JP (Static 400, 500) */
+/* https://fonts.google.com/specimen/IBM+Plex+Sans+JP */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500&display=swap');
+
+/* Kaisei Opti (Static 400) */
+/* https://fonts.google.com/specimen/Kaisei+Opti */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+
+/* Sevillana (Static 400) */
+/* https://fonts.google.com/specimen/Sevillana */
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+/* Playpen Sans (Variable) */
+/* https://fonts.google.com/specimen/Playpen+Sans */
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+
+/* ## IMPORT FONTS (END) ## */
+
+
+:root {
+  --default-fonts: "IBM Plex Sans JP", "IBM Plex Sans",
+                   "Noto Sans Japanese", "Noto Sans",
+                   "Ubuntu", "Roboto", Sans;
+  font-family: var(--default-fonts);
+  margin: 0 5%;
+
+  /* ## THEME COLORS ## */
+  @media (prefers-color-scheme: light) {
+    --fonts-color: #2f2f2f;
+    --background-color: #ffffff;
+    --links-color: #9c2341; /* Ref: https://dribbble.com/shots/15761499-Sakura-UI-UX-Concept */
+    --selection-color: rgba(0, 0, 0, .2);
+
+    --info-card-color: transparent;
+    --info-card-border: var(--fonts-color);
+
+    --svg-color: brightness(1) invert(0);
+    --link-youtube: #e64553;
+    --link-misskey: #40a02b;
+    --link-github: #5c5f77;
+    --link-contact: #7287fd;
+  }
+  @media (prefers-color-scheme: dark) {
+    /* Color Ref: https://dribbble.com/shots/15475209-Coffee-Shop-Mobile-Apps-Dark-Mode */
+    --fonts-color: #fcfcfc;
+    --background-color: #0b0f14;
+    /* --links-color: #ce7740; */
+    --links-color: #89dbdd;
+    --selection-color: rgba(255, 255, 255, .2);
+
+    --info-card-color: #131820;
+    --info-card-border: transparent;
+
+    --svg-color: brightness(0) invert(1);
+    --link-youtube: #f38ba8;
+    --link-misskey: #a6e3a1;
+    --link-github: #bac2de;
+    --link-contact: #89b4fa;
+  }
+  /* ## THEME COLORS (END) ## */
+}
+
+body {
+  color: var(--fonts-color);
+  background-color: var(--background-color);
+
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid var(--fonts-color);
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid var(--fonts-color);
+  margin-top: 1rem;
+}
+
+a {
+  color: var(--links-color);
+  text-decoration: none;
+  word-break: break-all;
+}
+
+a:active {
+  /* color when we touch URL in smartphone */
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 80%;
+  padding: 0 10%;
+}
+
+::selection {
+  background-color: var(--selection-color);
+}
+
+h1,
+h2 {
+  font-family: "Kaisei Opti", var(--default-fonts);
+}
+
+/* Footer copyright */
+footer p {
+  font-family: "Playpen Sans", var(--default-fonts);
+}
+
+/* Top Page */
+
+.toppage-h {
+  letter-spacing: 4px;
+}
+
+.info-card {
+  font-family: "Kaisei Opti", var(--default-fonts);
+  /* list-style: none; */
+
+  a {
+    color: var(--fonts-color);
+    background-color: var(--info-card-color);
+    border: 1px solid var(--info-card-border);
+
+    padding: 2px 12px;
+    margin: 8px 0;
+    border-radius: 12px;
+
+    display: block;
+
+    transition: 
+      opacity 0.3s ease-in-out,
+      border-radius 0.5s ease-in-out;
+
+    #info-date {
+      font-family: "Playpen Sans", var(--default-fonts);
+      opacity: .8;
+      letter-spacing: 2px;
+      font-size: small;
+      margin-bottom: 0;
+    }    
+    #info-title {
+      color: var(--links-color);
+      font-size: large;
+      margin: 2px 0;
+    }
+    #info-summary {
+      margin-top: 4px;
+    }
+  }
+  a:hover,
+  a:focus {
+    opacity: .8;
+    border-radius: 16px;
+  }
+}
+
+.social-links {
+  padding: 0;
+  text-align: center;
+}
+
+.social-links li {
+  list-style: none;
+  margin: 18px 8px;
+
+  img {
+    filter: var(--svg-color);
+    padding: 0;
+    width: 20px;
+    vertical-align: middle;
+  }
+  a {
+    color: var(--fonts-color);
+  
+    padding: 6px 12px;
+    border-radius: 6px;
+
+    transition: opacity 0.2s ease-in-out;
+  }
+  a:hover,
+  a:focus {
+    opacity: .8;
+  }
+  a[href="https://www.youtube.com/@lemon73"] {
+    border: 1px solid var(--link-youtube);
+  }
+  a[href="https://misskey.io/@lemon73"] {
+    border: 1px solid var(--link-misskey);
+  }
+  a[href="https://github.com/Lemon73-Computing"] {
+    border: 1px solid var(--link-github);
+  }
+  a[href=""] {
+    border: 1px solid var(--link-contact);
+  }
+}
+
+/* End: Top Page */
+
+/* Header */
+
+header {
+  position: sticky;
+  z-index: 999;
+  background-color: var(--background-color);
+  width: 100%;
+  top: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-family: "Kaisei Opti", var(--default-fonts);
+
+  /* Header "Lemonium" */
+  > a {
+    font-size: xx-large;
+    margin: 8px 0;
+  }
+  input[type=checkbox] {
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    border-radius: 12px;
+    background-color: transparent;
+    cursor: pointer;
+    appearance: none;
+  }
+  input[type=checkbox]::before {
+    color: var(--fonts-color);
+    background-color: var(--info-card-color);
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--info-card-border);
+    border-radius: 12px;
+    font-size: xx-large;
+    content: "=";
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #menu-header {
+    width: 100%;
+    /* visibility: hidden; */
+    max-height: 0;
+
+    transition: max-height .8s ease-in-out;
+    overflow: hidden;
+  }
+  input[type=checkbox]:checked + #menu-header {
+    visibility: visible;
+    max-height: 100vh;
+  }
+}
+
+#menu-header ul {
+  list-style: none;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+
+  li {
+    padding: 2px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+      padding: 10px 10%;
+      width: 100%;
+    }
+  }
+}
+
+#select-lang {
+  padding: 2px 10%;
+}
+/* End: Header */
+
+/* Search Page */
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 100%;
+}
+
+input,
+button {
+  color: var(--fonts-color);
+  background-color: var(--info-card-color);
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--info-card-border);
+  border-radius: 6px;
+
+  padding: 10px 10px;
+  margin: 8px 8px;
+
+  transition: opacity 0.3s ease-in-out;
+}
+
+button:hover,
+button:focus {
+  opacity: .8;
+}
+
+button img {
+  filter: var(--svg-color);
+  padding: 0;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.small {
+  color: var(--fonts-color);
+}
+/* END Search Page */

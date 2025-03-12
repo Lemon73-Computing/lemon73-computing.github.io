@@ -1,0 +1,6 @@
+<p>
+    © Copyright licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY-SA 4.0</a>.
+    {{ if .GitInfo }}
+    Revision <a href="https://github.com/Lemon73-Computing/lemon73-computing.github.io/commit/{{ .GitInfo.Hash }}" target="_blank">{{ .GitInfo.AbbreviatedHash }}</a>.
+    {{ end }}
+</p>

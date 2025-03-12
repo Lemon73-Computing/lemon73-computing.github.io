@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<!--
+      ____
+      |  |
+     /    \
+    /      \
+   /        \
+  |__________|
+---------------
+ |LRA website|
+---------------
+-->
+
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+  {{ partial "google_analytics.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer>
+    {{ partial "footer.html" . }}
+  </footer>
+</body>
+</html>

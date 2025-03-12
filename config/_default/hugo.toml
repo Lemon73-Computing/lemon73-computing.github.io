@@ -1,0 +1,31 @@
+baseURL = 'https://lemon73-computing.github.io/'
+DefaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+title = 'Lemonium'
+
+enableGitInfo = true
+
+[languages]
+  [languages.en]
+    weight = 10
+    languageName = "English"
+    languageCode = 'en-us'
+    contentDir = 'content/en'
+
+  [languages.ja]
+    weight = 20
+    languageName = "Japanese"
+    languageCode = 'ja-jp'
+    contentDir = 'content/ja'
+    hasCJKLanguage = true
+
+# [[menus.main]] -> ./menus.{language}.toml
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-29B1VSEP30'

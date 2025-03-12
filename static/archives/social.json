@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Lemon73",
+    "username": "lemon73",
+    "host": "misskey.io",
+
+    "url": "https://misskey.io/@lemon73",
+    "uri": "https://misskey.io/users/9bn8hg2oeh",
+    "createdAt": "2023-02-25T07:57:35.520Z",
+    "instance": {
+      "name":"Misskey.io",
+      "softwareName":"misskey",
+      "softwareVersion":"2024.5.0-io.4d"
+    }
+  },
+  {
+    "name": "",
+    "username": "Lemon73",
+    "host": "mstdn.jp",
+
+    "url":"https://mstdn.jp/@Lemon73",
+    "uri":"https://mstdn.jp/users/Lemon73",
+    "createdAt": "2022-11-03T10:43:50.696Z",
+    "instance": {
+      "name":"mstdn.jp",
+      "softwareName":"mastodon",
+      "softwareVersion":"4.1.20"
+    }
+  },
+  {
+    "name": "",
+    "username": "Lemon73",
+    "host": "fedibird.com",
+
+    "url":"https://fedibird.com/@Lemon73",
+    "uri":"https://fedibird.com/users/Lemon73",
+    "createdAt": "2023-02-03T11:39:53.019Z",
+    "instance": {
+      "name":"Fedibird",
+      "softwareName":"fedibird",
+      "softwareVersion":"0.1"
+    }
+  },
+  {
+    "name": "Ivy Cafeteria 開発室",
+    "username": "ivy",
+    "host": "misskey.flowers",
+
+    "url":"https://misskey.flowers/@ivy",
+    "uri":"https://misskey.flowers/users/9yze8jb88pmv0bsj",
+    "createdAt": "2024-10-05T07:44:07.889Z",
+    "instance": {
+      "name":"はなみすきー",
+      "softwareName":"misskey",
+      "softwareVersion":"2024.11.0-hanami.600369a54"
+    }
+  },
+  {
+    "name": "komari",
+    "username": "komari",
+    "host": "misskey.04.si",
+
+    "url":"https://misskey.04.si/@komari",
+    "uri":"https://misskey.04.si/users/9opix357nj",
+    "createdAt": "2024-01-25T07:54:26.145Z",
+    "instance": {
+      "name":"りんごぱい",
+      "softwareName":"misskey",
+      "softwareVersion":"2024.11.0-pie-3.4.4"
+    }
+  }
+]

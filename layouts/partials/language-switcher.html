@@ -1,0 +1,10 @@
+{{ if .IsTranslated -}}
+  <p id="select-lang">{{ i18n "lang_select_title" }}:</p>
+  <nav class="language-selector layout__language-selector">
+    <ul class="navbar">
+        {{ range .Translations }}
+        <li><a rel="alternate" href="{{ .RelPermalink }}" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
+        {{ end -}}
+    </ul>
+  </nav>
+{{ end -}}

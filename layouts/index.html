@@ -1,0 +1,108 @@
+{{ define "main" }}
+
+{{ partial "search-index.html" . }}
+
+<h2>Welcome to Lemonium!</h2>
+
+<img src="/images/logo.svg" alt="Lemonium Logo" style="padding: 0;max-width: 100%;" />
+
+<p>{{ i18n "index-description" }}</p>
+
+<h2 class="toppage-h">Information</h2>
+<!-- News and Information -->
+
+<div class="info-card">
+    <!-- タイトルが Posts になっているページを除外 -->
+    {{ range ( first 3 ( where ( where .Site.Pages "Type" "posts" ) ".Title" "!=" "Posts" )) }}
+        <a href="{{ .Permalink }}">
+            <p id="info-date">{{ .Date.Format "2006.01.02" }}</p>
+            <p id="info-title">{{ .Title }}</p>
+            <p id="info-summary">{{ .Summary }}…</p>
+        </a>
+    {{ end }}
+</div>
+
+<!-- タグ指定 ("未定"タグ)
+{{ range ( first 3 ( where .Site.RegularPages "Params.tags" "intersect" (slice "未定"))) }}
+<li>
+    <a href="{{ .Permalink }}">{{ .Title }}</a>
+    <p>{{ .Summary }}</p>
+</li>
+{{ end }}
+-->
+
+<p><a href="{{ relLangURL "/posts/" }}">See more...</a></p>
+
+<h2 class="toppage-h">Research & Development</h2>
+<!-- External Documentation -->
+
+{{ if eq .Site.Language.Lang "ja" }}
+<div class="info-card">
+    {{ with resources.GetRemote "https://qiita.com/Lemon73/feed" | transform.Unmarshal }}
+        {{ range ( first 3 .entry ) }}
+            <a href="{{ .url }}" target="_blank">
+                <p id="info-date">{{ .published | time.Format "2006.01.02" }} (Qiita)</p>
+                <p id="info-title">{{ .title }}</p>
+                <p id="info-summary">{{ index .content "#text" | plainify }}</p>
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+
+<p><a href="https://qiita.com/Lemon73" target="_blank">See more...</a></p>
+{{ else if eq .Site.Language.Lang "en" }}
+<div class="info-card">
+    {{ with resources.GetRemote "https://alicenovel.web.app/en/blog/index.xml" | transform.Unmarshal }}
+        {{ range ( first 3 .channel.item ) }}
+            <a href="https://alicenovel.web.app{{ .link }}" target="_blank">
+                <p id="info-date">{{ .pubDate | time.Format "2006.01.02" }} (Alice Project)</p>
+                <p id="info-title">{{ .title }}</p>
+                <p id="info-summary">{{ index .description | plainify }}</p>
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+
+<p><a href="https://alicenovel.web.app/en/blog" target="_blank">See more...</a></p>
+{{ end }}
+
+<h2 class="toppage-h">About</h2>
+
+<p>
+    {{ i18n "index-about-1" }}<br />
+    {{ i18n "index-about-2" }}
+</p>
+
+<p><a href="{{ relLangURL "/about/lra/" }}">See more...</a></p>
+
+<h2 class="toppage-h">Contacts</h2>
+
+<ul class="social-links">
+    <li>
+        <a href="https://www.youtube.com/@lemon73" target="_blank">
+            <img src="/images/social-media/youtube.svg" alt="youtube">
+            YouTube
+        </a>
+    </li>
+    <li>
+        <a href="https://misskey.io/@lemon73" target="_blank">
+            <img src="/images/social-media/misskey.svg" alt="youtube">
+            Misskey.io
+        </a>
+    </li>
+    <li>
+        <a href="https://github.com/Lemon73-Computing" target="_blank">
+            <img src="/images/social-media/github.svg" alt="youtube">
+            GitHub
+        </a>
+    </li>
+    <!--
+    <li>
+        <a href="" target="_blank">
+            Contact Form ({{ i18n "wip" }})
+        </a>
+    </li>
+    -->
+</ul>
+
+{{ end }}

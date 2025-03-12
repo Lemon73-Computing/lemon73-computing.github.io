@@ -1,0 +1,27 @@
+global:
+  language: "EN"
+
+wip:
+  other: "Working in Progress"
+
+index-description:
+  other: "This is the official website of Lemon's Resting Area and Lemon73."
+index-about-1:
+  other: "Lemon's Resting Area is the foundation to be active of creation."
+index-about-2:
+  other: "The activity was started in March 22, 2022, and I have been activing in many works such as development and drawing illustrations."
+
+404-description:
+  other: "The page you requested cannot be found."
+404-return-home-page:
+  other: "Return to the home page"
+
+search-search-site:
+  other: "Search site"
+search-type-here:
+  other: "Type here to search"
+# search-no-results:
+#   other: "No results found."
+
+lang_select_title:
+  other: "Other languages"
