@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Lemonium</title><link>https://lemon73-computing.github.io/ja/projects/</link><description>Recent content in Projects on Lemonium</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 21 Mar 2025 02:21:19 +0900</lastBuildDate><atom:link href="https://lemon73-computing.github.io/ja/projects/index.xml" rel="self" type="application/rss+xml"/><item><title>Lunar Process</title><link>https://lemon73-computing.github.io/ja/projects/luna/</link><pubDate>Thu, 28 Nov 2024 15:41:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/luna/</guid><description>&lt;p>月のレートピシとは当時 Lemon Electronic Computer の COI ブランドで計画していたゲーム開発計画です。開発コストの増大から、現在はほとんど計画は立てられていません。&lt;/p>
+&lt;h2 id="計画一覧">計画一覧&lt;/h2>
+&lt;ul>
+&lt;li>月のレートピシ&lt;/li>
+&lt;/ul>
+&lt;h2 id="archived-coi-create">Archived: COI Create&lt;/h2>
+&lt;p>COI は Lemon Electric Computer 世代に存在したブランドです。&lt;/p></description></item><item><title>Open Source in LRA</title><link>https://lemon73-computing.github.io/ja/projects/oss/</link><pubDate>Wed, 20 Nov 2024 21:35:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/oss/</guid><description>&lt;p>このページでは、Lemon73 / Lemon&amp;rsquo;s Resting Area の OSS 活動について記載します。小規模な貢献も含んでいますが、すべての活動を記載しているわけではありません。&lt;/p></description></item><item><title>Ivy Cafeteria</title><link>https://lemon73-computing.github.io/ja/projects/ivy/</link><pubDate>Wed, 20 Nov 2024 21:00:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/ivy/</guid><description>&lt;p>Ivy Cafeteria は Lemon&amp;rsquo;s Resting Area 直下の専門組織です。&lt;/p>
+&lt;p>尾花と桜という独自の世界線を元にしたシナリオやコンテンツの作成、公開を行っています。&lt;/p>
+&lt;h2 id="ゲームシナリオ">ゲームシナリオ&lt;/h2>
+&lt;ul>
+&lt;li>A-RPG
+&lt;ul>
+&lt;li>S2&lt;/li>
+&lt;li>P2D&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>秋月と森&lt;/li>
+&lt;li>世界の終焉の前に。&lt;/li>
+&lt;li>宗教と13人の儀式&lt;/li>
+&lt;li>高潔な自殺&lt;/li>
+&lt;li>F-Memory
+&lt;ul>
+&lt;li>メイド手稿&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>サンプルゲーム
+&lt;ul>
+&lt;li>SRFB&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="archived-kiss-create">Archived: KISS Create&lt;/h2>
+&lt;p>KISS は Lemon Electric Computer 世代に存在したブランドです。&amp;ldquo;尾花と桜&amp;quot;世界線を元にした物語の作成が行われました。&lt;/p></description></item><item><title>レモン研究所</title><link>https://lemon73-computing.github.io/ja/projects/lfa/</link><pubDate>Wed, 20 Nov 2024 20:24:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/lfa/</guid><description>&lt;p>レモン研究所 (LFA: Lemon Future Academy) は Lemon&amp;rsquo;s Resting Area の研究専門チームです。教育関連の活動を主に担当しています。&lt;/p>
+&lt;h2 id="活動履歴">活動履歴&lt;/h2>
+&lt;ul>
+&lt;li>2022/7/16: PINK 設立&lt;/li>
+&lt;li>2023/2/10: 研究チームと統合して LFA として再編&lt;/li>
+&lt;li>2024/3/19: &lt;a href="https://lemon73-computing.github.io/blog/p/20240319-cafe-project/">茶屋計画&lt;/a>によって正式名称を&amp;quot;レモン研究所&amp;quot;と改名 (旧名の LFA は略称として利用)&lt;/li>
+&lt;/ul></description></item><item><title>虹色計画, Sky Colors</title><link>https://lemon73-computing.github.io/ja/projects/skycolors/</link><pubDate>Wed, 20 Nov 2024 01:03:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/skycolors/</guid><description>&lt;p>虹色計画とは、様々なフレームワークでランダムな色を出力するソフトウェアの開発をするという計画です。&lt;/p>
+&lt;p>(Form 版では) 明るい/暗い色に絞って出力する機能や、赤、緑、青のいずれかを選んで色を出力する機能などの他のソフトでは実装されることの少ない機能を搭載しています。また、原色のみで出力する機能もあります。&lt;/p></description></item><item><title>Himeno Next</title><link>https://lemon73-computing.github.io/ja/projects/himeno/</link><pubDate>Wed, 20 Nov 2024 00:57:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/himeno/</guid><description>&lt;p>Himeno Next とは、理化学研究所で開発された&lt;strong>姫野ベンチマーク&lt;/strong>を GUI 化、クロスプラットフォーム対応し、より利用しやすいアプリケーションとして実装することを目的とした計画です。&lt;/p></description></item><item><title>Alice Project</title><link>https://lemon73-computing.github.io/ja/projects/alice/</link><pubDate>Wed, 20 Nov 2024 00:39:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/alice/</guid><description>&lt;p>Alice Project とはノベルゲーム向けゲームエンジン及び周辺環境の開発計画です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://alicenovel.web.app">Alice Novel ウェブサイト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/alicenovel">GitHub - Alice Project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="計画一覧">計画一覧&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceNovel">Alice Novel&lt;/a>&lt;br>
+開発中 (最新: v0.9.3) | ユーザー向けのゲーム起動エンジン (ローカル)&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AquaNotes">Aqua Notes&lt;/a> (Alice Aqua)&lt;br>
+準備中 | ユーザー向けのゲーム起動エンジン (ウェブ)&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceConsole">Alice Console&lt;/a> (Alice CLI)&lt;br>
+開発中 (最新: v0.2.0) | 開発者向けの Anov Syntax 読み込みライブラリ&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceDocs">Alice Docs&lt;/a>&lt;br>
+公開中 | Alice Project の公式サイト&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/SampleGames">Sample Games&lt;/a>&lt;br>
+準備中 (Novel: v0.9.0-rc1, Console: x) | サンプルゲーム&lt;/li>
+&lt;li>Alice Editor&lt;br>
+計画のみ | 開発者向けのゲーム開発エンジン&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/Anov-Syntax-Extension">Anov Syntax + Extension&lt;/a>&lt;br>
+開発予定 | 開発者向けの anov 構文の VSCode 拡張機能及び言語サーバー&lt;/li>
+&lt;/ul>
+&lt;p>Alice Novel はゲームシナリオや画像を内蔵しておらず、全てのファイルを &lt;code>.anproj&lt;/code> 形式のファイルの外部読み込みで動作します。また、Anov 構文という簡単な構文によってゲームを作成できます。これらの方式は、他のゲームエンジンにはない唯一の機能です。&lt;/p></description></item></channel></rss>

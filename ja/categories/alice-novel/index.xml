@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Alice Novel on Lemonium</title><link>https://lemon73-computing.github.io/ja/categories/alice-novel/</link><description>Recent content in Alice Novel on Lemonium</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Fri, 21 Mar 2025 02:21:19 +0900</lastBuildDate><atom:link href="https://lemon73-computing.github.io/ja/categories/alice-novel/index.xml" rel="self" type="application/rss+xml"/><item><title>Alice Project</title><link>https://lemon73-computing.github.io/ja/projects/alice/</link><pubDate>Wed, 20 Nov 2024 00:39:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/projects/alice/</guid><description>&lt;p>Alice Project とはノベルゲーム向けゲームエンジン及び周辺環境の開発計画です。&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://alicenovel.web.app">Alice Novel ウェブサイト&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/alicenovel">GitHub - Alice Project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="計画一覧">計画一覧&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceNovel">Alice Novel&lt;/a>&lt;br>
+開発中 (最新: v0.9.3) | ユーザー向けのゲーム起動エンジン (ローカル)&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AquaNotes">Aqua Notes&lt;/a> (Alice Aqua)&lt;br>
+準備中 | ユーザー向けのゲーム起動エンジン (ウェブ)&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceConsole">Alice Console&lt;/a> (Alice CLI)&lt;br>
+開発中 (最新: v0.2.0) | 開発者向けの Anov Syntax 読み込みライブラリ&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/AliceDocs">Alice Docs&lt;/a>&lt;br>
+公開中 | Alice Project の公式サイト&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/SampleGames">Sample Games&lt;/a>&lt;br>
+準備中 (Novel: v0.9.0-rc1, Console: x) | サンプルゲーム&lt;/li>
+&lt;li>Alice Editor&lt;br>
+計画のみ | 開発者向けのゲーム開発エンジン&lt;/li>
+&lt;li>&lt;a href="https://github.com/AliceNovel/Anov-Syntax-Extension">Anov Syntax + Extension&lt;/a>&lt;br>
+開発予定 | 開発者向けの anov 構文の VSCode 拡張機能及び言語サーバー&lt;/li>
+&lt;/ul>
+&lt;p>Alice Novel はゲームシナリオや画像を内蔵しておらず、全てのファイルを &lt;code>.anproj&lt;/code> 形式のファイルの外部読み込みで動作します。また、Anov 構文という簡単な構文によってゲームを作成できます。これらの方式は、他のゲームエンジンにはない唯一の機能です。&lt;/p></description></item></channel></rss>
