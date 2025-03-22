@@ -57,5 +57,49 @@
       "- [Lemonium (ここ)](./) (JP: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE)\n",
     ],
     "description": "標準のフロントマターを挿入"
+  },
+  "Front Matter (App Release)": {
+    "scope": "markdown",
+    "prefix": "apprelease",
+    "body": [
+      "---",
+      "title: ${1:Application Name} v${2:0.0.0} Released!",
+      "description: ${3:Description}",
+      "slug: \"$CURRENT_MONTH$CURRENT_DATE\"",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND+0900",
+      "categories:",
+      "  - ${4:category}",
+      "tags:",
+      "  - Release Note",
+      "  - ${5:tag}",
+      "draft: ${6:true}",
+      "---\n",
+      "${7:<!-- contents -->}\n",
+      "## Distribution\n",
+      "- [Lemonium (here)](./) (EN: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE)\n",
+    ],
+    "description": "Insert app-release front matter"
+  },
+  "Front Matter (App Release.ja)": {
+    "scope": "markdown",
+    "prefix": "apprelease-ja",
+    "body": [
+      "---",
+      "title: ${1:アプリケーション名} v${2:0.0.0} がリリースされました!",
+      "description: ${3:説明}",
+      "slug: \"$CURRENT_MONTH$CURRENT_DATE\"",
+      "date: $CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE $CURRENT_HOUR:$CURRENT_MINUTE:$CURRENT_SECOND+0900",
+      "categories:",
+      "  - ${4:カテゴリー}",
+      "tags:",
+      "  - リリースノート",
+      "  - ${5:タグ}",
+      "draft: ${6:true}",
+      "---\n",
+      "${7:<!-- 内容 -->}\n",
+      "## 頒布\n",
+      "- [Lemonium (ここ)](./) (JP: $CURRENT_YEAR/$CURRENT_MONTH/$CURRENT_DATE)\n",
+    ],
+    "description": "アプリケーションリリースのフロントマターを挿入"
   }
 }
