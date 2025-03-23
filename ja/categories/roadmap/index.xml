@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roadmap on Lemonium</title><link>https://lemon73-computing.github.io/ja/categories/roadmap/</link><description>Recent content in Roadmap on Lemonium</description><generator>Hugo</generator><language>ja-jp</language><lastBuildDate>Sun, 23 Mar 2025 19:42:20 +0900</lastBuildDate><atom:link href="https://lemon73-computing.github.io/ja/categories/roadmap/index.xml" rel="self" type="application/rss+xml"/><item><title>2024年12月指針</title><link>https://lemon73-computing.github.io/ja/posts/2024/1222/</link><pubDate>Sun, 22 Dec 2024 22:23:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/1222/</guid><description>&lt;p>来年に向けた中期基本計画を発表します。&lt;/p>
+&lt;p>なお、この計画は参考程度であり、状況に応じて変更を行います。&lt;/p>
+&lt;h2 id="時期">時期&lt;/h2>
+&lt;p>概ね以下の通りです。&lt;/p>
+&lt;p>2024/12/23-2025/3/31&lt;/p>
+&lt;p>主に2025年第一四半期が対象です。&lt;/p></description></item><item><title>2024年11月指針</title><link>https://lemon73-computing.github.io/ja/posts/2024/1104-roadmap/</link><pubDate>Mon, 04 Nov 2024 16:51:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/1104-roadmap/</guid><description>&lt;p>霜秋の候となり寒い日々が続きますが、いかがお過ごしでしょうか。私はついに現実活動での大きな節目を迎え、こちらの活動についても再開できる目処がついた次第でございます。&lt;/p></description></item><item><title>2024年11月指針 公表の延期に関して</title><link>https://lemon73-computing.github.io/ja/posts/2024/1101/</link><pubDate>Fri, 01 Nov 2024 23:29:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/1101/</guid><description>&lt;p>11月指針に関しては予定は11/1-11/3としていましたが、連休のため拡大し、11/1-11/4とします。&lt;/p>
+&lt;p>主には、Alice Novel のリリースや開発予定、その他の Alice Project 及び Anov 構文の開発関係、Crystal Rabbit 計画 (Crystal a Live)、Alienor Protocol、.NET MAUI の Linux 対応、KDE 翻訳、リアルの活動などの内容を盛り込む予定です。&lt;/p></description></item><item><title>2024年休止計画</title><link>https://lemon73-computing.github.io/ja/posts/2024/0407/</link><pubDate>Sun, 07 Apr 2024 12:30:53 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/0407/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>長期の活動休止に関しての説明。&lt;/p>
+&lt;h2 id="経緯">経緯&lt;/h2>
+&lt;h3 id="期間">期間&lt;/h3>
+&lt;p>2024/4/8 ~ 2025/5/1 頃&lt;/p>
+&lt;p>開始は、2024年3月計画の終了と同時です。&lt;/p>
+&lt;p>終了時期に関しては目安であり、この期間を越えることは予想していません。
+この休止期間は短くなる可能性が高いですが、どの程度短くなるかはまったく予想がついていません。&lt;/p></description></item><item><title>2024年3月計画 最終報告</title><link>https://lemon73-computing.github.io/ja/posts/2024/0407/</link><pubDate>Sun, 07 Apr 2024 01:31:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/0407/</guid><description>&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>2024年3月計画の最終結果の報告資料です。&lt;/p>
+&lt;h2 id="評価">評価&lt;/h2>
+&lt;p>評価は以下の5段階評価とします。&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Excellent&lt;/strong> - 大変良い&lt;/li>
+&lt;li>&lt;strong>Very Good&lt;/strong> - 良い&lt;/li>
+&lt;li>&lt;strong>Good&lt;/strong> - やや良い&lt;/li>
+&lt;li>&lt;strong>Average&lt;/strong> - 普通&lt;/li>
+&lt;li>&lt;strong>Poor&lt;/strong> - 悪い&lt;/li>
+&lt;/ol>
+&lt;h2 id="進捗">進捗&lt;/h2>
+&lt;p>全体講評: &lt;strong>Very Good&lt;/strong>&lt;/p></description></item><item><title>2024年3月計画 中間報告</title><link>https://lemon73-computing.github.io/ja/posts/2024/0316/</link><pubDate>Sat, 16 Mar 2024 14:40:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/0316/</guid><description>&lt;h2 id="目的">目的&lt;/h2>
+&lt;p>この資料では、前投稿の計画についての進捗を確認することを目的としています。&lt;/p>
+&lt;h2 id="進捗">進捗&lt;/h2>
+&lt;p>全体講評: &lt;strong>比較的よい&lt;/strong>&lt;/p>
+&lt;h3 id="資料作成">資料作成&lt;/h3>
+&lt;blockquote>
+&lt;ul>
+&lt;li>ブログ
+&lt;ul>
+&lt;li>Hugo で設立&lt;/li>
+&lt;li>kde タグを &lt;a href="https://planet.kde.org">https://planet.kde.org&lt;/a> に接続 (Invent KDE にて)&lt;/li>
+&lt;li>3月計画(この資料)の発表&lt;/li>
+&lt;li>3月計画の中間発表(進捗公表)&lt;/li>
+&lt;li>3月計画の結果公表&lt;/li>
+&lt;li>今までの方針や計画の資料を移管&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>&lt;/blockquote>
+&lt;p>ブログに関しては、この通り設立自体出来ており、また3月計画資料についても発表が行えています。過去の公開資料の移管もほとんどが終了しているため、進捗は&lt;strong>かなりよい&lt;/strong>と言えます。
+ただし、KDE 向けの資料をまだ作成していないため、Planet KDE への接続は実施していません。(資料作成する前に接続してもよいのですが…)&lt;/p></description></item><item><title>2024年3月計画</title><link>https://lemon73-computing.github.io/ja/posts/2024/0219/</link><pubDate>Mon, 19 Feb 2024 23:22:33 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/0219/</guid><description>&lt;h2 id="基本情報">基本情報&lt;/h2>
+&lt;h3 id="時期">時期&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>開始予定&lt;/th>
+ &lt;th>終了予定&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>2024/2/21&lt;/td>
+ &lt;td>2024/4/6&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>3月計画という名前ですが、前後の約1週間を含みます。&lt;/p>
+&lt;p>(略称: 24年3月計画)&lt;/p>
+&lt;h3 id="目的">目的&lt;/h3>
+&lt;ul>
+&lt;li>作業 (リアルの仕事) の効率化&lt;/li>
+&lt;li>パソコン移行作業&lt;/li>
+&lt;li>資料/事業整理&lt;/li>
+&lt;/ul>
+&lt;h2 id="実施">実施&lt;/h2>
+&lt;h3 id="資料作成">資料作成&lt;/h3>
+&lt;ul>
+&lt;li>ブログ
+&lt;ul>
+&lt;li>Hugo で設立&lt;/li>
+&lt;li>kde タグを &lt;a href="https://planet.kde.org">https://planet.kde.org&lt;/a> に接続 (Invent KDE にて)&lt;/li>
+&lt;li>3月計画 (この資料) の発表&lt;/li>
+&lt;li>3月計画の中間発表 (進捗公表)&lt;/li>
+&lt;li>3月計画の結果公表&lt;/li>
+&lt;li>今までの方針や計画の資料を移管&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>KDE
+&lt;ul>
+&lt;li>Zenn 資料作成 (徐々に進めます。時間がかかるため、計画期間中に資料の完成を目指しません)&lt;/li>
+&lt;li>翻訳 (~2/28 (KDE Megarelease 6 まで))&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="ソフトウェア関係">ソフトウェア関係&lt;/h3>
+&lt;ul>
+&lt;li>Alice Project
+&lt;ul>
+&lt;li>v0.9.0 GA Release&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>A**** (仕事関係/秘匿)&lt;/li>
+&lt;li>E******L*** (仕事関係/秘匿)&lt;/li>
+&lt;li>s**** s*** s***** (仕事関係/秘匿)
+&lt;ul>
+&lt;li>******側&lt;/li>
+&lt;li>****側&lt;/li>
+&lt;li>交渉&lt;/li>
+&lt;li>開発方針について話し合い&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="その他">その他&lt;/h3>
+&lt;ul>
+&lt;li>パソコン整備
+&lt;ul>
+&lt;li>開発時間記録システムの変更&lt;br>
+(今までは Excel を使っていましたが、 Google Forms + Google Sheets に移管予定)&lt;/li>
+&lt;li>旧パソコンから新パソコンに情報を移管&lt;/li>
+&lt;li>旧パソコンで使っていたソフトウェアの記録を行う (必須ではない)&lt;/li>
+&lt;li>スマホにアカウントを移す&lt;/li>
+&lt;li>集中のために一部インターネット切断&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>部屋の整理
+&lt;ul>
+&lt;li>机の周辺整理&lt;/li>
+&lt;li>GSaCB 旧資料群のデジタル化 (必須ではない)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="頒布">頒布&lt;/h2>
+&lt;ul>
+&lt;li>Lemon73 Blog&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> (2024/2/20)&lt;/li>
+&lt;li>&lt;a href="https://lemon73-computing.github.io/ja/">Lemonium (ここ)&lt;/a> (2024/11/24)&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Lemonium (ここ) に移行済み&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>2024年 新年</title><link>https://lemon73-computing.github.io/ja/posts/2024/0101/</link><pubDate>Mon, 01 Jan 2024 20:23:00 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2024/0101/</guid><description>&lt;h2 id="2024年-新年">2024年 新年&lt;/h2>
+&lt;p>&lt;strong>Happy New Year!!&lt;/strong>&lt;/p>
+&lt;p>この資料では、現時点で決定している今後の方針について記載しています。&lt;/p>
+&lt;h2 id="全体的な今後の方針">全体的な今後の方針&lt;/h2>
+&lt;p>全体的には縮小に向けた活動で、新規の計画を進める予定はありません。&lt;/p></description></item><item><title>2022年冬休止</title><link>https://lemon73-computing.github.io/ja/posts/2022/1216/</link><pubDate>Fri, 16 Dec 2022 11:27:58 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2022/1216/</guid><description>&lt;h2 id="発行">発行&lt;/h2>
+&lt;p>LEC 本部&lt;/p>
+&lt;h2 id="概要">概要&lt;/h2>
+&lt;p>LEC 本部の運営を行っている Lemon73 が LEC の活動と、現実活動の両立を続けることは不可能といえる状況となりました。&lt;/p>
+&lt;p>ここまで現実の活動が厳しくなったのは二つの理由が存在します。&lt;/p></description></item><item><title>2022年秋計画</title><link>https://lemon73-computing.github.io/ja/posts/2022/1103/</link><pubDate>Thu, 03 Nov 2022 02:15:14 +0900</pubDate><guid>https://lemon73-computing.github.io/ja/posts/2022/1103/</guid><description>&lt;p>秘密計画に関しては秘匿としています。&lt;/p>
+&lt;h2 id="参加">参加&lt;/h2>
+&lt;p>Lemon73 (LEC)&lt;/p>
+&lt;h2 id="計画">計画&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>2022/11月&lt;br>
+予定なし&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>2022/12/24&lt;br>
+LF2204 - 冬 - (今年最後の冬季大祭)&lt;/p>
+&lt;ul>
+&lt;li>メインコンテンツ (*****風の***********)&lt;/li>
+&lt;li>A-RPG S2/*** ****&lt;/li>
+&lt;li>A-RPG S2 (β版) 公開&lt;/li>
+&lt;li>***** ***(早期リリース版)公開&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>2022/12/27&lt;br>
+2022年版Lemonの**&lt;/p></description></item></channel></rss>
