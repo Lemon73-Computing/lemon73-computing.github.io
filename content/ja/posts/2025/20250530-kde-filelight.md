@@ -17,6 +17,8 @@ categories:
 
 Filelight とは、ファイル容量を視覚的に見やすくする便利ツールです!!
 
+紹介ページ (英語): <https://apps.kde.org/filelight/>
+
 ## インストール
 
 まずは、インストールしましょう。
