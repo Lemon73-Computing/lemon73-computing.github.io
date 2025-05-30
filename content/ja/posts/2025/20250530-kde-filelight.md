@@ -13,7 +13,7 @@ categories:
 
 ## Filelight とは?
 
-![filelight screenshot](../20250530-kde-filelight-01.png)
+![filelight screenshot](/images/kde/20250530-kde-filelight-01.ja.png)
 
 Filelight とは、ファイル容量を視覚的に見やすくする便利ツールです!!
 
@@ -29,7 +29,7 @@ Filelight とは、ファイル容量を視覚的に見やすくする便利ツ�
 
 KDE 環境を利用しているかたは、Discover 経由でインストールできます。
 
-![discover screenshot](../20250530-kde-filelight-02.png)
+![discover screenshot](/images/kde/20250530-kde-filelight-02.ja.png)
 
 コマンドでインストールする方は、以下を参照してください:
 
@@ -62,7 +62,7 @@ macOS では、ストアからのインストールはできなさそうです�
 
 ## 使い方
 
-![home summary](../20250530-kde-filelight-03.png)
+![home summary](/images/kde/20250530-kde-filelight-03.ja.png)
 
 フォルダーを指定するだけで利用できます。
 
@@ -72,7 +72,7 @@ macOS では、ストアからのインストールはできなさそうです�
 
 調べ終わると、以下のように表示されます。
 
-![result](../20250530-kde-filelight-01.png)
+![result](/images/kde/20250530-kde-filelight-01.ja.png)
 
 これにより、どのファイルが容量を多く消費しているかが、視覚的にわかりやすい形で表示されます。私の場合は、`snap/` ディレクトリ内の Opera が大きな容量をとっていることがわかりました。
 
