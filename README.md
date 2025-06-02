@@ -1,4 +1,4 @@
-# Lemonium website
+# Lemonium Website
 
 This repository contains the source code for [Lemon's Resting Area](https://lemon73-computing.github.io), a website built using [Hugo](https://gohugo.io/), a fast and flexible static site generator. The site supports both Japanese and English content. 
 
@@ -53,7 +53,7 @@ hugo new -k releasenote content/en/posts/2024/something.md
 
 https://gohugo.io/content-management/archetypes 
 
-## About multilingual archetypes
+## About Multilingual Archetypes
 
 https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
 
