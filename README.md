@@ -1,17 +1,22 @@
 # Lemonium website
 
-Promoting [website] for foundation Lemon's Resting Area. Build with the Hugo static site generator.
+This repository contains the source code for [Lemon's Resting Area](https://lemon73-computing.github.io), a website built using [Hugo](https://gohugo.io/), a fast and flexible static site generator. The site supports both Japanese and English content. 
 
-[website]: https://lemon73-computing.github.io "Lemon's Resting Area - Website"
+## Table of Contents
+- [How to use](#how-to-use)
+- [Create a New Article](#create-new-article)
+- [More Information](#more-information)
+- [About Multilingual Archetypes](#about-multilingual-archetypes)
+- [License](#license)
 
-## How to use
+## How to Use
 
-### Building and testing the site locally
+### Building and Testing the Site Locally
 
 Here are the steps to build site on Ubuntu-based system (tested on KDE neon 24.04):
 
 ```shell
-# intall golang
+# install golang
 sudo apt install golang
 
 # install latest version of Hugo (the example uses v0.128.0)
@@ -24,7 +29,7 @@ hugo server
 # http://localhost:1313
 ```
 
-### Create new article
+## Create New Article
 
 To create an article using [the default archetype](./archetypes/default.md):
 ```shell
@@ -35,7 +40,7 @@ hugo new content posts/2024/something.md
 hugo new content/en/posts/2024/something.md
 ```
 
-To create an article using [the release note arthetype](./archetypes/releasenote.md):
+To create an article using [the release note archetype](./archetypes/releasenote.md):
 ```shell
 # Japanese
 hugo new content -k releasenote posts/2024/something.md
@@ -44,9 +49,13 @@ hugo new content -k releasenote posts/2024/something.md
 hugo new -k releasenote content/en/posts/2024/something.md
 ```
 
-More information: https://gohugo.io/content-management/archetypes
+## More Information
 
-(About multilingual archetypes: https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
+https://gohugo.io/content-management/archetypes 
+
+## About multilingual archetypes
+
+https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
 
 ## License
 
