@@ -41,13 +41,15 @@ categories:
 
 Alice Novel については、5月末に Microsoft Store にて v0.9.3 が公式リリースされました。v0.9.4 の開発もかなり進んでいるため、これのリリースを早期に対応する予定です。その次のバージョン v0.9.5 では、大規模なリファクタリング、現在の Anproj + Anov for Alice Novel 形式から、後述する commonnovel-spec v0.1.0 で制定した仕様に合わせる予定です。
 
-Alice Console に関しては、Alice Novel と同様に、commonnovel-spec v0.1.0 に適合させることと、`test` (1節に同じ命令が2つ被っている場合に警告) や `format`(命令が1つもない節 (改行) を削除、不要なスペースの削除) などのコマンド実装を考えています。
+Alice Console に関しては、Alice Novel と同様に、commonnovel-spec v0.1.0 に適合させることと、`test` (1節に同じ命令が2つ被っている場合に警告) や `format` (命令が1つもない節 (改行) を削除、不要なスペースの削除) などのコマンド実装を考えています。
 
 今までの考えとしては、Anov Syntax for Alice Novel と Anov Syntax for Alice Console の仕様を統一化して Common Novel とし、細かい部分については Flavor (イメージとしては [MFM](https://misskey-hub.net/docs/for-users/features/mfm/)、[GFM](https://github.github.com/gfm/)、[GLFM](https://docs.gitlab.com/user/markdown/) など) としてアプリケーションごとの個別仕様として定義するつもりでした。(ここでは、"旧 Common Novel 方式"とする)
 
 しかし、Anov Syntax の仕様は、1節ずつ読み込むという特殊方式であり、あまり一般化に向いていません。
 
-そこで、`.ipynb` (Jupyter Notebook) 形式のように、Json を利用する方式を考えました。(ここでは、"新 Common Novel 方式/Common Novel - Json 方式"とします)
+そこで、`.ipynb` (Jupyter Notebook) 形式のように、Json を利用する方式を考えました。[^discuss-11](ここでは、"新 Common Novel 方式/Common Novel - Json 方式"とします)
+
+[^discuss-11]: https://github.com/orgs/AliceNovel/discussions/11
 
 これの利用方法としては、今まで通り Anov Syntax で書いた `.anov` ファイルを、Alice Console などで `.an` (`.ns` (Novel Script)?) 形式に変換し、それを Alice Novel や Alice Console、Aqua Notesで読み込むという方式です。(C# を IL に変換するみたいな形です)
 
@@ -59,7 +61,7 @@ anov-novel[.anov - Anov Syntax for Alice Novel] -- Alice Console (pack command) 
 anov-cli[.anov - Anov Syntax for Alice Console] --> console[Alice Console]
 ```
 
-これから:
+新方式:
 ```mermaid
 flowchart TD
 
@@ -72,6 +74,8 @@ an --> console[Alice Console]
 an --> web[Aqua Notes]
 an --> others[その他のアプリケーション]
 ```
+
+(Alice Console の場合は、基本 Hot Reload (JIT コンパイル相当) をするので、体感として Common Novel に変換している感じはないが、内部的には変換されている)
 
 結論として、
 - Common Novel は Advanced Novel (Anov Syntax) を置き換えるものではない
@@ -190,6 +194,20 @@ an --> others[その他のアプリケーション]
 ```
 
 Alice Novel 向けのゲーム作成についても考えています。しかし、これについては Ivy Cafeteria ですでに SRFB の開発計画があるため、こちらの完成を考えたほうが良いかもしれません。(というか、現状はそのつもりです)
+
+(おまけ: 拡張子名の選考)
+
+採用:
+- `.anov`: Anov (**A**dvanced **Nov**el / **A**lice **Nov**el) Syntax >> 無難
+- `.fan`: 新 Common Novel (**F**ormatted **A**dvanced **N**ovel) >> ゲームは楽しい (fan) とあっていていいと思った
+
+非採用:
+- `.an`: Anov (**A**dvanced **N**ovel / **A**lice **N**ovel) Syntax >> 短い (と、当時は考えていたが、今考えると悪くない)
+- `.ns`: 新 Common Novel (**N**ovel **S**cript) >> Json 形式であり、Script らしくない
+- `.annb`: 新 Common Novel (**A**dvanced **N**ovel **N**ote**B**ook) >> N が2回被るのと、発音が `.anov` とほとんど同じなのが微妙
+- `.ne`: 新 Common Novel (**N**ovel **E**lements / **N**ovel **E**ssence) >> 悪くないが、E が割と謎
+- `.cn`: 新 Common Novel (**C**ommon **N**ovel) >> 中国の国別コード (.cn) と被る
+- `.cnov`: 新 Common Novel (**C**ommon **Nov**el) >> `.anov` と類似しているため、ややこしい
 
 #### Ivy Cafeteria
 
