@@ -49,11 +49,11 @@ hugo new content -k releasenote posts/2024/something.md
 hugo new -k releasenote content/en/posts/2024/something.md
 ```
 
-## More Information
+### More Information
 
 https://gohugo.io/content-management/archetypes 
 
-## About Multilingual Archetypes
+### About Multilingual Archetypes
 
 https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
 
