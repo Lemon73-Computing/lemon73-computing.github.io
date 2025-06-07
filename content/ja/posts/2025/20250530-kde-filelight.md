@@ -23,7 +23,7 @@ Filelight とは、ファイル容量を視覚的に見やすくする便利ツ�
 
 まずは、インストールしましょう。
 
-(Linux でなくても、Windows、macOS でも使えます)
+(Linux 以外の Windows、macOS でも使えます!)
 
 ### Linux
 
