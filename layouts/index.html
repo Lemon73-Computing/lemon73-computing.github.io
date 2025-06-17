@@ -17,7 +17,7 @@
         <a href="{{ .Permalink }}">
             <p id="info-date">{{ .Date.Format "2006.01.02" }}</p>
             <p id="info-title">{{ .Title }}</p>
-            <p id="info-summary">{{ .Summary }}…</p>
+            <p id="info-summary">{{ .Summary | plainify }}…</p>
         </a>
     {{ end }}
 </div>
@@ -26,7 +26,7 @@
 {{ range ( first 3 ( where .Site.RegularPages "Params.tags" "intersect" (slice "未定"))) }}
 <li>
     <a href="{{ .Permalink }}">{{ .Title }}</a>
-    <p>{{ .Summary }}</p>
+    <p>{{ .Summary | plainify }}</p>
 </li>
 {{ end }}
 -->
