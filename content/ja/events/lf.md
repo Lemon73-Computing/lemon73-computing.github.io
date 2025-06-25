@@ -78,9 +78,13 @@ LF は別名 Lemonade Flash や、Lemon's Flower day などの異名もありま
 
 <https://youtu.be/1bH-2bTC8WA>
 
+![lf2302](/images/lemon-festival/lf2302.png)
+
 #### LF2303 - 夏 - 
 
 <https://youtu.be/7PAvvLX0DUE>
+
+![lf2303](/images/lemon-festival/lf2303.png)
 
 #### LF2304 mini
 
