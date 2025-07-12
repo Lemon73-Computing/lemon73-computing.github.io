@@ -29,13 +29,29 @@ Windows ユーザーには"スマートフォン連携" (携帯端末では "Win
 
 ↓携帯端末 (Android)
 
-![]()
+![Paste](/images/kde/20250712-kde-connect-02.png)
 
 (なお、端末のバージョンによっては自動でできない場合もあるらしいです。最近はセキュリティーが厳しくなり、できなくなっているだとか…)
 
 ### ファイル送信
 
+"ファイル操作"ボタンを押すと、すぐにファイルを送信できます。
+
+![Start page - KDE Connect](/images/kde/20250712-kde-connect-03.png)
+
+KDE 環境では、Dolphin から直接送信もできるらしい: [Tips/Transfer files between devices](https://userbase.kde.org/Tips/Transfer_files_between_phone_and_PC_using_Wi-Fi) (英語)
+
 ### マウスカーソルの操作
+
+"リモート入力"選択を押します。
+
+![Start page - KDE Connect](/images/kde/20250712-kde-connect-03.png)
+
+出てきた画面を指でなぞるだけで、同じネットワーク内にあるパソコンの操作ができます。
+
+![Remote Input - KDE Connect](/images/kde/20250712-kde-connect-04.png)
+
+他にも、スライドの操作とかもできるんですよ!!
 
 ## 最後に
 
