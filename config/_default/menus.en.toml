@@ -18,10 +18,10 @@
   pageRef = '/projects'
   weight = 60
 
-[[main]]
-  name = 'Events'
-  pageRef = '/events'
-  weight = 70
+# [[main]]
+#   name = 'Events'
+#   pageRef = '/events'
+#   weight = 70
 
 [[main]]
   name = 'Posts'
@@ -33,7 +33,7 @@
   pageRef = '/categories'
   weight = 90
 
-[[main]]
-  name = 'Tags'
-  pageRef = '/tags'
-  weight = 100
+# [[main]]
+#   name = 'Tags'
+#   pageRef = '/tags'
+#   weight = 100
