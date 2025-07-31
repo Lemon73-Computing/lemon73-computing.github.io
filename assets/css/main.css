@@ -110,6 +110,15 @@ h2 {
   font-family: "Kaisei Opti", var(--default-fonts);
 }
 
+blockquote {
+  opacity: 0.8;
+  margin: 16px 16px;
+  padding: 0 24px;
+  position: relative;
+  box-sizing: border-box;
+  border-left: 4px solid var(--fonts-color);
+}
+
 /* Footer copyright */
 footer p {
   font-family: "Playpen Sans", var(--default-fonts);
