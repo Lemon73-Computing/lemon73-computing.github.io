@@ -3,6 +3,7 @@
 This repository contains the source code for [Lemon's Resting Area](https://lemon73-computing.github.io), a website built using [Hugo](https://gohugo.io/), a fast and flexible static site generator. The site supports both Japanese and English content. 
 
 ## Table of Contents
+
 - [How to use](#how-to-use)
 - [Create a New Article](#create-new-article)
 - [More Information](#more-information)
@@ -55,7 +56,7 @@ https://gohugo.io/content-management/archetypes
 
 ### About Multilingual Archetypes
 
-https://discourse.gohugo.io/t/multilingual-archetypes/39542/8)
+https://discourse.gohugo.io/t/multilingual-archetypes/39542/8
 
 ## License
 
