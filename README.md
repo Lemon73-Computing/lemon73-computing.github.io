@@ -1,18 +1,10 @@
-# Lemonium Website
+# Lemonium website
 
-This repository contains the source code for [Lemon's Resting Area](https://lemon73-computing.github.io), a website built using [Hugo](https://gohugo.io/), a fast and flexible static site generator. The site supports both Japanese and English content. 
+Promoting [website](https://lemonium.net) for foundation Lemon's Resting Area. Build with the Hugo static site generator.
 
-## Table of Contents
+## How to use
 
-- [How to use](#how-to-use)
-- [Create a New Article](#create-new-article)
-- [More Information](#more-information)
-- [About Multilingual Archetypes](#about-multilingual-archetypes)
-- [License](#license)
-
-## How to Use
-
-### Building and Testing the Site Locally
+### Building and testing the site locally
 
 Here are the steps to build site on Ubuntu-based system (tested on KDE neon 24.04):
 
@@ -30,9 +22,10 @@ hugo server
 # http://localhost:1313
 ```
 
-## Create New Article
+### Create new article
 
 To create an article using [the default archetype](./archetypes/default.md):
+
 ```shell
 # Japanese
 hugo new content posts/2024/something.md
@@ -42,6 +35,7 @@ hugo new content/en/posts/2024/something.md
 ```
 
 To create an article using [the release note archetype](./archetypes/releasenote.md):
+
 ```shell
 # Japanese
 hugo new content -k releasenote posts/2024/something.md
@@ -50,16 +44,11 @@ hugo new content -k releasenote posts/2024/something.md
 hugo new -k releasenote content/en/posts/2024/something.md
 ```
 
-### More Information
-
-https://gohugo.io/content-management/archetypes 
-
-### About Multilingual Archetypes
-
-https://discourse.gohugo.io/t/multilingual-archetypes/39542/8
+- See also: <https://gohugo.io/content-management/archetypes>
+- Multilingual archetypes: <https://discourse.gohugo.io/t/39542/8>
 
 ## License
 
 Licensed under the [CC BY-SA 4.0].
 
-[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0/deed.ja "Creative Commons License BY-SA 4.0"
+[CC BY-SA 4.0]: https://creativecommons.org/licenses/by-sa/4.0 "Creative Commons License BY-SA 4.0"
