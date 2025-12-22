@@ -6,9 +6,12 @@ date: 2024-10-05 17:36:00+0900
 aliases:
   - /blog/ja/p/20241004-alicenovel-next # from old website
 categories:
-  - Alice Novel
+  - Release
+
 tags:
-  - Release schedule
+  - Alice Novel
+  - Release
+  - Roadmap
 draft: true
 ---
 
