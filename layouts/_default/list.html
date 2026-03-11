@@ -1,8 +1,13 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+  <div class="info-card">
+    {{ range .Pages }}
+      <a href="{{ .Permalink }}">
+        <p id="info-date">{{ .Date.Format "2006.01.02" }}</p>
+        <p id="info-title">{{ .Title }}</p>
+        <p id="info-summary">{{ .Summary | plainify }}…</p>
+      </a>
+    {{ end }}
+  </div>
 {{ end }}
