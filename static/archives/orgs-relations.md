@@ -11,6 +11,7 @@ classDiagram
   LRA : Lemonium
   AliceProject : Alice Project
   IvyCafe : Ivy Cafeteria
+  IvyCafe : Cherry Blossom System
   LFA : レモン研究所
   LFA : Lemon Future Academy
 
@@ -20,12 +21,12 @@ classDiagram
   JKUG : 日本 KDE ユーザー会
   JKUG : Japan KDE User Group
 
-  Lemon73 --|> MauiGtk : Affiliated community
-  Lemon73 --|> KDE : Affiliated community
-  Lemon73 --|> JKUG : Affiliated community
+  Lemon73 ..|> MauiGtk : Affiliated community
+  Lemon73 ..|> KDE : Affiliated community
+  Lemon73 ..|> JKUG : Affiliated community
   KDE --|> JKUG : Affiliated community
 
-  Lemon73 <|..|> LRA : 100%-owned organization
+  Lemon73 <|--|> LRA : 100%-owned organization
   LRA --|> IvyCafe : 100%-owned organization
   LRA --|> AliceProject : 100%-owned organization
   LRA --|> LFA : 100%-owned organization
